@@ -1,5 +1,28 @@
 # al-folio
 - Good start- it seems ok 
+---
+# 增加我的SPEECH
+
+
+方法3：创建一个单独的页面
+
+打开_pages文件夹。
+在此文件夹中，创建一个新的Markdown文件，例如talks.md。
+在talks.md文件中，添加以下内容：
+yaml
+Copy code
+---
+title: "演讲报告"
+permalink: /talks/
+layout: archive
+---
+### 演讲报告
+
+- [报告1：主题描述](报告1的共享链接)
+- [报告2：主题描述](报告2的共享链接)
+- [报告3：主题描述](报告3的共享链接)
+您可以根据需要选择其中一种方法，并按照给出的步骤进行操作。在修改文件后，请保存更改并将其推送到GitHub仓库。然后，在您的网站上查看更新，以确保链接可用并指向正确的文件。
+----
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
