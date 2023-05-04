@@ -1,7 +1,16 @@
 # al-folio
 - Good start- it seems ok 
+
+
+
+```bash
+$ bundle install
+$ bundle exec jekyll serve --lsi
+```
+
 ---
-# 增加我的SPEECH
+# 增加我的SPEECH-presentation
+
 
 
 方法3：创建一个单独的页面
