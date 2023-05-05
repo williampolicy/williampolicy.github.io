@@ -27,7 +27,7 @@ These measures are designed to facilitate the integration of wind power into the
 
 In conclusion, this research project investigates the potential of gas-fired power generation to improve grid flexibility and enable the integration of wind power into the grid. By addressing the identified barriers and implementing the proposed policy recommendations, the study aims to contribute to the sustainable development of the energy sector and the broader adoption of renewable energy resources. This well-structured and professionally presented research project is suitable for inclusion in a portfolio showcasing expertise in energy policy and grid integration.
 
-    
+
 
 
 Every project has a beautiful feature showcase page.
