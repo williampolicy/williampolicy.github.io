@@ -22,10 +22,10 @@ social: true  # includes social icons at the bottom of the page
 I am a policy researcher/data scientist with a Ph.D. in Physics, specializing in the energy sector, with over 10 years of experience. I am proficient in Python and SQL, capable of applying machine learning techniques to solve complex problems.
 
 Key Skills:
-Energy Policy Research
-Data Science with a focus on the Energy Sector
-Proficient in Python and SQL
-Experience in Machine Learning, including Deep Learning
+- Energy Policy Research
+- Data Science with a focus on the Energy Sector
+- Proficient in Python and SQL
+- Experience in Machine Learning, including Deep Learning
 
 I authored "A Study on the Acceptance of Nuclear Energy by the Chinese Public," providing valuable references for energy companies and policy-making. By analyzing social media trends, my projects predict public concerns about energy projects, establishing evaluation and communication mechanisms, ensuring the successful completion and safe operation of projects worth billions.
 

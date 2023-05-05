@@ -11,6 +11,12 @@ $ bundle exec jekyll serve --lsi
 ---
 # 增加我的SPEECH-presentation
 
+---
+task list
+- 名字首页
+- key word list
+- 图片
+- projuct
 
 
 方法3：创建一个单独的页面
