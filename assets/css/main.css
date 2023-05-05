@@ -5,6 +5,7 @@
 /*******************************************************************************
  * Themes
  ******************************************************************************/
+@import url("https://fonts.googleapis.com/css?family=Brush+Script+MT&display=swap");
 :root {
   --global-bg-color: #ffffff;
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
