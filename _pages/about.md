@@ -2,23 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle:<span style="font-family: 'Brush Script MT', cursive; color: #8B0000;">Love creates all</span>
-Love creates all #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+subtitle: kangxiaowen@gmail.com #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
+    <p>Policy Researcher        Data Scientist</p>
+    <p>kangxiaowen@gmail.com</p>
+    <p>Boston, MA</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+<!-- <span style="font-family: 'Brush Script MT', cursive; color: #8B0000;font-size: 24px;">Love creates all</span> -->
+
+<span style="font-family: 'Brush Script MT', cursive; color: #8B0000; font-size: 24px; text-align: center; display: block;">Love creates all</span>
+
+
+<!-- <span style="font-family: 'Brush Script MT', cursive; color: #8B0000;">Love creates all</span> -->
+
 
 I am a policy researcher/data scientist with a Ph.D. in Physics, specializing in the energy sector, with over 10 years of experience. I am proficient in Python and SQL, capable of applying machine learning techniques to solve complex problems.
 
