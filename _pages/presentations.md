@@ -10,18 +10,40 @@ nav_order: 5
 
 
 
-### 演讲报告
-
-For now, this page is assumed to be a static description of your presentations. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each presentation.
-
-Organize your presentations by years, topics, or events, however you like!
-
-- [报告1：主题描述](https://drive.google.com/file/d/1Gug6KK_q86edrd2o5hrnruOGtPas719Y/view)
+### Selected Presentations
 
 
-- [报告2：主题描述](报告2的共享链接)
-- [报告3：主题描述](报告3的共享链接)
+<!-- For now, this page is assumed to be a static description of your presentations. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each presentation.
 
+Organize your presentations by years, topics, or events, however you like! -->
+
+- [Presentations: A Study on Enhancing Grid Integration of Wind Power Through Gas-Fired Power Generation](https://drive.google.com/file/d/1rQGj4q0M6w0nlsCc5UceCbiLoQuH4Fjb/view?usp=sharing)
+
+
+
+- [Prerequisites for the Effective Formation of China's Spot Electricity Market Prices](https://drive.google.com/file/d/1XZ910tTLhyWCsxmdLh3Mnc5WxONsuBJs/view?usp=sharing)
+
+
+- [Interpreting and Analyzing Electricity Market Reform Policies with a Focus on Retail Electricity Market Reform](https://drive.google.com/file/d/1nBEZ6g9oVVAk6ylIR5_bmaSHWZlKcUCW/view?usp=sharing)
+
+
+
+
+- [China's Electricity Market Reform](https://drive.google.com/file/d/1PXYcxLHVxNY_Co_kAZbMeFALufPhJD7G/view?usp=sharing)
+
+
+
+- [Guangzhou Energy Development Strategy](https://drive.google.com/file/d/17y-b0ScuQF4Z13c-Q7l-lWmReS7ZwrXk/view?usp=sharing)
+
+
+
+- [Challenges and Opportunities for Energy Efficiency Service Companies in the Retail Electricity Market](https://drive.google.com/file/d/10gWzx5AlpkP-jk1FQ7JB9-WCNTEYv-p2/view?usp=sharing)
+
+
+
+- [Mathematic Explanation of feed-in-tariff(FIT) collapse](https://drive.google.com/file/d/1xt_ERdPiQVpgWGAsK2evFC2xhsWw3oBT/view?usp=sharing)
+
+- [Challenges and Opportunities for Gas-Fired Power Generation in China under the New Equilibrium in the Electricity Supply and Demand Landscape](https://drive.google.com/file/d/1SWhFzltfZ7aBTs2ahnZOhO_TpS4l__jv/view?usp=sharing)
 
 
 

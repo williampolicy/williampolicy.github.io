@@ -49,10 +49,8 @@ During the pandemic, I reviewed and refined my work models, culminating in a pre
 I acknowledge that most of my achievements have been outside the United States. I am willing to start at a lower level in a new position or explore related fields, eager to gain more practical experience. I am confident in adapting to different work cultures and developing in an environment valuing diversity and empathy.
 
 As an adaptable and knowledgeable professional, I am passionate about the energy sector and eager to contribute to a data science-focused team. My ultimate goal is to become a senior data scientist in the renewable energy field, working towards a better Earth.
-<!--
 
- [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
+<!-- [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
