@@ -2,23 +2,24 @@
 <html lang="en">
 
   <!-- Head -->
-  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>blog - page 4 | XIAOWEN  Kang</title>
-    <meta name="author" content="XIAOWEN  Kang" />
+    <title>Understanding Python and Pip Versions, Aliases, and Storage Locations | XIAOWEN  Kang</title>
+    <meta name="author" content="XIAOWEN  Kang">
     <meta name="description" content="I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
-" />
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
     <!-- Bootstrap & MDB -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
 
     <!-- Bootstrap Table -->
     <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.css">
@@ -29,20 +30,20 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
     
 
     <!-- Styles -->
     
-    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https:///williampolicy.github.io/blog/page/4/">
+    <link rel="canonical" href="https:///williampolicy.github.io/blog/2023/python_data_structure/">
 
     <!-- Dark Mode -->
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
 
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
@@ -59,7 +60,7 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">XIAOWEN&nbsp;</span>Kang</a>
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">XIAOWEN </span>Kang</a>
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -133,275 +134,126 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Understanding Python and Pip Versions, Aliases, and Storage Locations</h1>
+    <p class="post-meta">June 19, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/category/tutorial">
+          <i class="fas fa-tag fa-sm"></i> tutorial</a>  
+          <a href="/blog/category/python">
+          <i class="fas fa-tag fa-sm"></i> python</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <h1 id="python-data-structures-and-their-usage-in-data-processing-a-case-study">Python Data Structures and Their Usage in Data Processing: A Case Study</h1>
+
+<p>In data processing tasks, it’s essential to understand the type and structure of your data at each step of the process. This understanding helps to avoid potential errors, aids debugging, and ensures that the functions or methods used are compatible with the data structure.</p>
+
+<p>For this article, we will use a simplified data processing workflow, which consists of three steps: data loading (<code class="language-plaintext highlighter-rouge">m1load</code>), data processing (<code class="language-plaintext highlighter-rouge">m2process</code>), and data displaying (<code class="language-plaintext highlighter-rouge">m3show</code>). Each step is encapsulated in its own function, and these functions are called sequentially in a main script (<code class="language-plaintext highlighter-rouge">main.py</code>). We will go through the process, focusing on the types of data involved and their implications.</p>
+
+<h2 id="data-loading---m1load">Data Loading - <code class="language-plaintext highlighter-rouge">m1load</code>
+</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">m1load</code> function reads a CSV file using the pandas function <code class="language-plaintext highlighter-rouge">pd.read_csv()</code>, which returns a pandas DataFrame. A DataFrame is a 2-dimensional labeled data structure with columns of potentially different types. It is generally the most commonly used pandas object.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m1load</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="data-processing---m2process">Data Processing - <code class="language-plaintext highlighter-rouge">m2process</code>
+</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">m2process</code> function processes the loaded DataFrame and returns the mean value of the ‘value’ column, which is a pandas Series. A Series is a one-dimensional labeled array capable of holding any data type.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m2process</span><span class="p">(</span><span class="n">dataframe</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">dataframe</span><span class="p">[</span><span class="sh">'</span><span class="s">value</span><span class="sh">'</span><span class="p">].</span><span class="nf">mean</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>Here we made a simplification for demonstration purposes. In a more complex scenario, <code class="language-plaintext highlighter-rouge">m2process</code> might return a modified DataFrame.</p>
+
+<h2 id="data-displaying---m3show">Data Displaying - <code class="language-plaintext highlighter-rouge">m3show</code>
+</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">m3show</code> function simply prints the processed data, in this case, a single mean value.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m3show</span><span class="p">(</span><span class="n">dataframe</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">dataframe</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Note that we are using the <code class="language-plaintext highlighter-rouge">print</code> function inside <code class="language-plaintext highlighter-rouge">m3show</code>, which means this function will not have a return value. Python’s <code class="language-plaintext highlighter-rouge">print</code> function is a void function meaning it doesn’t return anything, i.e., its return type is <code class="language-plaintext highlighter-rouge">NoneType</code>. If we were to include a return statement, we would need to ensure that we’re returning a value or a data structure, not the <code class="language-plaintext highlighter-rouge">print</code> function itself.</p>
+
+<h2 id="main-script---mainpy">Main script - <code class="language-plaintext highlighter-rouge">main.py</code>
+</h2>
+
+<p>In the main script (<code class="language-plaintext highlighter-rouge">main.py</code>), these functions are called sequentially, and for each call, we print the type of the data being passed in and returned. This way, we can easily track the data’s structure at each step, ensuring it’s as expected and aiding in debugging if necessary.</p>
+
+<hr>
+
+<h1 id="python数据结构及其在数据处理中的应用案例研究">Python数据结构及其在数据处理中的应用：案例研究</h1>
+
+<p>在数据处理任务中，理解每个处理步骤中数据的类型和结构是非常重要的。这种理解可以帮助避免可能的错误，有助于调试，并确保使用的函数或方法与数据结构兼容。</p>
+
+<p>对于这篇文章，我们将使用一个简化的数据处理流程，该流程由三个步骤组成：数据加载(<code class="language-plaintext highlighter-rouge">m1load</code>)，数据处理(<code class="language-plaintext highlighter-rouge">m2process</code>)，和数据显示(<code class="language-plaintext highlighter-rouge">m3show</code>)。每个步骤都封装在自己的函数中，这些函数在主脚本(<code class="language-plaintext highlighter-rouge">main.py</code>)中按顺序调用。我们将遍历这个过程，重点关注涉及的数据类型及其含义。</p>
+
+<h2 id="数据加载---m1load">数据加载 - <code class="language-plaintext highlighter-rouge">m1load</code>
+</h2>
+
+<p><code class="language-plaintext highlighter-rouge">m1load</code>函数使用</p>
+
+    </div>
+  </article>
+
 
   
+    
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
   
 
-  
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
-  
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
+  </li>
 
   
-  <div class="tag-list">
-    <ul class="p-0 m-0">
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/blog/tag/formatting">formatting</a>
-        </li>
-        
-          <p>&bull;</p>
-        
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/blog/tag/images">images</a>
-        </li>
-        
-          <p>&bull;</p>
-        
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/blog/tag/links">links</a>
-        </li>
-        
-          <p>&bull;</p>
-        
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/blog/tag/math">math</a>
-        </li>
-        
-          <p>&bull;</p>
-        
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/blog/tag/code">code</a>
-        </li>
-        
-      
-    </ul>
-  </div>
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Python-and-Pip_version_alias_syspath/">Understanding Python and Pip Versions, Aliases, and Storage Locations</a>
+  </li>
+
   
 
-  <ul class="post-list">
-    
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Test-Post/">Test Post</a>
+  </li>
 
-    
-    
-    
-    
+  
 
-    <li><h3>
-        
-          <a class="post-title" href="/blog/2018/Understanding_Data_Structures_in_Python_Data_Processing/">Understanding Python and Pip Versions, Aliases, and Storage Locations</a>
-        
-      </h3>
-      <p></p>
-      <p class="post-meta">
-        4 min read &nbsp; &middot; &nbsp;
-        June 19, 2018
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2018">
-          <i class="fas fa-calendar fa-sm"></i> 2018 </a>
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
+  </li>
 
-          
+  
 
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/tutorial">
-              <i class="fas fa-tag fa-sm"></i> tutorial</a> &nbsp;
-              
-            <a href="/blog/category/python">
-              <i class="fas fa-tag fa-sm"></i> python</a> &nbsp;
-              
-          
-    </p></li>
-
-    
-
-    
-    
-    
-    
-
-    <li><h3>
-        
-          <a class="post-title" href="/blog/2015/disqus-comments/">a post with disqus comments</a>
-        
-      </h3>
-      <p>an example of a blog post with disqus comments</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        October 20, 2015
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2015">
-          <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p></li>
-
-    
-
-    
-    
-    
-    
-
-    <li><h3>
-        
-          <a class="post-title" href="/blog/2015/math/">a post with math</a>
-        
-      </h3>
-      <p>an example of a blog post with some math</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        October 20, 2015
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2015">
-          <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/tag/formatting">
-              <i class="fas fa-hashtag fa-sm"></i> formatting</a> &nbsp;
-              
-            <a href="/blog/tag/math">
-              <i class="fas fa-hashtag fa-sm"></i> math</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-          
-    </p></li>
-
-    
-
-    
-    
-    
-    
-
-    <li><h3>
-        
-          <a class="post-title" href="/blog/2015/code/">a post with code</a>
-        
-      </h3>
-      <p>an example of a blog post with some code</p>
-      <p class="post-meta">
-        3 min read &nbsp; &middot; &nbsp;
-        July 15, 2015
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2015">
-          <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/tag/formatting">
-              <i class="fas fa-hashtag fa-sm"></i> formatting</a> &nbsp;
-              
-            <a href="/blog/tag/code">
-              <i class="fas fa-hashtag fa-sm"></i> code</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-          
-    </p></li>
-
-    
-
-    
-    
-    
-    
-
-    <li><div class="row">
-          <div class="col-sm-9"><h3>
-        
-          <a class="post-title" href="/blog/2015/images/">a post with images</a>
-        
-      </h3>
-      <p>this is what included images could look like</p>
-      <p class="post-meta">
-        3 min read &nbsp; &middot; &nbsp;
-        May 15, 2015
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2015">
-          <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/tag/formatting">
-              <i class="fas fa-hashtag fa-sm"></i> formatting</a> &nbsp;
-              
-            <a href="/blog/tag/images">
-              <i class="fas fa-hashtag fa-sm"></i> images</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-          
-    </p></div>
-  <div class="col-sm-3">
-    <img class="card-img" src="/assets/img/9.jpg" style="object-fit: cover; height: 90%" alt="image">
-  </div>
-</div></li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/3/" tabindex="-1" aria-disabled="3">Newer</a>
-    </li><li class="page-item "><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      <li class="page-item active"><a class="page-link" href="/blog/page/4/index.html" title="blog - page 4">4</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/5/index.html" title="blog - page 5">5</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/5/">Older</a>
-    </li>
-  </ul>
-</nav>
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/tables/">displaying beatiful tables with Bootstrap Tables</a>
+  </li>
 
 </div>
 
@@ -411,7 +263,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 XIAOWEN  Kang. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+        © Copyright 2023 XIAOWEN  Kang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
 
       </div>
     </footer>
