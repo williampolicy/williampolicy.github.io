@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Understanding Python and Pip Versions, Aliases, and Storage Locations"
+title:  "Understanding Python Data Structures and Their Usage in Data Processing: A Case Study"
 date:   2018-06-19
 categories: [tutorial, python]
 ---
