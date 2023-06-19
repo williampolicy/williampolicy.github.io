@@ -10,9 +10,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>a post with formatting and links | XIAOWEN  Kang</title>
+    <title>Understanding Python and Pip Versions, Aliases, and Storage Locations | XIAOWEN  Kang</title>
     <meta name="author" content="XIAOWEN  Kang">
-    <meta name="description" content="march &amp; april, looking forward to summer">
+    <meta name="description" content="I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
+">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -38,7 +39,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https:///williampolicy.github.io/blog/2015/formatting-and-links/">
+    <link rel="canonical" href="https:///williampolicy.github.io/blog/2018/Understanding_Data_Structures_in_Python_Data_Processing/">
 
     <!-- Dark Mode -->
     
@@ -138,19 +139,15 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">a post with formatting and links</h1>
-    <p class="post-meta">March 15, 2015</p>
+    <h1 class="post-title">Understanding Python and Pip Versions, Aliases, and Storage Locations</h1>
+    <p class="post-meta">June 19, 2018</p>
     <p class="post-tags">
-      <a href="/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
+      <a href="/blog/2018"> <i class="fas fa-calendar fa-sm"></i> 2018 </a>
         ·  
-        <a href="/blog/tag/formatting">
-          <i class="fas fa-hashtag fa-sm"></i> formatting</a>  
-          <a href="/blog/tag/links">
-          <i class="fas fa-hashtag fa-sm"></i> links</a>  
-          
-        ·  
-        <a href="/blog/category/sample-posts">
-          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
+        <a href="/blog/category/tutorial">
+          <i class="fas fa-tag fa-sm"></i> tutorial</a>  
+          <a href="/blog/category/python">
+          <i class="fas fa-tag fa-sm"></i> python</a>  
           
 
     </p>
@@ -159,28 +156,60 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" rel="external nofollow noopener" target="_blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" rel="external nofollow noopener" target="_blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+      <h1 id="python-data-structures-and-their-usage-in-data-processing-a-case-study">Python Data Structures and Their Usage in Data Processing: A Case Study</h1>
 
-<h4 id="hipster-list">Hipster list</h4>
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+<p>In data processing tasks, it’s essential to understand the type and structure of your data at each step of the process. This understanding helps to avoid potential errors, aids debugging, and ensures that the functions or methods used are compatible with the data structure.</p>
 
-<p>Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90’s yr typewriter selfies letterpress cardigan vegan.</p>
+<p>For this article, we will use a simplified data processing workflow, which consists of three steps: data loading (<code class="language-plaintext highlighter-rouge">m1load</code>), data processing (<code class="language-plaintext highlighter-rouge">m2process</code>), and data displaying (<code class="language-plaintext highlighter-rouge">m3show</code>). Each step is encapsulated in its own function, and these functions are called sequentially in a main script (<code class="language-plaintext highlighter-rouge">main.py</code>). We will go through the process, focusing on the types of data involved and their implications.</p>
+
+<h2 id="data-loading---m1load">Data Loading - <code class="language-plaintext highlighter-rouge">m1load</code>
+</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">m1load</code> function reads a CSV file using the pandas function <code class="language-plaintext highlighter-rouge">pd.read_csv()</code>, which returns a pandas DataFrame. A DataFrame is a 2-dimensional labeled data structure with columns of potentially different types. It is generally the most commonly used pandas object.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m1load</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="data-processing---m2process">Data Processing - <code class="language-plaintext highlighter-rouge">m2process</code>
+</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">m2process</code> function processes the loaded DataFrame and returns the mean value of the ‘value’ column, which is a pandas Series. A Series is a one-dimensional labeled array capable of holding any data type.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m2process</span><span class="p">(</span><span class="n">dataframe</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">dataframe</span><span class="p">[</span><span class="sh">'</span><span class="s">value</span><span class="sh">'</span><span class="p">].</span><span class="nf">mean</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>Here we made a simplification for demonstration purposes. In a more complex scenario, <code class="language-plaintext highlighter-rouge">m2process</code> might return a modified DataFrame.</p>
+
+<h2 id="data-displaying---m3show">Data Displaying - <code class="language-plaintext highlighter-rouge">m3show</code>
+</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">m3show</code> function simply prints the processed data, in this case, a single mean value.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m3show</span><span class="p">(</span><span class="n">dataframe</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">dataframe</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Note that we are using the <code class="language-plaintext highlighter-rouge">print</code> function inside <code class="language-plaintext highlighter-rouge">m3show</code>, which means this function will not have a return value. Python’s <code class="language-plaintext highlighter-rouge">print</code> function is a void function meaning it doesn’t return anything, i.e., its return type is <code class="language-plaintext highlighter-rouge">NoneType</code>. If we were to include a return statement, we would need to ensure that we’re returning a value or a data structure, not the <code class="language-plaintext highlighter-rouge">print</code> function itself.</p>
+
+<h2 id="main-script---mainpy">Main script - <code class="language-plaintext highlighter-rouge">main.py</code>
+</h2>
+
+<p>In the main script (<code class="language-plaintext highlighter-rouge">main.py</code>), these functions are called sequentially, and for each call, we print the type of the data being passed in and returned. This way, we can easily track the data’s structure at each step, ensuring it’s as expected and aiding in debugging if necessary.</p>
 
 <hr>
 
-<p>Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.</p>
+<h1 id="python数据结构及其在数据处理中的应用案例研究">Python数据结构及其在数据处理中的应用：案例研究</h1>
 
-<blockquote>
-    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-    —Anais Nin
-</blockquote>
+<p>在数据处理任务中，理解每个处理步骤中数据的类型和结构是非常重要的。这种理解可以帮助避免可能的错误，有助于调试，并确保使用的函数或方法与数据结构兼容。</p>
 
-<p>Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.</p>
+<p>对于这篇文章，我们将使用一个简化的数据处理流程，该流程由三个步骤组成：数据加载(<code class="language-plaintext highlighter-rouge">m1load</code>)，数据处理(<code class="language-plaintext highlighter-rouge">m2process</code>)，和数据显示(<code class="language-plaintext highlighter-rouge">m3show</code>)。每个步骤都封装在自己的函数中，这些函数在主脚本(<code class="language-plaintext highlighter-rouge">main.py</code>)中按顺序调用。我们将遍历这个过程，重点关注涉及的数据类型及其含义。</p>
+
+<h2 id="数据加载---m1load">数据加载 - <code class="language-plaintext highlighter-rouge">m1load</code>
+</h2>
+
+<p><code class="language-plaintext highlighter-rouge">m1load</code>函数使用</p>
 
     </div>
   </article>
