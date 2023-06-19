@@ -733,3 +733,35 @@ Since then, it got a full re-write of the styles and many additional cool featur
 希望这些步骤可以帮助你使用`al-folio`主题在GitHub上发布你的博客文章！如果你有任何问题，请随时向我提问。
 --
 
+看起来你的文章位于 `blog/2023/Test-Post` 而不是在 `_posts` 目录下。GitHub Pages的博客文章需要放在 `_posts` 目录下，并且文件名需要遵循 `YYYY-MM-DD-title.md` 的格式。
+
+所以，你需要将你的博客文章移动到正确的位置并重命名。这是一种可能的方式来执行这个操作：
+
+1. **移动并重命名文章**：
+   你可以使用命令行的 `mv` 命令（如果你在使用Linux或MacOS），或者你可以在你的文件系统中手动做这个。这是一个可能的命令行命令：
+
+   ```bash
+   mv blog/2023/Test-Post _posts/2023-06-09-Test-Post.md
+   ```
+
+   这个命令将你的博客文章移动到 `_posts` 目录并将其重命名为 `2023-06-09-Test-Post.md`。
+
+2. **提交并推送你的更改**：
+   一旦你移动并重命名了你的文件，你需要提交这个更改并推送到GitHub。你可以用这些命令来做：
+
+   ```bash
+   git add _posts/2023-06-09-Test-Post.md
+   git commit -m "rename Test-Post"
+   git push
+   ```
+
+完成这些步骤后，你应该能在你的GitHub Pages站点的博客部分看到你的新文章了。
+-----可行
+https://williampolicy.github.io/
+
+
+https://williampolicy.github.io/blog/2022/Test-Post/
+可行。 
+
+
+
