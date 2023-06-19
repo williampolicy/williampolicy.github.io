@@ -688,3 +688,48 @@ The theme is available as open source under the terms of the [MIT License](https
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
+
+---## 关于发布 blog
+
+如果你想使用`al-folio`主题在GitHub上发布一个博客，你可以按照下面的步骤进行：
+
+1. **创建一篇新的博客文章**： 在`_posts`目录下创建一个新的Markdown文件，其文件名格式应为`YYYY-MM-DD-your-title.md`，例如`2023-06-09-Python-and-Pip.md`。文件名中的日期是发布日期，`your-title`是你的博客文章的标题。
+
+2. **添加YAML头信息**：在新创建的Markdown文件的顶部，添加YAML头信息。这些信息用来描述博客文章的元数据，例如标题，日期，类别等。以下是一个例子：
+
+   ```yaml
+   ---
+   layout: post
+   title:  "Understanding Python and Pip Versions, Aliases, and Storage Locations"
+   date:   2023-06-09
+   categories: [tutorial, python]
+   ---
+   ```
+
+   `layout: post`表示这是一篇博客文章。`title`是文章的标题。`date`是发布日期。`categories`是你的文章的类别或标签。
+
+3. **写博客文章**：在YAML头信息后面，你可以开始写你的博客文章了。你可以使用Markdown语法来编写文章。例如：
+
+   ```markdown
+   In this post, we will explore the intricacies of Python and Pip versions, aliases, and storage locations...
+
+   ## Understanding Python Versions
+   ...
+
+   ## Understanding Pip Versions
+   ...
+   ```
+
+4. **发布博客文章**：当你完成博客文章的写作后，将这个Markdown文件添加到git，然后提交并推送到你的GitHub仓库。例如：
+
+   ```bash
+   git add _posts/2023-06-09-Python-and-Pip.md
+   git commit -m "Add Python and Pip blog post"
+   git push origin master
+   ```
+
+   GitHub Pages将自动检测到这个新的提交，并生成你的新博客文章。
+
+希望这些步骤可以帮助你使用`al-folio`主题在GitHub上发布你的博客文章！如果你有任何问题，请随时向我提问。
+--
+

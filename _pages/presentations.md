@@ -21,29 +21,29 @@ Organize your presentations by years, topics, or events, however you like! -->
 
 
 
-- [Prerequisites for the Effective Formation of China's Spot Electricity Market Prices](https://drive.google.com/file/d/1XZ910tTLhyWCsxmdLh3Mnc5WxONsuBJs/view?usp=sharing)
+- [Presentations: Prerequisites for the Effective Formation of China's Spot Electricity Market Prices](https://drive.google.com/file/d/1XZ910tTLhyWCsxmdLh3Mnc5WxONsuBJs/view?usp=sharing)
 
 
-- [Interpreting and Analyzing Electricity Market Reform Policies with a Focus on Retail Electricity Market Reform](https://drive.google.com/file/d/1nBEZ6g9oVVAk6ylIR5_bmaSHWZlKcUCW/view?usp=sharing)
-
-
-
-
-- [China's Electricity Market Reform](https://drive.google.com/file/d/1PXYcxLHVxNY_Co_kAZbMeFALufPhJD7G/view?usp=sharing)
+- [Presentations: Interpreting and Analyzing Electricity Market Reform Policies with a Focus on Retail Electricity Market Reform](https://drive.google.com/file/d/1nBEZ6g9oVVAk6ylIR5_bmaSHWZlKcUCW/view?usp=sharing)
 
 
 
-- [Guangzhou Energy Development Strategy](https://drive.google.com/file/d/17y-b0ScuQF4Z13c-Q7l-lWmReS7ZwrXk/view?usp=sharing)
+
+- [Presentations: China's Electricity Market Reform](https://drive.google.com/file/d/1PXYcxLHVxNY_Co_kAZbMeFALufPhJD7G/view?usp=sharing)
 
 
 
-- [Challenges and Opportunities for Energy Efficiency Service Companies in the Retail Electricity Market](https://drive.google.com/file/d/10gWzx5AlpkP-jk1FQ7JB9-WCNTEYv-p2/view?usp=sharing)
+- [Presentations: Guangzhou Energy Development Strategy](https://drive.google.com/file/d/17y-b0ScuQF4Z13c-Q7l-lWmReS7ZwrXk/view?usp=sharing)
 
 
 
-- [Mathematic Explanation of feed-in-tariff(FIT) collapse](https://drive.google.com/file/d/1xt_ERdPiQVpgWGAsK2evFC2xhsWw3oBT/view?usp=sharing)
+- [Presentations: Challenges and Opportunities for Energy Efficiency Service Companies in the Retail Electricity Market](https://drive.google.com/file/d/10gWzx5AlpkP-jk1FQ7JB9-WCNTEYv-p2/view?usp=sharing)
 
-- [Challenges and Opportunities for Gas-Fired Power Generation in China under the New Equilibrium in the Electricity Supply and Demand Landscape](https://drive.google.com/file/d/1SWhFzltfZ7aBTs2ahnZOhO_TpS4l__jv/view?usp=sharing)
+
+
+- [Presentations: Mathematic Explanation of feed-in-tariff(FIT) collapse](https://drive.google.com/file/d/1xt_ERdPiQVpgWGAsK2evFC2xhsWw3oBT/view?usp=sharing)
+
+- [Presentations: Challenges and Opportunities for Gas-Fired Power Generation in China under the New Equilibrium in the Electricity Supply and Demand Landscape](https://drive.google.com/file/d/1SWhFzltfZ7aBTs2ahnZOhO_TpS4l__jv/view?usp=sharing)
 
 
 
