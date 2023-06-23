@@ -32,3 +32,4 @@ os.system(f'git commit -m "V.0.{new_version_number} - {commit_message}"')
 os.system("git push")
 
 print(f"Committed Version V.0.{new_version_number}")
+    
