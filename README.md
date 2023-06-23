@@ -768,3 +768,14 @@ https://williampolicy.github.io/blog/2018/Understanding_Data_Structures_in_Pytho
 
 ---
 完成了版本更新。
+
+kang@Love-Grace williampolicy.github.io$ cat version.txt 
+V.0.3V.0.4
+V.0.4 - add function to write history in version.text
+V.0.5
+V.0.5 - this is a great work for upload_new_version_v1.py
+V.0.5
+V.0.5 - try to make a test 
+V.0.5
+V.0.5 - try to make a test
+
