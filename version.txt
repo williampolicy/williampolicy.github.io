@@ -1,1 +1,2 @@
-V.0.3
+V.0.3V.0.4
+V.0.4 - add function to write history in version.text
