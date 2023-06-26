@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>commit | XIAOWEN  Kang</title>
+    <title>Automating Blog Publication and Versioning with Python | XIAOWEN  Kang</title>
     <meta name="author" content="XIAOWEN  Kang">
     <meta name="description" content="I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -39,7 +39,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https:///williampolicy.github.io/blog/category/commit/">
+    <link rel="canonical" href="https:///williampolicy.github.io/blog/2023/Automating-Blog-Publication-and-Versioning-with-Python/">
 
     <!-- Dark Mode -->
     
@@ -134,34 +134,107 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-tag fa-sm"></i> commit </h1>
-    <p class="post-description"> an archive of posts in this category </p>
+    <h1 class="post-title">Automating Blog Publication and Versioning with Python</h1>
+    <p class="post-meta">June 26, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/category/commit">
+          <i class="fas fa-tag fa-sm"></i> commit</a>  
+          <a href="/blog/category/git">
+          <i class="fas fa-tag fa-sm"></i> git</a>  
+          <a href="/blog/category/blog">
+          <i class="fas fa-tag fa-sm"></i> blog</a>  
+          <a href="/blog/category/version">
+          <i class="fas fa-tag fa-sm"></i> version</a>  
+          <a href="/blog/category/file">
+          <i class="fas fa-tag fa-sm"></i> file</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Jun 26, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/Title-Automating-Blog-Publication-and-Versioning-with-Python/">Title: Automating Blog Publication and Versioning with Python</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jun 26, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/Automating-Blog-Publication-and-Versioning-with-Python/">Automating Blog Publication and Versioning with Python</a>
-          </td>
-        </tr>
-      
-      </table>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <h1 id="automating-blog-publication-and-versioning-with-python">Automating Blog Publication and Versioning with Python</h1>
+
+<p>In the hustle and bustle of daily work, we often gain insights and accumulate knowledge that we’d like to share with others or keep for future reference. This is where blogging becomes an essential tool for expressing our ideas, sharing our learning, and reflecting on our experiences. However, the process of drafting, formatting, and publishing a blog post, especially when we want to do it frequently, can be time-consuming. To streamline this process and allow for more efficient knowledge sharing, we have devised an automation solution using Python, which enables us to publish and version our blogs with a single command.</p>
+
+<p>The tool we’ve created offers several key features:</p>
+
+<ol>
+  <li>
+    <p><strong>Preprocessing of Blog Files</strong>: The script can transform a text file into a specific format that is ready for publication, including extracting categories from the text, generating YAML front matter, and adjusting the title format.</p>
+  </li>
+  <li>
+    <p><strong>Git Commit</strong>: After the preprocessing is done, the script will automatically commit the new blog file to a Git repository. The commit message includes the new version number, a user-defined commit message, the username, and a timestamp.</p>
+  </li>
+  <li>
+    <p><strong>Version Control</strong>: After each commit, the new version number and associated details are written into a text file, allowing for easy tracking of versions.</p>
+  </li>
+</ol>
+
+<p>使用此工具，不仅可以使博客发布过程变得自动化，而且通过版本控制，也方便我们追踪每个版本的变化，非常实用。以下是此工具的使用流程：</p>
+
+<ol>
+  <li>首先，我们使用argparse处理命令行参数，包括输入的文件名和提交信息。</li>
+  <li>然后，使用nltk对文本进行预处理，从而提取文章的类别。</li>
+  <li>通过get_title函数获取文章的标题，并进行格式化处理。</li>
+  <li>create_blog_post函数则创建了新的博客文件，其中包含YAML前置内容和原始的文章内容。</li>
+  <li>commit_version_to_git函数处理Git提交和版本控制。它首先读取版本文件，获取当前的版本号，然后进行版本号的递增，并进行Git的add、commit和push操作。最后，更新版本文件。</li>
+</ol>
+
+<p>总的来说，通过这个Python脚本，我们可以用一行命令就完成博客的预处理，Git提交以及版本控制，极大地提高了工作效率。不仅如此，它也为我们提供了一种方便的方式，快速分享和记录我们的知识和经验。</p>
+
     </div>
   </article>
+
+
+  
+    
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"></a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Title-Automating-Blog-Publication-and-Versioning-with-Python/">Title: Automating Blog Publication and Versioning with Python</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/TEST-1/">TEST 1</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Creating-Custom-Version-Control-Tool-with-Python/">Creating Custom Version Control Tool with Python</a>
+  </li>
 
 </div>
 
