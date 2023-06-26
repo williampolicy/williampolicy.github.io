@@ -8,3 +8,4 @@ V.0.5
 V.0.5 - try to make a test
 V.0.5
 V.0.5 - test more
+V.0.6 - test kangtools_version_control  ©KANG - 2023-06-26  
