@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Title: Automating Blog Publication and Versioning with Python"
+date:   2023-06-26
+categories: ['commit', 'git', 'blog', 'version', 'file']
+---
 #Title: Automating Blog Publication and Versioning with Python 
 
 In the hustle and bustle of daily work, we often gain insights and accumulate knowledge that we'd like to share with others or keep for future reference. This is where blogging becomes an essential tool for expressing our ideas, sharing our learning, and reflecting on our experiences. However, the process of drafting, formatting, and publishing a blog post, especially when we want to do it frequently, can be time-consuming. To streamline this process and allow for more efficient knowledge sharing, we have devised an automation solution using Python, which enables us to publish and version our blogs with a single command.
