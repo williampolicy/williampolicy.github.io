@@ -36,7 +36,7 @@ def main():
 
     # Update version file
     with open(version_file_path, 'a') as f:
-        f.write(f"V.0.{new_version_number} - {commit_message} ©xiaowenkang . {timestamp}\n")
+        f.write(f"V.0.{new_version_number} - {commit_message} ©kang . {timestamp}\n")
 
     # Execute git commands
     os.system("git add -A")
