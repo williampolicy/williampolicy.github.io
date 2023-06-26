@@ -48,7 +48,7 @@ def create_blog_post(file_name):
     with open(file_name, 'r', encoding='utf-8') as file:
         content = file.read()
     updated_content = yaml_front_matter + content
-    new_file_name = f"{date}_{title.replace(' ', '_')}.md".replace('__', '_')
+    new_file_name = f"{date}-{title.replace(' ', '-')}.md".replace('--', '-')
     posts_dir = "/Users/kang/1.live_wit_GPT4/williampolicy.github.io/_posts/"
     with open(os.path.join(posts_dir, new_file_name), 'w', encoding='utf-8') as file:
         file.write(updated_content)

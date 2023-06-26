@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "_Creating_Custom_Version_Control_Tool_with_Python"
-date:   2023-06-25
+title:  "Creating Custom Version Control Tool with Python"
+date:   2023-06-26
 categories: ['version', 'python', 'control', 'version control', 'py']
 ---
 # Creating Custom Version Control Tool with Python
+
+new edition:
 
 Version control is vital when it comes to software development. It allows us to track changes in our code, understand when and why each change was made, and who made the change. Let's look at how to create our own version control tool using Python.
 
