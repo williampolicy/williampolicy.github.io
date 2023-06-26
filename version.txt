@@ -20,3 +20,4 @@ V.0.14 - try   ©KANG - 2023-06-26
 V.0.15 - upload Streamlining PyPi Package Release with Automation and Version Control  ©KANG - 2023-06-26  
 V.0.16 - use bash to publish  ©KANG - 2023-06-26  
 V.0.17 - try to blog anywhere in kangtolls  ©KANG - 2023-06-26  
+V.0.18 - creat_blog_post_git_commit_push.py test1.md   ©KANG - 2023-06-26  
