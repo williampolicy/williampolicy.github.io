@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-26T20:21:03+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-26T20:21:03+00:00</published><updated>2023-06-26T20:21:03+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-26T20:23:24+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-26T20:23:24+00:00</published><updated>2023-06-26T20:23:24+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
 
 <h2 id="setting-up-api-requests">Setting Up API Requests</h2>
 <p>We first created a function in Swift to set up the API request. This function takes an input prompt and sends it to the OpenAI API to generate GPT-3 output. We used the <code class="language-plaintext highlighter-rouge">URLSession.shared.dataTask(with:completionHandler:)</code> function to send the request and <code class="language-plaintext highlighter-rouge">JSONSerialization</code> to convert the returned data into a JSON format we can handle.</p>
@@ -299,7 +299,9 @@
 
 <p>总的来说，通过这个Python脚本，我们可以用一行命令就完成博客的预处理，Git提交以及版本控制，极大地提高了工作效率。不仅如此，它也为我们提供了一种方便的方式，快速分享和记录我们的知识和经验。</p>]]></content><author><name></name></author><category term="commit" /><category term="git" /><category term="blog" /><category term="version" /><category term="file" /><summary type="html"><![CDATA[#Title: Automating Blog Publication and Versioning with Python]]></summary></entry><entry><title type="html">i would like to make a blog anywhere</title><link href="https:///williampolicy.github.io/blog/2023/i-would-like-to-make-a-blog-anywhere/" rel="alternate" type="text/html" title="i would like to make a blog anywhere" /><published>2023-06-26T00:00:00+00:00</published><updated>2023-06-26T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/i-would-like-to-make-a-blog-anywhere</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/i-would-like-to-make-a-blog-anywhere/"><![CDATA[<h1 id="i-would-like-to-make-a-blog-anywhere">i would like to make a blog anywhere</h1>
 
-<p>i would like to make a blog anywhere</p>]]></content><author><name></name></author><category term="anywhere" /><category term="blog" /><category term="blog anywhere" /><category term="like" /><category term="like make" /><summary type="html"><![CDATA[i would like to make a blog anywhere]]></summary></entry><entry><title type="html">Mastering Gitignore in Xcode Projects.md</title><link href="https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects/" rel="alternate" type="text/html" title="Mastering Gitignore in Xcode Projects.md" /><published>2023-06-20T00:00:00+00:00</published><updated>2023-06-20T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects/"><![CDATA[<h2 id="mastering-gitignore-for-efficient-version-control">Mastering <code class="language-plaintext highlighter-rouge">.gitignore</code> for Efficient Version Control</h2>
+<p>i would like to make a blog anywhere</p>]]></content><author><name></name></author><category term="anywhere" /><category term="blog" /><category term="blog anywhere" /><category term="like" /><category term="like make" /><summary type="html"><![CDATA[i would like to make a blog anywhere]]></summary></entry><entry><title type="html">it works i want to go with you</title><link href="https:///williampolicy.github.io/blog/2023/it-works-i-want-to-go-with-you/" rel="alternate" type="text/html" title="it works i want to go with you" /><published>2023-06-26T00:00:00+00:00</published><updated>2023-06-26T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/it-works-i-want-to-go-with-you</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/it-works-i-want-to-go-with-you/"><![CDATA[<h1 id="it-works-i-want-to-go-with-you">it works i want to go with you</h1>
+
+<p>I know it hard .but i eolve. thank you for your help.</p>]]></content><author><name></name></author><category term="eolve" /><category term="eolve thank" /><category term="eolve thank help" /><category term="go" /><category term="go know" /><summary type="html"><![CDATA[it works i want to go with you]]></summary></entry><entry><title type="html">Mastering Gitignore in Xcode Projects.md</title><link href="https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects/" rel="alternate" type="text/html" title="Mastering Gitignore in Xcode Projects.md" /><published>2023-06-20T00:00:00+00:00</published><updated>2023-06-20T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects/"><![CDATA[<h2 id="mastering-gitignore-for-efficient-version-control">Mastering <code class="language-plaintext highlighter-rouge">.gitignore</code> for Efficient Version Control</h2>
 
 <h3 id="introduction">Introduction</h3>
 
@@ -466,52 +468,4 @@ GPT3_APP/GPT3_APP/Secrets.plist
 
 <p>这种分析帮助我们理解基于不同的需求和目标iOS版本的不同项目可能具有不同的结构。识别这些变化及其影响将在你开发和管理</p>
 
-<p>自己的iOS项目时起着指导作用。</p>]]></content><author><name></name></author><category term="tutorial" /><category term="iOS development" /><category term="Swift" /><category term="SwiftUI" /><summary type="html"><![CDATA[Understanding Xcode Project Structure: A Comparative Analysis]]></summary></entry><entry><title type="html">Understanding Python and Pip Versions, Aliases, and Storage Locations</title><link href="https:///williampolicy.github.io/blog/2023/python_data_structure/" rel="alternate" type="text/html" title="Understanding Python and Pip Versions, Aliases, and Storage Locations" /><published>2023-06-19T00:00:00+00:00</published><updated>2023-06-19T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/python_data_structure</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/python_data_structure/"><![CDATA[<h1 id="python-data-structures-and-their-usage-in-data-processing-a-case-study">Python Data Structures and Their Usage in Data Processing: A Case Study</h1>
-
-<p>In data processing tasks, it’s essential to understand the type and structure of your data at each step of the process. This understanding helps to avoid potential errors, aids debugging, and ensures that the functions or methods used are compatible with the data structure.</p>
-
-<p>For this article, we will use a simplified data processing workflow, which consists of three steps: data loading (<code class="language-plaintext highlighter-rouge">m1load</code>), data processing (<code class="language-plaintext highlighter-rouge">m2process</code>), and data displaying (<code class="language-plaintext highlighter-rouge">m3show</code>). Each step is encapsulated in its own function, and these functions are called sequentially in a main script (<code class="language-plaintext highlighter-rouge">main.py</code>). We will go through the process, focusing on the types of data involved and their implications.</p>
-
-<h2 id="data-loading---m1load">Data Loading - <code class="language-plaintext highlighter-rouge">m1load</code></h2>
-
-<p>The <code class="language-plaintext highlighter-rouge">m1load</code> function reads a CSV file using the pandas function <code class="language-plaintext highlighter-rouge">pd.read_csv()</code>, which returns a pandas DataFrame. A DataFrame is a 2-dimensional labeled data structure with columns of potentially different types. It is generally the most commonly used pandas object.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m1load</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-</code></pre></div></div>
-
-<h2 id="data-processing---m2process">Data Processing - <code class="language-plaintext highlighter-rouge">m2process</code></h2>
-
-<p>The <code class="language-plaintext highlighter-rouge">m2process</code> function processes the loaded DataFrame and returns the mean value of the ‘value’ column, which is a pandas Series. A Series is a one-dimensional labeled array capable of holding any data type.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m2process</span><span class="p">(</span><span class="n">dataframe</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">dataframe</span><span class="p">[</span><span class="sh">'</span><span class="s">value</span><span class="sh">'</span><span class="p">].</span><span class="nf">mean</span><span class="p">()</span>
-</code></pre></div></div>
-
-<p>Here we made a simplification for demonstration purposes. In a more complex scenario, <code class="language-plaintext highlighter-rouge">m2process</code> might return a modified DataFrame.</p>
-
-<h2 id="data-displaying---m3show">Data Displaying - <code class="language-plaintext highlighter-rouge">m3show</code></h2>
-
-<p>The <code class="language-plaintext highlighter-rouge">m3show</code> function simply prints the processed data, in this case, a single mean value.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m3show</span><span class="p">(</span><span class="n">dataframe</span><span class="p">):</span>
-    <span class="nf">print</span><span class="p">(</span><span class="n">dataframe</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>Note that we are using the <code class="language-plaintext highlighter-rouge">print</code> function inside <code class="language-plaintext highlighter-rouge">m3show</code>, which means this function will not have a return value. Python’s <code class="language-plaintext highlighter-rouge">print</code> function is a void function meaning it doesn’t return anything, i.e., its return type is <code class="language-plaintext highlighter-rouge">NoneType</code>. If we were to include a return statement, we would need to ensure that we’re returning a value or a data structure, not the <code class="language-plaintext highlighter-rouge">print</code> function itself.</p>
-
-<h2 id="main-script---mainpy">Main script - <code class="language-plaintext highlighter-rouge">main.py</code></h2>
-
-<p>In the main script (<code class="language-plaintext highlighter-rouge">main.py</code>), these functions are called sequentially, and for each call, we print the type of the data being passed in and returned. This way, we can easily track the data’s structure at each step, ensuring it’s as expected and aiding in debugging if necessary.</p>
-
-<hr />
-
-<h1 id="python数据结构及其在数据处理中的应用案例研究">Python数据结构及其在数据处理中的应用：案例研究</h1>
-
-<p>在数据处理任务中，理解每个处理步骤中数据的类型和结构是非常重要的。这种理解可以帮助避免可能的错误，有助于调试，并确保使用的函数或方法与数据结构兼容。</p>
-
-<p>对于这篇文章，我们将使用一个简化的数据处理流程，该流程由三个步骤组成：数据加载(<code class="language-plaintext highlighter-rouge">m1load</code>)，数据处理(<code class="language-plaintext highlighter-rouge">m2process</code>)，和数据显示(<code class="language-plaintext highlighter-rouge">m3show</code>)。每个步骤都封装在自己的函数中，这些函数在主脚本(<code class="language-plaintext highlighter-rouge">main.py</code>)中按顺序调用。我们将遍历这个过程，重点关注涉及的数据类型及其含义。</p>
-
-<h2 id="数据加载---m1load">数据加载 - <code class="language-plaintext highlighter-rouge">m1load</code></h2>
-
-<p><code class="language-plaintext highlighter-rouge">m1load</code>函数使用</p>]]></content><author><name></name></author><category term="tutorial" /><category term="python" /><summary type="html"><![CDATA[Python Data Structures and Their Usage in Data Processing: A Case Study]]></summary></entry></feed>
+<p>自己的iOS项目时起着指导作用。</p>]]></content><author><name></name></author><category term="tutorial" /><category term="iOS development" /><category term="Swift" /><category term="SwiftUI" /><summary type="html"><![CDATA[Understanding Xcode Project Structure: A Comparative Analysis]]></summary></entry></feed>
