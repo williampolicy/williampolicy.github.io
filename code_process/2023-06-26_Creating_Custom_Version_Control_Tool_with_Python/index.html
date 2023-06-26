@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>2023 | XIAOWEN  Kang</title>
+    <title>_Creating_Custom_Version_Control_Tool_with_Python | XIAOWEN  Kang</title>
     <meta name="author" content="XIAOWEN  Kang">
     <meta name="description" content="I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -39,7 +39,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https:///williampolicy.github.io/blog/2023/">
+    <link rel="canonical" href="https:///williampolicy.github.io/code_process/2023-06-26_Creating_Custom_Version_Control_Tool_with_Python/">
 
     <!-- Dark Mode -->
     
@@ -78,8 +78,8 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
 
               <!-- Other pages -->
@@ -134,83 +134,120 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-calendar fa-sm"></i> 2023 </h1>
-    <p class="post-description"> an archive of posts from this year </p>
+    <h1 class="post-title">_Creating_Custom_Version_Control_Tool_with_Python</h1>
+    <p class="post-meta">June 26, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/category/version">
+          <i class="fas fa-tag fa-sm"></i> version</a>  
+          <a href="/blog/category/python">
+          <i class="fas fa-tag fa-sm"></i> python</a>  
+          <a href="/blog/category/control">
+          <i class="fas fa-tag fa-sm"></i> control</a>  
+          <a href="/blog/category/version-control">
+          <i class="fas fa-tag fa-sm"></i> version control</a>  
+          <a href="/blog/category/py">
+          <i class="fas fa-tag fa-sm"></i> py</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Jun 26, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"></a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jun 20, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/Understanding_Xcode_ProjecStructure_A_Comparative_Analysis/">Understanding Xcode Project Structure: A Comparative Analysis</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jun 20, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/Mastering_Gitignore_in_Xcode_Projects/">Mastering Gitignore in Xcode Projects.md</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jun 19, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/Python-and-Pip_version_alias_syspath/">Understanding Python and Pip Versions, Aliases, and Storage Locations</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jun 19, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/python_data_structure/">Understanding Python and Pip Versions, Aliases, and Storage Locations</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jun 9, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/Test-Post/">Test Post</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 25, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Mar 20, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/tables/">displaying beatiful tables with Bootstrap Tables</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Mar 20, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/table-of-contents/">a post with table of contents</a>
-          </td>
-        </tr>
-      
-      </table>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <h1 id="creating-custom-version-control-tool-with-python">Creating Custom Version Control Tool with Python</h1>
+
+<p>Version control is vital when it comes to software development. It allows us to track changes in our code, understand when and why each change was made, and who made the change. Let’s look at how to create our own version control tool using Python.</p>
+
+<h2 id="step-1-creating-a-python-script">Step 1: Creating a Python Script</h2>
+
+<p>Firstly, we create a Python script named <code class="language-plaintext highlighter-rouge">version_control.py</code>, which will generate new version numbers for our codebase. This script uses Python’s <code class="language-plaintext highlighter-rouge">os</code> and <code class="language-plaintext highlighter-rouge">re</code> modules and contains a function named <code class="language-plaintext highlighter-rouge">main</code> to execute version control.</p>
+
+<p>This function first checks if a file named <code class="language-plaintext highlighter-rouge">version.txt</code> exists, and if not, it creates one and writes the initial version <code class="language-plaintext highlighter-rouge">V.0.1</code>. Next, the function reads the content of <code class="language-plaintext highlighter-rouge">version.txt</code>, finds the latest version number, and increments it by 1 to create a new version. It then updates the <code class="language-plaintext highlighter-rouge">version.txt</code> file and runs some git commands to commit the new version.</p>
+
+<h2 id="step-2-creating-a-python-package">Step 2: Creating a Python Package</h2>
+
+<p>To turn our Python script into a reusable tool, we need to create a Python package. To start, we create a directory named <code class="language-plaintext highlighter-rouge">kangtools</code> under our project directory and place the <code class="language-plaintext highlighter-rouge">version_control.py</code> file into this directory.</p>
+
+<p>We also need to create a <code class="language-plaintext highlighter-rouge">__init__.py</code> file, which exports the <code class="language-plaintext highlighter-rouge">main</code> function from the <code class="language-plaintext highlighter-rouge">version_control.py</code> file as the API of our package.</p>
+
+<p>Finally, we need to create a <code class="language-plaintext highlighter-rouge">setup.py</code> file, which describes our package and its metadata like name, version, author, etc. In the <code class="language-plaintext highlighter-rouge">setup.py</code> file, we also define a command-line interface that allows us to run the <code class="language-plaintext highlighter-rouge">main</code> function from the <code class="language-plaintext highlighter-rouge">version_control.py</code> file directly from the command line.</p>
+
+<h2 id="step-3-installing-and-using-our-tool">Step 3: Installing and Using Our Tool</h2>
+
+<p>We can install our tool using the <code class="language-plaintext highlighter-rouge">pip</code> command, just like installing any other Python package. Once installed, we can directly run the <code class="language-plaintext highlighter-rouge">kangtools_version_control</code> command from the command line to use our tool. This command will prompt us to input a commit message, then generate a new version number and commit it to our codebase.</p>
+
+<h2 id="done">Done!</h2>
+
+<p>Now, you know how to create your own version control tool using Python. This is just a start, and you can modify this tool as per your needs. For example, you could make the tool support more complex version number formats, or make it work with other version control systems.</p>
+
+<h2 id="download-instructions">Download Instructions</h2>
+
+<p>You can directly download our package on PyPi: https://pypi.org/project/kangtools/</p>
+
+<p>Installation: <code class="language-plaintext highlighter-rouge">pip install kangtools</code></p>
+
+<p>Usage: <code class="language-plaintext highlighter-rouge">kangtools_version_control</code></p>
+
+<p><em>Note: Before using this tool, make sure your codebase has been initialized as a git repository and that you have set up your git username and email.</em></p>
+
+<p>Enjoy!</p>
+
+<p><em>Disclaimer: This article is for educational purposes only, for actual version control applications, tools such as Git are usually used.</em></p>
+
+<h1 id="使用-python-创建自定义的版本控制工具">使用 Python 创建自定义的版本控制工具</h1>
+
+<p>在进行软件开发时，版本控制是至关重要的。它允许我们跟踪代码的更改，理解每个更改发生的时间和原因，以及谁进行了更改。让我们来看看如何使用 Python 来创建我们自己的版本控制工具。</p>
+
+<h2 id="步骤-1-创建-python-脚本">步骤 1: 创建 Python 脚本</h2>
+
+<p>我们首先创建一个 Python 脚本 <code class="language-plaintext highlighter-rouge">version_control.py</code>，这个脚本将为我们的代码库生成新的版本号。这个脚本使用 Python 的 <code class="language-plaintext highlighter-rouge">os</code> 和 <code class="language-plaintext highlighter-rouge">re</code> 模块，并包含一个名为 <code class="language-plaintext highlighter-rouge">main</code> 的函数，用于执行版本控制。</p>
+
+<p>这个函数首先检查一个名为 <code class="language-plaintext highlighter-rouge">version.txt</code> 的文件是否存在，如果不存在，就创建它并写入初始版本号 <code class="language-plaintext highlighter-rouge">V.0.1</code>。然后，这个函数读取 <code class="language-plaintext highlighter-rouge">version.txt</code> 文件的内容，找到最新的版本号，并将其加 1 以生成新的版本号。然后，这个函数更新 <code class="language-plaintext highlighter-rouge">version.txt</code> 文件，并执行一些 git 命令来提交新的版本。</p>
+
+<h2 id="步骤-2-创建-python-包">步骤 2: 创建 Python 包</h2>
+
+<p>为了将我们的 Python 脚本转化为一个可复用的工具，我们需要创建一个 Python 包。首先，我们需要在我们的项目目录下创建一个名为 <code class="language-plaintext highlighter-rouge">kangtools</code> 的目录，然后将 <code class="language-plaintext highlighter-rouge">version_control.py</code> 文件放入这个目录中。</p>
+
+<p>我们还需要创建一个 <code class="language-plaintext highlighter-rouge">__init__.py</code> 文件，这个文件将 <code class="language-plaintext highlighter-rouge">version_control.py</code> 文件中的 <code class="language-plaintext highlighter-rouge">main</code> 函数导出为这个包的 API。</p>
+
+<p>最后，我们需要创建一个 <code class="language-plaintext highlighter-rouge">setup.py</code> 文件，这个文件描述了我们的包以及它的元数据，如名称、版本、作者等。在 <code class="language-plaintext highlighter-rouge">setup.py</code> 文件中，我们还定义了一个命令行接口，允许我们直接从命令行运行 <code class="language-plaintext highlighter-rouge">version_control.py</code> 文件中的 <code class="language-plaintext highlighter-rouge">main</code> 函数。</p>
+
+<h2 id="步骤-3-安装并使用我们的工具">步骤 3: 安装并使用我们的工具</h2>
+
+<p>我们可以使用 <code class="language-plaintext highlighter-rouge">pip</code> 命令来安装我们的工具，就像安装其他 Python 包一样。安装完成后，我们可以直接在命令行中运行 <code class="language-plaintext highlighter-rouge">kangtools_version_control</code> 命令来使用我们的工具。这个命令将提示我们输入一个提交消息，然后生成一个新的版本号，并将它提交到我们的代码库。</p>
+
+<h2 id="完成">完成!</h2>
+
+<p>现在，你已经了解了如何使用 Python 创建自己的版本控制工具。这只是开始，你可以根据自己的需要修改这个工具，例如，你可以让这个工具支持更复杂的版本号格式，或者让它与其他的版本控制系统一起工作。</p>
+
+<h2 id="下载方式">下载方式</h2>
+
+<p>你可以直接在 PyPi 上下载我们的包：https://pypi.org/project/kangtools/</p>
+
+<p>安装方式：<code class="language-plaintext highlighter-rouge">pip install kangtools</code></p>
+
+<p>使用方式：<code class="language-plaintext highlighter-rouge">kangtools_version_control</code></p>
+
+<p>*注意：使用这个工具</p>
+
+<p>前，请确保你的代码库已经初始化为 git 仓库，并且你已经配置好了 git 的用户名和邮箱。*</p>
+
+<p>祝你使用愉快！</p>
+
+<p><em>注：该文章仅用于教学目的，实际的版本控制应用场景通常会使用更成熟的工具，如 Git。</em></p>
+
+
     </div>
   </article>
+
 
 </div>
 
