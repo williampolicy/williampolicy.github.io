@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-26T15:31:56+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-26T15:31:56+00:00</published><updated>2023-06-26T15:31:56+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-26T18:10:08+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-26T18:10:08+00:00</published><updated>2023-06-26T18:10:08+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
 
 <h2 id="setting-up-api-requests">Setting Up API Requests</h2>
 <p>We first created a function in Swift to set up the API request. This function takes an input prompt and sends it to the OpenAI API to generate GPT-3 output. We used the <code class="language-plaintext highlighter-rouge">URLSession.shared.dataTask(with:completionHandler:)</code> function to send the request and <code class="language-plaintext highlighter-rouge">JSONSerialization</code> to convert the returned data into a JSON format we can handle.</p>
@@ -48,7 +48,87 @@
 
 <p>当我们的应用正常运行并能够产生期望的输出时，我们使用Git来保存这个版本。我们首先使用git add .将所有改动添加到暂存区，然后使用git commit -m提交这些改动，并添加一个描述性的消息。最后，我们使用git tag添加一个标签来标记这个版本，然后使用git push将这个标签推送到远程仓库。</p>
 
-<p>今天的工作中，我们学到了很多关于如何集成OpenAI的GPT-3到iOS应用中，如何在模拟器中进行测试，以及如何使用Git进行版本控制和错误跟踪的知识。我们还通过实际的操作，熟悉了这些工具和技术的应用。希望这个经验对你的工作也有所帮</p>]]></content><author><name></name></author></entry><entry><title type="html">Mastering Gitignore in Xcode Projects.md</title><link href="https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects/" rel="alternate" type="text/html" title="Mastering Gitignore in Xcode Projects.md" /><published>2023-06-20T00:00:00+00:00</published><updated>2023-06-20T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects/"><![CDATA[<h2 id="mastering-gitignore-for-efficient-version-control">Mastering <code class="language-plaintext highlighter-rouge">.gitignore</code> for Efficient Version Control</h2>
+<p>今天的工作中，我们学到了很多关于如何集成OpenAI的GPT-3到iOS应用中，如何在模拟器中进行测试，以及如何使用Git进行版本控制和错误跟踪的知识。我们还通过实际的操作，熟悉了这些工具和技术的应用。希望这个经验对你的工作也有所帮</p>]]></content><author><name></name></author></entry><entry><title type="html">Creating Custom Version Control Tool with Python</title><link href="https:///williampolicy.github.io/blog/2023/Creating_Custom_Version_Control_Tool_with_Python/" rel="alternate" type="text/html" title="Creating Custom Version Control Tool with Python" /><published>2023-06-26T00:00:00+00:00</published><updated>2023-06-26T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Creating_Custom_Version_Control_Tool_with_Python</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Creating_Custom_Version_Control_Tool_with_Python/"><![CDATA[<h1 id="creating-custom-version-control-tool-with-python">Creating Custom Version Control Tool with Python</h1>
+
+<p>Version control is vital when it comes to software development. It allows us to track changes in our code, understand when and why each change was made, and who made the change. Let’s look at how to create our own version control tool using Python.</p>
+
+<h2 id="step-1-creating-a-python-script">Step 1: Creating a Python Script</h2>
+
+<p>Firstly, we create a Python script named <code class="language-plaintext highlighter-rouge">version_control.py</code>, which will generate new version numbers for our codebase. This script uses Python’s <code class="language-plaintext highlighter-rouge">os</code> and <code class="language-plaintext highlighter-rouge">re</code> modules and contains a function named <code class="language-plaintext highlighter-rouge">main</code> to execute version control.</p>
+
+<p>This function first checks if a file named <code class="language-plaintext highlighter-rouge">version.txt</code> exists, and if not, it creates one and writes the initial version <code class="language-plaintext highlighter-rouge">V.0.1</code>. Next, the function reads the content of <code class="language-plaintext highlighter-rouge">version.txt</code>, finds the latest version number, and increments it by 1 to create a new version. It then updates the <code class="language-plaintext highlighter-rouge">version.txt</code> file and runs some git commands to commit the new version.</p>
+
+<h2 id="step-2-creating-a-python-package">Step 2: Creating a Python Package</h2>
+
+<p>To turn our Python script into a reusable tool, we need to create a Python package. To start, we create a directory named <code class="language-plaintext highlighter-rouge">kangtools</code> under our project directory and place the <code class="language-plaintext highlighter-rouge">version_control.py</code> file into this directory.</p>
+
+<p>We also need to create a <code class="language-plaintext highlighter-rouge">__init__.py</code> file, which exports the <code class="language-plaintext highlighter-rouge">main</code> function from the <code class="language-plaintext highlighter-rouge">version_control.py</code> file as the API of our package.</p>
+
+<p>Finally, we need to create a <code class="language-plaintext highlighter-rouge">setup.py</code> file, which describes our package and its metadata like name, version, author, etc. In the <code class="language-plaintext highlighter-rouge">setup.py</code> file, we also define a command-line interface that allows us to run the <code class="language-plaintext highlighter-rouge">main</code> function from the <code class="language-plaintext highlighter-rouge">version_control.py</code> file directly from the command line.</p>
+
+<h2 id="step-3-installing-and-using-our-tool">Step 3: Installing and Using Our Tool</h2>
+
+<p>We can install our tool using the <code class="language-plaintext highlighter-rouge">pip</code> command, just like installing any other Python package. Once installed, we can directly run the <code class="language-plaintext highlighter-rouge">kangtools_version_control</code> command from the command line to use our tool. This command will prompt us to input a commit message, then generate a new version number and commit it to our codebase.</p>
+
+<h2 id="done">Done!</h2>
+
+<p>Now, you know how to create your own version control tool using Python. This is just a start, and you can modify this tool as per your needs. For example, you could make the tool support more complex version number formats, or make it work with other version control systems.</p>
+
+<h2 id="download-instructions">Download Instructions</h2>
+
+<p>You can directly download our package on PyPi: https://pypi.org/project/kangtools/</p>
+
+<p>Installation: <code class="language-plaintext highlighter-rouge">pip install kangtools</code></p>
+
+<p>Usage: <code class="language-plaintext highlighter-rouge">kangtools_version_control</code></p>
+
+<p><em>Note: Before using this tool, make sure your codebase has been initialized as a git repository and that you have set up your git username and email.</em></p>
+
+<p>Enjoy!</p>
+
+<p><em>Disclaimer: This article is for educational purposes only, for actual version control applications, tools such as Git are usually used.</em></p>
+
+<h1 id="使用-python-创建自定义的版本控制工具">使用 Python 创建自定义的版本控制工具</h1>
+
+<p>在进行软件开发时，版本控制是至关重要的。它允许我们跟踪代码的更改，理解每个更改发生的时间和原因，以及谁进行了更改。让我们来看看如何使用 Python 来创建我们自己的版本控制工具。</p>
+
+<h2 id="步骤-1-创建-python-脚本">步骤 1: 创建 Python 脚本</h2>
+
+<p>我们首先创建一个 Python 脚本 <code class="language-plaintext highlighter-rouge">version_control.py</code>，这个脚本将为我们的代码库生成新的版本号。这个脚本使用 Python 的 <code class="language-plaintext highlighter-rouge">os</code> 和 <code class="language-plaintext highlighter-rouge">re</code> 模块，并包含一个名为 <code class="language-plaintext highlighter-rouge">main</code> 的函数，用于执行版本控制。</p>
+
+<p>这个函数首先检查一个名为 <code class="language-plaintext highlighter-rouge">version.txt</code> 的文件是否存在，如果不存在，就创建它并写入初始版本号 <code class="language-plaintext highlighter-rouge">V.0.1</code>。然后，这个函数读取 <code class="language-plaintext highlighter-rouge">version.txt</code> 文件的内容，找到最新的版本号，并将其加 1 以生成新的版本号。然后，这个函数更新 <code class="language-plaintext highlighter-rouge">version.txt</code> 文件，并执行一些 git 命令来提交新的版本。</p>
+
+<h2 id="步骤-2-创建-python-包">步骤 2: 创建 Python 包</h2>
+
+<p>为了将我们的 Python 脚本转化为一个可复用的工具，我们需要创建一个 Python 包。首先，我们需要在我们的项目目录下创建一个名为 <code class="language-plaintext highlighter-rouge">kangtools</code> 的目录，然后将 <code class="language-plaintext highlighter-rouge">version_control.py</code> 文件放入这个目录中。</p>
+
+<p>我们还需要创建一个 <code class="language-plaintext highlighter-rouge">__init__.py</code> 文件，这个文件将 <code class="language-plaintext highlighter-rouge">version_control.py</code> 文件中的 <code class="language-plaintext highlighter-rouge">main</code> 函数导出为这个包的 API。</p>
+
+<p>最后，我们需要创建一个 <code class="language-plaintext highlighter-rouge">setup.py</code> 文件，这个文件描述了我们的包以及它的元数据，如名称、版本、作者等。在 <code class="language-plaintext highlighter-rouge">setup.py</code> 文件中，我们还定义了一个命令行接口，允许我们直接从命令行运行 <code class="language-plaintext highlighter-rouge">version_control.py</code> 文件中的 <code class="language-plaintext highlighter-rouge">main</code> 函数。</p>
+
+<h2 id="步骤-3-安装并使用我们的工具">步骤 3: 安装并使用我们的工具</h2>
+
+<p>我们可以使用 <code class="language-plaintext highlighter-rouge">pip</code> 命令来安装我们的工具，就像安装其他 Python 包一样。安装完成后，我们可以直接在命令行中运行 <code class="language-plaintext highlighter-rouge">kangtools_version_control</code> 命令来使用我们的工具。这个命令将提示我们输入一个提交消息，然后生成一个新的版本号，并将它提交到我们的代码库。</p>
+
+<h2 id="完成">完成!</h2>
+
+<p>现在，你已经了解了如何使用 Python 创建自己的版本控制工具。这只是开始，你可以根据自己的需要修改这个工具，例如，你可以让这个工具支持更复杂的版本号格式，或者让它与其他的版本控制系统一起工作。</p>
+
+<h2 id="下载方式">下载方式</h2>
+
+<p>你可以直接在 PyPi 上下载我们的包：https://pypi.org/project/kangtools/</p>
+
+<p>安装方式：<code class="language-plaintext highlighter-rouge">pip install kangtools</code></p>
+
+<p>使用方式：<code class="language-plaintext highlighter-rouge">kangtools_version_control</code></p>
+
+<p>*注意：使用这个工具</p>
+
+<p>前，请确保你的代码库已经初始化为 git 仓库，并且你已经配置好了 git 的用户名和邮箱。*</p>
+
+<p>祝你使用愉快！</p>
+
+<p><em>注：该文章仅用于教学目的，实际的版本控制应用场景通常会使用更成熟的工具，如 Git。</em></p>]]></content><author><name></name></author><category term="version" /><category term="python" /><category term="control" /><category term="version control" /><category term="py" /><summary type="html"><![CDATA[Creating Custom Version Control Tool with Python]]></summary></entry><entry><title type="html">Mastering Gitignore in Xcode Projects.md</title><link href="https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects/" rel="alternate" type="text/html" title="Mastering Gitignore in Xcode Projects.md" /><published>2023-06-20T00:00:00+00:00</published><updated>2023-06-20T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects/"><![CDATA[<h2 id="mastering-gitignore-for-efficient-version-control">Mastering <code class="language-plaintext highlighter-rouge">.gitignore</code> for Efficient Version Control</h2>
 
 <h3 id="introduction">Introduction</h3>
 
@@ -517,4 +597,4 @@ GPT3_APP/GPT3_APP/Secrets.plist
 
 <h3 id="example-of-another-sub-heading-2">Example of another Sub-Heading 2</h3>
 
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="toc" /><summary type="html"><![CDATA[an example of a blog post with table of contents]]></summary></entry><entry><title type="html">Test Post for 2022</title><link href="https:///williampolicy.github.io/blog/2022/Test-Post/" rel="alternate" type="text/html" title="Test Post for 2022" /><published>2022-12-31T00:00:00+00:00</published><updated>2022-12-31T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2022/Test-Post</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2022/Test-Post/"><![CDATA[]]></content><author><name></name></author><category term="test" /><category term="python" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="toc" /><summary type="html"><![CDATA[an example of a blog post with table of contents]]></summary></entry></feed>
