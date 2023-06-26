@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Streamlining PyPi Package Release with Automation and Version Control"
+date:   2023-06-26
+categories: ['package', 'pypi', 'version', 'file', 'packages']
+---
 # Streamlining PyPi Package Release with Automation and Version Control
 
 As developers, we often build packages that help others in our community solve complex problems. Sharing these packages on platforms like PyPi allows users worldwide to access, download, and benefit from our creations. However, managing the versioning, building, and releasing of a package can sometimes be a cumbersome process. 
