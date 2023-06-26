@@ -53,18 +53,20 @@ def get_title(file_name):
         title = file.readline().strip()
     return title.replace('#', '')  # remove '#' from title
 
+
+
 def update_blog(file_name,commit_message):
     """
     Updates the blog by adding the YAML front matter
     """
     categories = get_categories(file_name)
     date = datetime.datetime.now().strftime('%Y-%m-%d')
-    title = get_title(file_name).replace(" ", "_")
+    title = get_title(file_name)  # Note that we're not replacing spaces with underscores here
     yaml_front_matter = f"---\nlayout: post\ntitle:  \"{title}\"\ndate:   {date}\ncategories: {categories}\n---\n"
     with open(file_name, 'r', encoding='utf-8') as file:
         content = file.read()
     updated_content = yaml_front_matter + content
-    new_file_name = f"{date}_{title}.md".replace('__', '_')
+    new_file_name = f"{date}_{title.replace(' ', '_')}.md".replace('__', '_')  # Spaces are replaced with underscores here for the file name
     with open(new_file_name, 'w', encoding='utf-8') as file:
         file.write(updated_content)
     print(f"Updated blog saved to {new_file_name}")

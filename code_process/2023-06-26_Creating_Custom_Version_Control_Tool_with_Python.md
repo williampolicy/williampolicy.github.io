@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "_Creating_Custom_Version_Control_Tool_with_Python"
+title:  " Creating Custom Version Control Tool with Python"
 date:   2023-06-26
 categories: ['version', 'python', 'control', 'version control', 'py']
 ---
