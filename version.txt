@@ -9,3 +9,4 @@ V.0.5 - try to make a test
 V.0.5
 V.0.5 - test more
 V.0.6 - test kangtools_version_control  ©KANG - 2023-06-26  
+V.0.7 - good commit pip install kangtools. it works. Great! and with help  ©KANG - 2023-06-26  
