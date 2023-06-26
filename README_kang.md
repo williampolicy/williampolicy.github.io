@@ -179,4 +179,43 @@ git push
 
 
 --
+kang@Love-Grace williampolicy.github.io$ kangtools_commit_version_to_git -h
+usage: kangtools_commit_version_to_git [-h] [-m COMMIT_MESSAGE]
+
+This script handles versioning and git commit operations. The version number is stored in a text file, incremented, and then a new entry with the version number, a user-provided commit
+message, the user name, and the current timestamp is appended. These details are also used in the git commit message.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -m COMMIT_MESSAGE, --commit_message COMMIT_MESSAGE
+                        Specify the commit message that will be used in both the version text file and the git commit. If not provided, the script will prompt for it.
+kang@Love-Grace williampolicy.github.io$ kangtools_commit_version_to_git -m "good commit pip install kangtools. it works. Great! and with help"
+[main 58179fc] V.0.7 - good commit pip install kangtools. it works. Great! and with help  ©KANG - 2023-06-26
+ 1 file changed, 1 insertion(+)
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 445 bytes | 445.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/williampolicy/williampolicy.github.io.git
+   3a398e3..58179fc  main -> main
+Committed Version V.0.7
+kang@Love-Grace williampolicy.github.io$ cat version.txt 
+V.0.3V.0.4
+V.0.4 - add function to write history in version.text
+V.0.5
+V.0.5 - this is a great work for upload_new_version_v1.py
+V.0.5
+V.0.5 - try to make a test 
+V.0.5
+V.0.5 - try to make a test
+V.0.5
+V.0.5 - test more
+V.0.6 - test kangtools_version_control  ©KANG - 2023-06-26  
+V.0.7 - good commit pip install kangtools. it works. Great! and with help  ©KANG - 2023-06-26  
+
+------
+
 安装 kangtools. 测试一下
