@@ -27,3 +27,4 @@ V.0.21 - add Dirac Delta Function and Approaching Truth  ©KANG - 2023-06-27
 V.0.22 - test from kangtools  ©KANG - 2023-06-27  
 V.0.23 - add ./creat_blog_post_git_commit_push.py 20230627-blog-note-Dirac-Delta-Function-and-Approaching-Truth.md   ©KANG - 2023-06-27  
 V.0.24 - add kangtools_bloguploader 20230627-blog-note-Dirac-Delta-Function-and-Approaching-Truth.md   ©KANG - 2023-06-27  
+V.0.25 - kangtools_bloguploader 20230627_blog_note_Understanding_Food_Consumption_Patterns.md  ©KANG - 2023-06-27  
