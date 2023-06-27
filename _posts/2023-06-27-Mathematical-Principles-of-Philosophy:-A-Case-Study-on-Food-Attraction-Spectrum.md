@@ -2,7 +2,7 @@
 layout: post
 title:  "Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum"
 date:   2023-06-27
-categories: ['density', 'probability', 'food', 'probability density', 'attraction']
+categories: ['density', 'food', 'probability', 'p', 'probability density']
 ---
 # Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum
 
@@ -18,17 +18,35 @@ Our goal is to devise a quantitative method that captures the aforementioned pro
 
 We first define the weight and probability density for each food item. We then employ the Hadamard product (the product of the weight and probability density) to compute the attraction contribution of each food item. All the attraction contributions are normalized to obtain the relative attractions of various food items. In the case of drugs, we use the Dirac function to describe its probability density, allowing us to capture the potential enormous attraction that drugs may invoke once exposed to individuals.
 
-## 4. Mathematical Expression
+## 4. Mathematical Expression/Representation
 
-For each food item i, its attraction A_i can be calculated via the following equation:
+The allure of each food item i, A_i, is calculated by the following equation:
 
-```
+```plaintext
 A_i = (w_i * p_i) / Σ (w_j * p_j)
 ```
 
-Here, w_i represents the weight of food i, and p_i denotes the probability density of food i. For drugs, we employ the Dirac function to depict its probability density.
+Here, w_i represents the weight of food i, and p_i denotes the probability density of food i.
 
-For apples and tomatoes, we use a periodic function to describe their probability density.
+For addictive food or drugs, we use the Dirac function as an approximation of its probability density. Mathematically, the Dirac function can be seen as a spike function, which takes an infinite value at a certain point, but its integral (i.e., the area under the curve) is 1. This can be interpreted as at some specific moments, the probability of choosing addictive food or drugs would surge.
+
+Specifically, we can use the following "spike" function as an approximation to the Dirac function:
+
+```plaintext
+δ(t-a) ≈ 1/(sqrt(π)*σ) * exp(-((t-a)/σ)^2)
+```
+
+Here, a is the time where the spike locates, and σ is a parameter controlling the width of the spike. This function takes its maximum value at t=a, and decreases rapidly as the distance from a increases. When σ->0, this function tends towards the Dirac function.
+
+For apples and tomatoes, we use periodic functions to describe their probability densities. Specifically, we can use sine and cosine functions to simulate the seasonal influences:
+
+```plaintext
+p_apple(t) = 0.5 * (1 + sin(2πt))
+p_tomato(t) = 0.5 * (1 + cos(2πt))
+```
+
+Here, t stands for time, ranging in [0,1], representing the time within a year. The above functions vary at different times, simulating the availability of different food in different seasons.
+
 
 ## 5. Code
 
@@ -90,6 +108,34 @@ Our model successfully demonstrates how to calculate attractions by considering 
 我们首先为每种食物定义权重和概率密度。然后，我们使用哈达玛积（权重和概率密度的积）计算每种食物的吸引力贡献。所有的吸引力贡献都进行归一化，以获得各种食物的相对吸引力。对于成瘾类食物或药物，我们使用狄拉克函数来描述其概率密度，从而捕捉到这类物质一旦暴露给个体可能引起的巨大吸引力。
 
 ## 4. 数学表达
+
+
+对于每种食物i，其吸引力A_i可以通过以下方程计算：
+
+```
+A_i = (w_i * p_i) / Σ (w_j * p_j)
+```
+
+这里，w_i代表食物i的权重，p_i表示食物i的概率密度。
+
+对于成瘾类食物或药物，我们使用狄拉克函数作为其概率密度的近似。在数学上，狄拉克函数可以视作一个尖峰函数，其在某一点的值为无穷大，但其积分（即面积）为1。这可以被解释为在某些特定时刻，成瘾类食物或药物的选择概率会剧增。
+
+具体来说，我们可以用如下的“突刺”函数作为狄拉克函数的近似：
+
+```
+δ(t-a) ≈ 1/(sqrt(π)*σ) * exp(-((t-a)/σ)^2)
+```
+
+这里，a是尖峰所在的时间，σ是控制尖峰宽度的参数。这样的函数在t=a时有最大值，并且随着离a的距离增大而快速下降。当σ->0时，这个函数趋向于狄拉克函数。
+
+对于苹果和番茄，我们使用周期函数来描述它们的概率密度。具体来说，我们可以用正弦函数和余弦函数来模拟季节性的影响：
+
+```
+p_apple(t) = 0.5 * (1 + sin(2πt))
+p_tomato(t) = 0.5 * (1 + cos(2πt))
+```
+
+这里，t代表时间，取值范围为[0,1]，表示一年中的时间。上述函数在不同的时间取值会有所不同，模拟了不同食物在不同季节的可得性。
 
 对于每种食物i，其吸引力A_i可以通过以下方程计算：
 
