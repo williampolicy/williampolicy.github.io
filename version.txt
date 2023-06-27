@@ -23,3 +23,4 @@ V.0.17 - try to blog anywhere in kangtolls  ©KANG - 2023-06-26
 V.0.18 - creat_blog_post_git_commit_push.py test1.md   ©KANG - 2023-06-26  
 V.0.19 - it's hard i need to contimously go  ©KANG - 2023-06-26  
 V.0.20 - add 20230627-blog_note_狄拉克函数与逼近真相.md   ©KANG - 2023-06-27  
+V.0.21 - add Dirac Delta Function and Approaching Truth  ©KANG - 2023-06-27  
