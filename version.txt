@@ -30,3 +30,4 @@ V.0.24 - add kangtools_bloguploader 20230627-blog-note-Dirac-Delta-Function-and-
 V.0.25 - kangtools_bloguploader 20230627_blog_note_Understanding_Food_Consumption_Patterns.md  ©KANG - 2023-06-27  
 V.0.26 - kangtools_bloguploader 20230627_blog_note_Understanding_Food_Consumption_Patterns.md  update  ©KANG - 2023-06-27  
 V.0.27 - kangtools_bloguploader 20230627_blog_note_Quantum_State_Analysis_A_conceptual_Understanding_and_Computation.md   ©KANG - 2023-06-27  
+V.0.28 - kangtools_bloguploader ./20230627_blog_note_A-Case-Study-on-Food-Attraction-Spectrum.md  ©KANG - 2023-06-27  
