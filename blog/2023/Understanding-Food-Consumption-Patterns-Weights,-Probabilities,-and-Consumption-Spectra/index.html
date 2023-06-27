@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Understanding Python Data Structures and Their Usage in Data Processing: A Case Study | XIAOWEN  Kang</title>
+    <title>Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra | XIAOWEN  Kang</title>
     <meta name="author" content="XIAOWEN  Kang">
     <meta name="description" content="I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -39,7 +39,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https:///williampolicy.github.io/blog/2018/Understanding_Data_Structures_in_Python_Data_Processing/">
+    <link rel="canonical" href="https:///williampolicy.github.io/blog/2023/Understanding-Food-Consumption-Patterns-Weights,-Probabilities,-and-Consumption-Spectra/">
 
     <!-- Dark Mode -->
     
@@ -139,15 +139,21 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Understanding Python Data Structures and Their Usage in Data Processing: A Case Study</h1>
-    <p class="post-meta">June 19, 2018</p>
+    <h1 class="post-title">Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra</h1>
+    <p class="post-meta">June 27, 2023</p>
     <p class="post-tags">
-      <a href="/blog/2018"> <i class="fas fa-calendar fa-sm"></i> 2018 </a>
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
         ·  
-        <a href="/blog/category/tutorial">
-          <i class="fas fa-tag fa-sm"></i> tutorial</a>  
-          <a href="/blog/category/python">
-          <i class="fas fa-tag fa-sm"></i> python</a>  
+        <a href="/blog/category/c">
+          <i class="fas fa-tag fa-sm"></i> c</a>  
+          <a href="/blog/category/p">
+          <i class="fas fa-tag fa-sm"></i> p</a>  
+          <a href="/blog/category/w">
+          <i class="fas fa-tag fa-sm"></i> w</a>  
+          <a href="/blog/category/food">
+          <i class="fas fa-tag fa-sm"></i> food</a>  
+          <a href="/blog/category/x">
+          <i class="fas fa-tag fa-sm"></i> x</a>  
           
 
     </p>
@@ -156,91 +162,90 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <h1 id="python-data-structures-and-their-usage-in-data-processing-a-case-study">Python Data Structures and Their Usage in Data Processing: A Case Study</h1>
+      <h1 id="understanding-food-consumption-patterns-weights-probabilities-and-consumption-spectra">Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra</h1>
 
-<p>In data processing tasks, it’s essential to understand the type and structure of your data at each step of the process. This understanding helps to avoid potential errors, aids debugging, and ensures that the functions or methods used are compatible with the data structure.</p>
+<h2 id="1-background">1. Background</h2>
 
-<p>For this article, we will use a simplified data processing workflow, which consists of three steps: data loading (<code class="language-plaintext highlighter-rouge">m1load</code>), data processing (<code class="language-plaintext highlighter-rouge">m2process</code>), and data displaying (<code class="language-plaintext highlighter-rouge">m3show</code>). Each step is encapsulated in its own function, and these functions are called sequentially in a main script (<code class="language-plaintext highlighter-rouge">main.py</code>). We will go through the process, focusing on the types of data involved and their implications.</p>
+<p>In this study, we analyze food consumption patterns, more specifically, we delve into the weights and probabilities of food items, ultimately arriving at a food consumption spectrum. This problem can be considered both in discrete and continuous forms.</p>
 
-<h2 id="data-loading---m1load">Data Loading - <code class="language-plaintext highlighter-rouge">m1load</code>
-</h2>
+<h2 id="2-methodology">2. Methodology</h2>
 
-<p>The <code class="language-plaintext highlighter-rouge">m1load</code> function reads a CSV file using the pandas function <code class="language-plaintext highlighter-rouge">pd.read_csv()</code>, which returns a pandas DataFrame. A DataFrame is a 2-dimensional labeled data structure with columns of potentially different types. It is generally the most commonly used pandas object.</p>
+<p>Our method isn’t solely reliant on the perspective of neural networks. We can view the weights and probabilities of food items as independent variables, and then compute their Hadamard product (i.e., element-wise multiplication) to obtain the food consumption spectrum.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m1load</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-</code></pre></div></div>
+<h2 id="3-mathematical-description">3. Mathematical Description</h2>
 
-<h2 id="data-processing---m2process">Data Processing - <code class="language-plaintext highlighter-rouge">m2process</code>
-</h2>
+<p>In discrete form, we have n food items, each food item i has a weight <code class="language-plaintext highlighter-rouge">$w_i$</code> and a probability <code class="language-plaintext highlighter-rouge">$p_i$</code>. Hence, the food consumption spectrum <code class="language-plaintext highlighter-rouge">$c_i$</code> can be expressed as:</p>
 
-<p>The <code class="language-plaintext highlighter-rouge">m2process</code> function processes the loaded DataFrame and returns the mean value of the ‘value’ column, which is a pandas Series. A Series is a one-dimensional labeled array capable of holding any data type.</p>
+<pre><code class="language-math">c_i = w_i \cdot p_i, \quad i=1, 2, ..., n.
+</code></pre>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m2process</span><span class="p">(</span><span class="n">dataframe</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">dataframe</span><span class="p">[</span><span class="sh">'</span><span class="s">value</span><span class="sh">'</span><span class="p">].</span><span class="nf">mean</span><span class="p">()</span>
-</code></pre></div></div>
+<p>In continuous form, we consider the weights and probabilities of food items as functions <code class="language-plaintext highlighter-rouge">$w(x)$</code> and <code class="language-plaintext highlighter-rouge">$p(x)$</code> defined over some interval, and then compute the food consumption spectrum <code class="language-plaintext highlighter-rouge">$c(x)$</code>:</p>
 
-<p>Here we made a simplification for demonstration purposes. In a more complex scenario, <code class="language-plaintext highlighter-rouge">m2process</code> might return a modified DataFrame.</p>
+<pre><code class="language-math">c(x) = w(x) \cdot p(x), \quad x \in [a, b].
+</code></pre>
 
-<h2 id="data-displaying---m3show">Data Displaying - <code class="language-plaintext highlighter-rouge">m3show</code>
-</h2>
+<h2 id="4-example">4. Example</h2>
 
-<p>The <code class="language-plaintext highlighter-rouge">m3show</code> function simply prints the processed data, in this case, a single mean value.</p>
+<p>For instance, we have three food items, with weights <code class="language-plaintext highlighter-rouge">$w_1 = 0.5, w_2 = 0.3, w_3 = 0.2$</code> and probabilities <code class="language-plaintext highlighter-rouge">$p_1 = 0.4, p_2 = 0.5, p_3 = 0.1$</code> respectively. Hence, the food consumption spectrum for these food items are <code class="language-plaintext highlighter-rouge">$c_1 = 0.5 \cdot 0.4 = 0.2, c_2 = 0.3 \cdot 0.5 = 0.15, c_3 = 0.2 \cdot 0.1 = 0.02$</code>.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m3show</span><span class="p">(</span><span class="n">dataframe</span><span class="p">):</span>
-    <span class="nf">print</span><span class="p">(</span><span class="n">dataframe</span><span class="p">)</span>
-</code></pre></div></div>
+<p>We can compute these using the following Python code:</p>
 
-<p>Note that we are using the <code class="language-plaintext highlighter-rouge">print</code> function inside <code class="language-plaintext highlighter-rouge">m3show</code>, which means this function will not have a return value. Python’s <code class="language-plaintext highlighter-rouge">print</code> function is a void function meaning it doesn’t return anything, i.e., its return type is <code class="language-plaintext highlighter-rouge">NoneType</code>. If we were to include a return statement, we would need to ensure that we’re returning a value or a data structure, not the <code class="language-plaintext highlighter-rouge">print</code> function itself.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">w</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">]</span>
+<span class="n">p</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">]</span>
 
-<h2 id="main-script---mainpy">Main script - <code class="language-plaintext highlighter-rouge">main.py</code>
-</h2>
+<span class="n">c</span> <span class="o">=</span> <span class="p">[</span><span class="n">wi</span><span class="o">*</span><span class="n">pi</span> <span class="k">for</span> <span class="n">wi</span><span class="p">,</span> <span class="n">pi</span> <span class="ow">in</span> <span class="nf">zip</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">p</span><span class="p">)]</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>  <span class="c1"># prints: [0.2, 0.15, 0.02]
+</span></code></pre></div></div>
 
-<p>In the main script (<code class="language-plaintext highlighter-rouge">main.py</code>), these functions are called sequentially, and for each call, we print the type of the data being passed in and returned. This way, we can easily track the data’s structure at each step, ensuring it’s as expected and aiding in debugging if necessary.</p>
+<h2 id="5-conclusion">5. Conclusion</h2>
+
+<p>Through the analysis of food weights and probabilities, we have arrived at a food consumption spectrum. Leveraging these independent variables, we’ve gained a fresh perspective on analyzing and understanding food consumption patterns.</p>
 
 <hr>
 
-<h1 id="python数据结构及其在数据处理中的应用案例研究">Python数据结构及其在数据处理中的应用：案例研究</h1>
+<h1 id="理解食物消费模式权重概率和消费谱">理解食物消费模式：权重，概率和消费谱</h1>
 
-<p>在数据处理任务中，理解每个处理步骤中数据的类型和结构是非常重要的。这种理解可以帮助避免可能的错误，有助于调试，并确保使用的函数或方法与数据结构兼容。</p>
+<h2 id="1-背景">1. 背景</h2>
 
-<p>对于这篇文章，我们将使用一个简化的数据处理流程，该流程由三个步骤组成：数据加载(<code class="language-plaintext highlighter-rouge">m1load</code>)，数据处理(<code class="language-plaintext highlighter-rouge">m2process</code>)，和数据显示(<code class="language-plaintext highlighter-rouge">m3show</code>)。每个步骤都封装在自己的函数中，这些函数在主脚本(<code class="language-plaintext highlighter-rouge">main.py</code>)中按顺序调用。我们将遍历这个过程，重点关注涉及的数据类型及其含义。</p>
+<p>在这个项目中，我们研究了食物消费模式，具体来说，我们分析了食物的权重和概率，最后得到了食物消费谱。这个问题可以通过离散和连续两种方式来考虑。</p>
 
-<h2 id="数据加载---m1load">数据加载 - <code class="language-plaintext highlighter-rouge">m1load</code>
-</h2>
+<h2 id="2-方法">2. 方法</h2>
 
-<p><code class="language-plaintext highlighter-rouge">m1load</code>函数使用pandas的<code class="language-plaintext highlighter-rouge">pd.read_csv()</code>函数读取CSV文件，该函数返回一个pandas DataFrame。DataFrame是一个二维的标签化数据结构，其列的类型可能不同。它通常是最常用的pandas对象。</p>
+<p>我们的方法不仅限于神经网络的视角，我们可以将食物的权重和概率看作是独立的变量，然后通过计算它们的哈达玛积（Hadamard product，即逐元素相乘）来得到食物消费谱。</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m1load</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-</code></pre></div></div>
+<h2 id="3-数学描述">3. 数学描述</h2>
 
-<h2 id="数据处理---m2process">数据处理 - <code class="language-plaintext highlighter-rouge">m2process</code>
-</h2>
+<p>在离散形式下，我们有n种食物，每种食物i有一个权重<code class="language-plaintext highlighter-rouge">$w_i$</code>和一个概率<code class="language-plaintext highlighter-rouge">$p_i$</code>，那么食物消费谱<code class="language-plaintext highlighter-rouge">$c_i$</code>可以表示为:</p>
 
-<p><code class="language-plaintext highlighter-rouge">m2process</code>函数处理加载的DataFrame，并返回’value’列的平均值，该值是一个pandas Series。Series是一个一维的标签化数组，可以容纳任何数据类型。</p>
+<pre><code class="language-math">c_i = w_i \cdot p_i, \quad i=1, 2, ..., n.
+</code></pre>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m2process</span><span class="p">(</span><span class="n">dataframe</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">dataframe</span><span class="p">[</span><span class="sh">'</span><span class="s">value</span><span class="sh">'</span><span class="p">].</span><span class="nf">mean</span><span class="p">()</span>
-</code></pre></div></div>
+<p>在连续形式下，我们将食物的权重和概率看作是定义在某个区间上的函数<code class="language-plaintext highlighter-rouge">$w(x)$</code>和<code class="language-plaintext highlighter-rouge">$p(x)$</code>，然后计算得到食物消费谱<code class="language-plaintext highlighter-rouge">$c(x)$</code>：</p>
 
-<p>这里我们为了演示目的做了一个简化。在更复杂的场景中，<code class="language-plaintext highlighter-rouge">m2process</code>可能返回一个修改后的DataFrame。</p>
+<pre><code class="language-math">c(x) = w(x) \cdot p(x), \quad x \in [a, b].
+</code></pre>
 
-<h2 id="数据显示---m3show">数据显示 - <code class="language-plaintext highlighter-rouge">m3show</code>
-</h2>
+<h2 id="4-案例">4. 案例</h2>
 
-<p><code class="language-plaintext highlighter-rouge">m3show</code>函数只是简单地打印处理后的数据，也就是一个平均值。</p>
+<p>例如，我们有三种食物，它们的权重分别为<code class="language-plaintext highlighter-rouge">$w_1 = 0.5, w_2 = 0.3, w_3 = 0.2$</code>，概率分别为<code class="language-plaintext highlighter-rouge">$p_1 = 0.4, p_2 = 0.5, p_3 = 0.1$</code>，那么这三种食物的消费谱分别为<code class="language-plaintext highlighter-rouge">$c_1 = 0.5 \cdot 0.4 = 0.2, c_2 = 0.3 \cdot 0.5 = 0.15, c_3 = 0.2 \cdot 0.1 = 0.02$</code>。</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">m3show</span><span class="p">(</span><span class="n">dataframe</span><span class="p">):</span>
-    <span class="nf">print</span><span class="p">(</span><span class="n">dataframe</span><span class="p">)</span>
-</code></pre></div></div>
+<p>我们可以通过以下的Python代码来计算这个结果：</p>
 
-<p>注意我们在<code class="language-plaintext highlighter-rouge">m3show</code>中使用了<code class="language-plaintext highlighter-rouge">print</code>函数，这意味着这个函数没有返回值。Python的<code class="language-plaintext highlighter-rouge">print</code>函数是一个无返回值的函数，意味着它不返回任何东西，即它的返回类型是<code class="language-plaintext highlighter-rouge">NoneType</code>。如果我们要包含一个return语句，我们需要确保我们返回的是一个值或一个数据结构，而不是<code class="language-plaintext highlighter-rouge">print</code>函数本身。</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">w</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">]</span>
+<span class="n">p</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">]</span>
 
-<h2 id="主脚本---mainpy">主脚本 - <code class="language-plaintext highlighter-rouge">main.py</code>
-</h2>
+<span class="n">c</span> <span class="o">=</span> <span class="p">[</span><span class="n">wi</span><span class="o">*</span><span class="n">pi</span> <span class="k">for</span> <span class="n">wi</span><span class="p">,</span> <span class="n">pi</span> <span class="ow">in</span> <span class="nf">zip</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">p</span><span class="p">)]</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>  <span class="c1"># prints: [0.2, 0.15, 0.02]
+</span></code></pre></div></div>
 
-<p>在主脚本(<code class="language-plaintext highlighter-rouge">main.py</code>)中，这些函数按顺序调用，对于每个调用，我们打印传入和返回的数据的类型。这样，我们可以很容易地跟踪每个步骤中数据的结构，确保它是预期的，并在必要时有助于调试。</p>
+<h2 id="5-总结">5. 总结</h2>
+
+<p>通过对食物权重和概率的分析，我们得到了食物消费谱。我们利用这些独立的变量，这为我们分析和理解食物消费模式提供了一个新的视角。</p>
+
+<hr>
+
+<p>这样就可以了吗？
+Does this meet your expectations?</p>
 
     </div>
   </article>
@@ -271,12 +276,6 @@
   
 
   <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Understanding-Food-Consumption-Patterns-Weights,-Probabilities,-and-Consumption-Spectra/">Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra</a>
-  </li>
-
-  
-
-  <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Dirac-Delta-Function-and-Approaching-Truth/">Dirac Delta Function and Approaching Truth</a>
   </li>
 
@@ -284,6 +283,12 @@
 
   <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/"></a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/it-works-i-want-to-go-with-you/">it works i want to go with you</a>
   </li>
 
 </div>
