@@ -33,3 +33,4 @@ V.0.27 - kangtools_bloguploader 20230627_blog_note_Quantum_State_Analysis_A_conc
 V.0.28 - kangtools_bloguploader ./20230627_blog_note_A-Case-Study-on-Food-Attraction-Spectrum.md  ©KANG - 2023-06-27  
 V.0.29 - Not use  ©KANG - 2023-06-27  
 V.0.30 - kangtools_bloguploader 20230627_blog_note_Designing-a-Comprehensive-Database-for-Dairy-Proctucts.md   ©KANG - 2023-06-27  
+V.0.31 - kangtools_bloguploader 20230627_blog_note_Designing-a-Comprehensive-Database-for-Dairy-Proctucts.md  add cn  ©KANG - 2023-06-27  

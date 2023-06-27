@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-27T20:38:56+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-27T20:38:56+00:00</published><updated>2023-06-27T20:38:56+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-27T20:40:43+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-27T20:40:43+00:00</published><updated>2023-06-27T20:40:43+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
 
 <h2 id="setting-up-api-requests">Setting Up API Requests</h2>
 <p>We first created a function in Swift to set up the API request. This function takes an input prompt and sends it to the OpenAI API to generate GPT-3 output. We used the <code class="language-plaintext highlighter-rouge">URLSession.shared.dataTask(with:completionHandler:)</code> function to send the request and <code class="language-plaintext highlighter-rouge">JSONSerialization</code> to convert the returned data into a JSON format we can handle.</p>
@@ -135,7 +135,56 @@
 
 <p>This database design offers a comprehensive approach to understand the sales dynamics in the dairy industry. By amalgamating various factors influencing sales, this design provides valuable insights that can assist in decision-making for the dairy company.</p>
 
-<p>我将在下一次回应中将此博客翻译成中文。</p>]]></content><author><name></name></author><category term="id" /><category term="dairy" /><category term="date" /><category term="discount" /><category term="sales" /><summary type="html"><![CDATA[#Designing a Comprehensive Database for Dairy Products Sales Analysis]]></summary></entry><entry><title type="html">Dirac Delta Function and Approaching Truth</title><link href="https:///williampolicy.github.io/blog/2023/Dirac-Delta-Function-and-Approaching-Truth/" rel="alternate" type="text/html" title="Dirac Delta Function and Approaching Truth" /><published>2023-06-27T00:00:00+00:00</published><updated>2023-06-27T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Dirac-Delta-Function-and-Approaching-Truth</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Dirac-Delta-Function-and-Approaching-Truth/"><![CDATA[<h1 id="dirac-delta-function-and-approaching-truth">Dirac Delta Function and Approaching Truth</h1>
+<p><strong>标题：为奶制品销售分析设计全面的数据库</strong></p>
+
+<h2 id="背景">背景</h2>
+
+<p>奶制品行业是一个复杂的领域，拥有合适的数据库设计对于理解销售模式、供应链管理和消费者行为至关重要。本博客旨在为奶制品销售数据库提供一个全面的设计，考虑了影响行业的各种因素，包括家庭消费模式、详细的奶制品信息、供应商数据、折扣事件、节假日和极端天气条件。</p>
+
+<h2 id="需求">需求</h2>
+
+<p>我们的目标是为一家假想的奶制品公司设计数据库，旨在帮助理解销售趋势、消费者行为和供应链动态。该数据库需要能够回答关键问题，例如：</p>
+
+<ul>
+  <li>家庭消费模式在节假日或极端天气条件下如何改变？</li>
+  <li>不同奶制品的销售趋势是什么？</li>
+  <li>供应商灵活性和折扣活动如何影响销售和库存？</li>
+  <li>节假日的时间如何影响销售？</li>
+</ul>
+
+<h2 id="数据库设计">数据库设计</h2>
+
+<p>为了回答这些问题，我们构思了一个包含六个主要表和两个汇总表的关系型数据库模型。</p>
+
+<h3 id="主要表格">主要表格</h3>
+
+<p><strong>T1_家庭消费（Family_Consumption）</strong>：每一行代表特定家庭在特定日期购买的独特的奶制品，字段包括：Family_ID、Product_ID、Date、Price_at_Purchase、Quantity、Is_Holiday、Is_Extreme_Weather和Is_Discounted。</p>
+
+<p><strong>T2_奶制品（Dairy_Products）</strong>：每一行代表关于奶制品的每日信息，字段包括：Product_ID、Date、Price、Inventory和Sales。</p>
+
+<p><strong>T3_供应商（Suppliers）</strong>：每一行代表特定奶制品的供应商信息，字段包括：Supplier_ID、Product_ID、Supply_Price和Flexibility。</p>
+
+<p><strong>T4_折扣（Discounts）</strong>：每一行表示特定产品在特定时间段是否有折扣，字段包括：Discount_ID、Product_ID、Start_Date、End_Date和Discount_Rate。</p>
+
+<p><strong>T5_节假日（Holidays）</strong>：每一行表示特定日期是否为节假日，字段包括：Date和Is_Holiday。</p>
+
+<p><strong>T6_极端天气（Extreme_Weather）</strong>：每一行表示特定日期是否有极端天气，字段包括：Date和Is_Extreme。</p>
+
+<h3 id="汇总表">汇总表</h3>
+
+<p><strong>T1S_交易汇总（Transactions_Summary）</strong>：每一行代表关于交易的汇总信息，字段包括：Transaction_ID、Date、Family_ID、Total_Quantity和Total_Price。</p>
+
+<p>**T4S_折扣事件汇总（Discount_Events_Summary）</p>
+
+<p>**：每一行表示关于折扣事件的总体信息，字段包括：Discount_ID、Start_Date、End_Date和Total_Products_Discounted。</p>
+
+<h2 id="关系">关系</h2>
+
+<p>主要表格通过特定字段如Family_ID、Product_ID、Date、Transaction_ID和Discount_ID相互连接。这些连接为奶制品销售周期提供了全面的画像。汇总表通过Transaction_ID和Discount_ID字段链接到主要表，使得可以对交易和折扣事件细节进行汇总查看。</p>
+
+<h2 id="结论">结论</h2>
+
+<p>此数据库设计提供了一个全面的方法来理解奶制品行业的销售动态。通过结合影响销售的各种因素，该设计提供了可以帮助奶制品公司决策的宝贵见解。</p>]]></content><author><name></name></author><category term="id" /><category term="date" /><category term="discount" /><category term="product" /><category term="dairy" /><summary type="html"><![CDATA[#Designing a Comprehensive Database for Dairy Products Sales Analysis]]></summary></entry><entry><title type="html">Dirac Delta Function and Approaching Truth</title><link href="https:///williampolicy.github.io/blog/2023/Dirac-Delta-Function-and-Approaching-Truth/" rel="alternate" type="text/html" title="Dirac Delta Function and Approaching Truth" /><published>2023-06-27T00:00:00+00:00</published><updated>2023-06-27T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Dirac-Delta-Function-and-Approaching-Truth</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Dirac-Delta-Function-and-Approaching-Truth/"><![CDATA[<h1 id="dirac-delta-function-and-approaching-truth">Dirac Delta Function and Approaching Truth</h1>
 
 <h2 id="dirac-delta-function-a-tool-for-first-order-approximation">Dirac Delta Function: A Tool for First-Order Approximation</h2>
 
