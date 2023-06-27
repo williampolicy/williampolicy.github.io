@@ -10,9 +10,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>displaying beatiful tables with Bootstrap Tables | XIAOWEN  Kang</title>
+    <title>Quantum State Analysis: A Conceptual Understanding and Computation | XIAOWEN  Kang</title>
     <meta name="author" content="XIAOWEN  Kang">
-    <meta name="description" content="an example of how to use Bootstrap Tables">
+    <meta name="description" content="I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
+">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -38,7 +39,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https:///williampolicy.github.io/blog/2023/tables/">
+    <link rel="canonical" href="https:///williampolicy.github.io/blog/2023/Quantum-State-Analysis-A-Conceptual-Understanding-and-Computation/">
 
     <!-- Dark Mode -->
     
@@ -138,13 +139,21 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">displaying beatiful tables with Bootstrap Tables</h1>
-    <p class="post-meta">March 20, 2023</p>
+    <h1 class="post-title">Quantum State Analysis: A Conceptual Understanding and Computation</h1>
+    <p class="post-meta">June 27, 2023</p>
     <p class="post-tags">
       <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
         ·  
-        <a href="/blog/category/sample-posts">
-          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
+        <a href="/blog/category/quantum">
+          <i class="fas fa-tag fa-sm"></i> quantum</a>  
+          <a href="/blog/category/contribution">
+          <i class="fas fa-tag fa-sm"></i> contribution</a>  
+          <a href="/blog/category/probability">
+          <i class="fas fa-tag fa-sm"></i> probability</a>  
+          <a href="/blog/category/state">
+          <i class="fas fa-tag fa-sm"></i> state</a>  
+          <a href="/blog/category/spectrum">
+          <i class="fas fa-tag fa-sm"></i> spectrum</a>  
           
 
     </p>
@@ -153,104 +162,142 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p>Using markdown to display tables is easy. Just use the following syntax:</p>
+      <h1 id="quantum-state-analysis-a-conceptual-understanding-and-computation">Quantum State Analysis: A Conceptual Understanding and Computation</h1>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Left aligned | Center aligned | Right aligned |
-| :----------- | :------------: | ------------: |
-| Left 1       | center 1       | right 1       |
-| Left 2       | center 2       | right 2       |
-| Left 3       | center 3       | right 3       |
-</code></pre></div></div>
+<h2 id="background">Background</h2>
 
-<p>That will generate:</p>
+<p>The concept of weight and probability density spectra can be generalized to various scientific domains, including quantum physics. This approach can facilitate a comprehensive understanding and analysis of complex systems. In the realm of quantum physics, the probability amplitude of a quantum state can be perceived as a form of “weight,” and its modulus squared (probability density) can be analyzed in tandem with this weight to draw meaningful conclusions about the system.</p>
+
+<h2 id="concepts">Concepts</h2>
+
+<p>In quantum physics, the state of a quantum system is often represented by a wave function, a mathematical description that provides information about the probability amplitude of finding the system in different states. These amplitude coefficients can be perceived as the “weight” of each state. The modulus squared of these amplitude coefficients gives us the “probability density” of finding the system in that specific state.</p>
+
+<p>When the “weights” (probability amplitudes) and “probability densities” (modulus squared of amplitudes) are multiplied, we get a spectrum representing the contribution of each quantum state to the overall quantum system. This can be used to compute various expectation values, providing vital information about the behavior of the system.</p>
+
+<h2 id="mathematical-description">Mathematical Description</h2>
 
 <table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Left 1</td>
-      <td style="text-align: center">center 1</td>
-      <td style="text-align: right">right 1</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Left 2</td>
-      <td style="text-align: center">center 2</td>
-      <td style="text-align: right">right 2</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Left 3</td>
-      <td style="text-align: center">center 3</td>
-      <td style="text-align: right">right 3</td>
+      <td>Let’s denote the probability amplitude (weight) for each state as $A = [a_1, a_2, …, a_n]$, where $a_i$ is the amplitude of the $i^{th}$ state. The probability density of each state, given by the modulus squared of the amplitude, is then $P = [</td>
+      <td>a_1</td>
+      <td>^2,</td>
+      <td>a_2</td>
+      <td>^2, …,</td>
+      <td>a_n</td>
+      <td>^2]$.</td>
     </tr>
   </tbody>
 </table>
 
-<p></p>
+<p>The contribution of each state to the overall system, which we’ll refer to as the “quantum contribution spectrum”, $Q$, is then the Hadamard product of the weight and probability density spectra:</p>
 
-<p>It is also possible to use HTML to display tables. For example, the following HTML code will display a table with <a href="https://bootstrap-table.com/" rel="external nofollow noopener" target="_blank">Bootstrap Table</a>, loaded from a JSON file:</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span>
-  <span class="na">id=</span><span class="s">"table"</span>
-  <span class="na">data-toggle=</span><span class="s">"table"</span>
-  <span class="na">data-url=</span><span class="s">"{{ '/assets/json/table_data.json' | relative_url }}"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;thead&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"id"</span><span class="nt">&gt;</span>ID<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"name"</span><span class="nt">&gt;</span>Item Name<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"price"</span><span class="nt">&gt;</span>Item Price<span class="nt">&lt;/th&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/thead&gt;</span>
-<span class="nt">&lt;/table&gt;</span>
-</code></pre></div></div>
-
-<table data-toggle="table" data-url="/assets/json/table_data.json">
-  <thead>
+<table>
+  <tbody>
     <tr>
-      <th data-field="id">ID</th>
-      <th data-field="name">Item Name</th>
-      <th data-field="price">Item Price</th>
+      <td>$Q = A \circ P = [a_1 \cdot</td>
+      <td>a_1</td>
+      <td>^2, a_2 \cdot</td>
+      <td>a_2</td>
+      <td>^2, …, a_n \cdot</td>
+      <td>a_n</td>
+      <td>^2]$</td>
     </tr>
-  </thead>
+  </tbody>
 </table>
 
-<p></p>
+<p>Each component $q_i$ of the quantum contribution spectrum $Q$ then represents the contribution of the $i^{th}$ quantum state to the overall quantum system.</p>
 
-<p>By using <a href="https://bootstrap-table.com/" rel="external nofollow noopener" target="_blank">Bootstrap Table</a> it is possible to create pretty complex tables, with pagination, search, and more. For example, the following HTML code will display a table, loaded from a JSON file, with pagination, search, checkboxes, and header/content alignment. For more information, check the <a href="https://examples.bootstrap-table.com/index.html" rel="external nofollow noopener" target="_blank">documentation</a>.</p>
+<h2 id="example">Example</h2>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span>
-  <span class="na">data-click-to-select=</span><span class="s">"true"</span>
-  <span class="na">data-height=</span><span class="s">"460"</span>
-  <span class="na">data-pagination=</span><span class="s">"true"</span>
-  <span class="na">data-search=</span><span class="s">"true"</span>
-  <span class="na">data-toggle=</span><span class="s">"table"</span>
-  <span class="na">data-url=</span><span class="s">"{{ '/assets/json/table_data.json' | relative_url }}"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;thead&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-checkbox=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"id"</span> <span class="na">data-halign=</span><span class="s">"left"</span> <span class="na">data-align=</span><span class="s">"center"</span> <span class="na">data-sortable=</span><span class="s">"true"</span><span class="nt">&gt;</span>ID<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"name"</span> <span class="na">data-halign=</span><span class="s">"center"</span> <span class="na">data-align=</span><span class="s">"right"</span> <span class="na">data-sortable=</span><span class="s">"true"</span><span class="nt">&gt;</span>Item Name<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"price"</span> <span class="na">data-halign=</span><span class="s">"right"</span> <span class="na">data-align=</span><span class="s">"left"</span> <span class="na">data-sortable=</span><span class="s">"true"</span><span class="nt">&gt;</span>Item Price<span class="nt">&lt;/th&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/thead&gt;</span>
-<span class="nt">&lt;/table&gt;</span>
+<p>In Python, this can be computed quite simply using the <code class="language-plaintext highlighter-rouge">numpy</code> library:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+
+<span class="c1"># example amplitudes for three quantum states
+</span><span class="n">amplitudes</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mf">0.3</span><span class="o">+</span><span class="mf">0.1j</span><span class="p">,</span> <span class="mf">0.5</span><span class="o">+</span><span class="mf">0.2j</span><span class="p">,</span> <span class="mf">0.2</span><span class="o">+</span><span class="mf">0.1j</span><span class="p">])</span>
+
+<span class="c1"># compute the probability densities
+</span><span class="n">probabilities</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">abs</span><span class="p">(</span><span class="n">amplitudes</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+
+<span class="c1"># compute the quantum contribution spectrum
+</span><span class="n">contribution_spectrum</span> <span class="o">=</span> <span class="n">amplitudes</span> <span class="o">*</span> <span class="n">probabilities</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">contribution_spectrum</span><span class="p">)</span>
 </code></pre></div></div>
 
-<table data-click-to-select="true" data-height="460" data-pagination="true" data-search="true" data-toggle="table" data-url="/assets/json/table_data.json">
-  <thead>
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The quantum contribution spectrum provides an effective way to evaluate the contribution of individual quantum states to the overall quantum system. This concept, akin to the food consumption spectrum, allows us to incorporate both the significance and likelihood of different states to gain a comprehensive understanding of the quantum system.</p>
+
+<h1 id="量子态分析概念理解与计算">量子态分析：概念理解与计算</h1>
+
+<h2 id="背景">背景</h2>
+
+<p>权重和概率密度谱的概念可以推广到包括量子物理学在内的各种科学领域。这种方法有助于全面理解和分析复杂的系统。在量子物理领域，量子态的概率振幅可以被视为一种“权重”，其模方（概率密度）可以与这个权重一起分析，以得出关于系统的有意义的结论。</p>
+
+<h2 id="概念">概念</h2>
+
+<p>在量子物理中，量子系统的状态通常由一个波函数表示，这是一个数学描述，提供了关于在不同状态下发现系统的概率振幅的信息。这些振幅系数可以被视为每个状态的”权重”。这些振幅系数的模方给出了在特定状态下找到系统的“概率密度”。</p>
+
+<p>当”权重”（概率振幅）和”概率密度”（振幅模方）相乘时，我们得到一个表示每个量子态对整个量子系统贡献的谱。这可以用来计算各种期望值，提供关于系统行为的重要信息。</p>
+
+<h2 id="数学描述">数学描述</h2>
+
+<table>
+  <tbody>
     <tr>
-      <th data-checkbox="true"></th>
-      <th data-field="id" data-halign="left" data-align="center" data-sortable="true">ID</th>
-      <th data-field="name" data-halign="center" data-align="right" data-sortable="true">Item Name</th>
-      <th data-field="price" data-halign="right" data-align="left" data-sortable="true">Item Price</th>
+      <td>让我们把每个状态的概率振幅（权重）表示为 $A = [a_1, a_2, …, a_n]$，其中 $a_i$ 是第 $i$ 个状态的振幅。每个状态的概率密度，由振幅的模方给出，那么就是 $P = [</td>
+      <td>a_1</td>
+      <td>^2,</td>
+      <td>a_2</td>
+      <td>^2, …,</td>
+      <td>a_n</td>
+      <td>^2]$。</td>
     </tr>
-  </thead>
+  </tbody>
 </table>
+
+<p>每个状态对整个系统的贡献，我们将其称为”量子贡献谱”，$Q$，是权重谱和概率密度谱的哈达玛积：</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>$Q = A \circ P = [a_1 \cdot</td>
+      <td>a_1</td>
+      <td>^2, a_2 \cdot</td>
+      <td>a_2</td>
+      <td>^2, …, a_n \cdot</td>
+      <td>a_n</td>
+      <td>^2]$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>量子贡献谱 $Q$ 的每个组成部分 $q_i$ 都表示第 $i$ 个量子态对整个量子系统的贡献。</p>
+
+<h2 id="例子">例子</h2>
+
+<p>在 Python 中，这可以使用 <code class="language-plaintext highlighter-rouge">numpy</code> 库简单地计算：</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+
+<span class="c1"># 三个量子态的例子振幅
+</span><span class="n">amplitudes</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mf">0.3</span><span class="o">+</span><span class="mf">0.1j</span><span class="p">,</span> <span class="mf">0.5</span><span class="o">+</span><span class="mf">0.2j</span><span class="p">,</span> <span class="mf">0.2</span><span class="o">+</span><span class="mf">0.1j</span><span class="p">])</span>
+
+<span class="c1"># 计算概率密度
+</span><span class="n">probabilities</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">abs</span><span class="p">(</span><span class="n">amplitudes</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+
+<span class="c1"># 计算量子贡献谱
+</span><span class="n">contribution_spectrum</span> <span class="o">=</span> <span class="n">amplitudes</span> <span class="o">*</span> <span class="n">probabilities</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">contribution_spectrum</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="结论">结论</h2>
+
+<p>量子贡献谱提供了一种有效的方法来评</p>
+
+<p>估各个量子态对整个量子系统的贡献。这个概念类似于食物消费谱，让我们能够既考虑不同状态的重要性，也考虑它们发生的可能性，从而全面理解量子系统。</p>
+
 
     </div>
   </article>
@@ -287,43 +334,15 @@
   
 
   <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Quantum-State-Analysis-A-Conceptual-Understanding-and-Computation/">Quantum State Analysis: A Conceptual Understanding and Computation</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Dirac-Delta-Function-and-Approaching-Truth/">Dirac Delta Function and Approaching Truth</a>
   </li>
 
   
 
   <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Dirac-Delta-Function-and-Approaching-Truth/">Dirac Delta Function and Approaching Truth</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/"></a>
   </li>
 
-<div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
-  <script>
-    let giscusTheme = localStorage.getItem("theme");
-    let giscusAttributes = {
-        "src": "https://giscus.app/client.js",
-        "data-repo": "alshedivat/al-folio",
-        "data-repo-id": "MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==",
-        "data-category": "Comments",
-        "data-category-id": "DIC_kwDOA5PmLc4CTBt6",
-        "data-mapping": "title",
-        "data-strict": "1",
-        "data-reactions-enabled": "1",
-        "data-emit-metadata": "0",
-        "data-input-position": "bottom",
-        "data-theme": giscusTheme,
-        "data-lang": "en",
-        "crossorigin": "anonymous",
-        "async": "",
-    };
-
-
-    let giscusScript = document.createElement("script");
-    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-    document.getElementById("giscus_thread").appendChild(giscusScript);
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a>
-</noscript>
-</div>
 </div>
 
       

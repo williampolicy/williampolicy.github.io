@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-27T15:47:52+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-27T15:47:52+00:00</published><updated>2023-06-27T15:47:52+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-27T16:01:10+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-27T16:01:10+00:00</published><updated>2023-06-27T16:01:10+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
 
 <h2 id="setting-up-api-requests">Setting Up API Requests</h2>
 <p>We first created a function in Swift to set up the API request. This function takes an input prompt and sends it to the OpenAI API to generate GPT-3 output. We used the <code class="language-plaintext highlighter-rouge">URLSession.shared.dataTask(with:completionHandler:)</code> function to send the request and <code class="language-plaintext highlighter-rouge">JSONSerialization</code> to convert the returned data into a JSON format we can handle.</p>
@@ -124,7 +124,141 @@
 在这个过程中，我们注意到无穷大和无穷小并非简单的概念。无穷大和无穷小实际上存在不同的级别，这是通过比较它们的行为来确定的。这样的处理方式，使得我们能够对无穷大和无穷小进行分级和分层次的处理。</p>
 
 <p>##总结
-无论是狄拉克函数的一级逼近，还是更实用的二级逼近方法，我们都在用自己的方式去逼近这个复杂、深奥的真实世界。在追求科学真相的过程中，我们经常需要在理论的严谨性和实用性之间做出权衡，这就是科学的本质。</p>]]></content><author><name></name></author><category term="function" /><category term="approximation" /><category term="delta" /><category term="delta function" /><category term="dirac" /><summary type="html"><![CDATA[Dirac Delta Function and Approaching Truth]]></summary></entry><entry><title type="html">Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra</title><link href="https:///williampolicy.github.io/blog/2023/Understanding-Food-Consumption-Patterns-Weights,-Probabilities,-and-Consumption-Spectra/" rel="alternate" type="text/html" title="Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra" /><published>2023-06-27T00:00:00+00:00</published><updated>2023-06-27T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Understanding-Food-Consumption-Patterns:-Weights,-Probabilities,-and-Consumption-Spectra</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Understanding-Food-Consumption-Patterns-Weights,-Probabilities,-and-Consumption-Spectra/"><![CDATA[<h1 id="understanding-food-consumption-patterns-weights-probabilities-and-consumption-spectra">Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra</h1>
+无论是狄拉克函数的一级逼近，还是更实用的二级逼近方法，我们都在用自己的方式去逼近这个复杂、深奥的真实世界。在追求科学真相的过程中，我们经常需要在理论的严谨性和实用性之间做出权衡，这就是科学的本质。</p>]]></content><author><name></name></author><category term="function" /><category term="approximation" /><category term="delta" /><category term="delta function" /><category term="dirac" /><summary type="html"><![CDATA[Dirac Delta Function and Approaching Truth]]></summary></entry><entry><title type="html">Quantum State Analysis: A Conceptual Understanding and Computation</title><link href="https:///williampolicy.github.io/blog/2023/Quantum-State-Analysis-A-Conceptual-Understanding-and-Computation/" rel="alternate" type="text/html" title="Quantum State Analysis: A Conceptual Understanding and Computation" /><published>2023-06-27T00:00:00+00:00</published><updated>2023-06-27T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Quantum-State-Analysis:-A-Conceptual-Understanding-and-Computation</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Quantum-State-Analysis-A-Conceptual-Understanding-and-Computation/"><![CDATA[<h1 id="quantum-state-analysis-a-conceptual-understanding-and-computation">Quantum State Analysis: A Conceptual Understanding and Computation</h1>
+
+<h2 id="background">Background</h2>
+
+<p>The concept of weight and probability density spectra can be generalized to various scientific domains, including quantum physics. This approach can facilitate a comprehensive understanding and analysis of complex systems. In the realm of quantum physics, the probability amplitude of a quantum state can be perceived as a form of “weight,” and its modulus squared (probability density) can be analyzed in tandem with this weight to draw meaningful conclusions about the system.</p>
+
+<h2 id="concepts">Concepts</h2>
+
+<p>In quantum physics, the state of a quantum system is often represented by a wave function, a mathematical description that provides information about the probability amplitude of finding the system in different states. These amplitude coefficients can be perceived as the “weight” of each state. The modulus squared of these amplitude coefficients gives us the “probability density” of finding the system in that specific state.</p>
+
+<p>When the “weights” (probability amplitudes) and “probability densities” (modulus squared of amplitudes) are multiplied, we get a spectrum representing the contribution of each quantum state to the overall quantum system. This can be used to compute various expectation values, providing vital information about the behavior of the system.</p>
+
+<h2 id="mathematical-description">Mathematical Description</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Let’s denote the probability amplitude (weight) for each state as $A = [a_1, a_2, …, a_n]$, where $a_i$ is the amplitude of the $i^{th}$ state. The probability density of each state, given by the modulus squared of the amplitude, is then $P = [</td>
+      <td>a_1</td>
+      <td>^2,</td>
+      <td>a_2</td>
+      <td>^2, …,</td>
+      <td>a_n</td>
+      <td>^2]$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The contribution of each state to the overall system, which we’ll refer to as the “quantum contribution spectrum”, $Q$, is then the Hadamard product of the weight and probability density spectra:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>$Q = A \circ P = [a_1 \cdot</td>
+      <td>a_1</td>
+      <td>^2, a_2 \cdot</td>
+      <td>a_2</td>
+      <td>^2, …, a_n \cdot</td>
+      <td>a_n</td>
+      <td>^2]$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Each component $q_i$ of the quantum contribution spectrum $Q$ then represents the contribution of the $i^{th}$ quantum state to the overall quantum system.</p>
+
+<h2 id="example">Example</h2>
+
+<p>In Python, this can be computed quite simply using the <code class="language-plaintext highlighter-rouge">numpy</code> library:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+
+<span class="c1"># example amplitudes for three quantum states
+</span><span class="n">amplitudes</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mf">0.3</span><span class="o">+</span><span class="mf">0.1j</span><span class="p">,</span> <span class="mf">0.5</span><span class="o">+</span><span class="mf">0.2j</span><span class="p">,</span> <span class="mf">0.2</span><span class="o">+</span><span class="mf">0.1j</span><span class="p">])</span>
+
+<span class="c1"># compute the probability densities
+</span><span class="n">probabilities</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">abs</span><span class="p">(</span><span class="n">amplitudes</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+
+<span class="c1"># compute the quantum contribution spectrum
+</span><span class="n">contribution_spectrum</span> <span class="o">=</span> <span class="n">amplitudes</span> <span class="o">*</span> <span class="n">probabilities</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">contribution_spectrum</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The quantum contribution spectrum provides an effective way to evaluate the contribution of individual quantum states to the overall quantum system. This concept, akin to the food consumption spectrum, allows us to incorporate both the significance and likelihood of different states to gain a comprehensive understanding of the quantum system.</p>
+
+<h1 id="量子态分析概念理解与计算">量子态分析：概念理解与计算</h1>
+
+<h2 id="背景">背景</h2>
+
+<p>权重和概率密度谱的概念可以推广到包括量子物理学在内的各种科学领域。这种方法有助于全面理解和分析复杂的系统。在量子物理领域，量子态的概率振幅可以被视为一种“权重”，其模方（概率密度）可以与这个权重一起分析，以得出关于系统的有意义的结论。</p>
+
+<h2 id="概念">概念</h2>
+
+<p>在量子物理中，量子系统的状态通常由一个波函数表示，这是一个数学描述，提供了关于在不同状态下发现系统的概率振幅的信息。这些振幅系数可以被视为每个状态的”权重”。这些振幅系数的模方给出了在特定状态下找到系统的“概率密度”。</p>
+
+<p>当”权重”（概率振幅）和”概率密度”（振幅模方）相乘时，我们得到一个表示每个量子态对整个量子系统贡献的谱。这可以用来计算各种期望值，提供关于系统行为的重要信息。</p>
+
+<h2 id="数学描述">数学描述</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>让我们把每个状态的概率振幅（权重）表示为 $A = [a_1, a_2, …, a_n]$，其中 $a_i$ 是第 $i$ 个状态的振幅。每个状态的概率密度，由振幅的模方给出，那么就是 $P = [</td>
+      <td>a_1</td>
+      <td>^2,</td>
+      <td>a_2</td>
+      <td>^2, …,</td>
+      <td>a_n</td>
+      <td>^2]$。</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>每个状态对整个系统的贡献，我们将其称为”量子贡献谱”，$Q$，是权重谱和概率密度谱的哈达玛积：</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>$Q = A \circ P = [a_1 \cdot</td>
+      <td>a_1</td>
+      <td>^2, a_2 \cdot</td>
+      <td>a_2</td>
+      <td>^2, …, a_n \cdot</td>
+      <td>a_n</td>
+      <td>^2]$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>量子贡献谱 $Q$ 的每个组成部分 $q_i$ 都表示第 $i$ 个量子态对整个量子系统的贡献。</p>
+
+<h2 id="例子">例子</h2>
+
+<p>在 Python 中，这可以使用 <code class="language-plaintext highlighter-rouge">numpy</code> 库简单地计算：</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+
+<span class="c1"># 三个量子态的例子振幅
+</span><span class="n">amplitudes</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mf">0.3</span><span class="o">+</span><span class="mf">0.1j</span><span class="p">,</span> <span class="mf">0.5</span><span class="o">+</span><span class="mf">0.2j</span><span class="p">,</span> <span class="mf">0.2</span><span class="o">+</span><span class="mf">0.1j</span><span class="p">])</span>
+
+<span class="c1"># 计算概率密度
+</span><span class="n">probabilities</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">abs</span><span class="p">(</span><span class="n">amplitudes</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+
+<span class="c1"># 计算量子贡献谱
+</span><span class="n">contribution_spectrum</span> <span class="o">=</span> <span class="n">amplitudes</span> <span class="o">*</span> <span class="n">probabilities</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">contribution_spectrum</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="结论">结论</h2>
+
+<p>量子贡献谱提供了一种有效的方法来评</p>
+
+<p>估各个量子态对整个量子系统的贡献。这个概念类似于食物消费谱，让我们能够既考虑不同状态的重要性，也考虑它们发生的可能性，从而全面理解量子系统。</p>]]></content><author><name></name></author><category term="quantum" /><category term="contribution" /><category term="probability" /><category term="state" /><category term="spectrum" /><summary type="html"><![CDATA[Quantum State Analysis: A Conceptual Understanding and Computation]]></summary></entry><entry><title type="html">Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra</title><link href="https:///williampolicy.github.io/blog/2023/Understanding-Food-Consumption-Patterns-Weights,-Probabilities,-and-Consumption-Spectra/" rel="alternate" type="text/html" title="Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra" /><published>2023-06-27T00:00:00+00:00</published><updated>2023-06-27T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Understanding-Food-Consumption-Patterns:-Weights,-Probabilities,-and-Consumption-Spectra</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Understanding-Food-Consumption-Patterns-Weights,-Probabilities,-and-Consumption-Spectra/"><![CDATA[<h1 id="understanding-food-consumption-patterns-weights-probabilities-and-consumption-spectra">Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra</h1>
 
 <h2 id="1-background">1. Background</h2>
 
@@ -453,8 +587,4 @@
   <li>commit_version_to_git函数处理Git提交和版本控制。它首先读取版本文件，获取当前的版本号，然后进行版本号的递增，并进行Git的add、commit和push操作。最后，更新版本文件。</li>
 </ol>
 
-<p>总的来说，通过这个Python脚本，我们可以用一行命令就完成博客的预处理，Git提交以及版本控制，极大地提高了工作效率。不仅如此，它也为我们提供了一种方便的方式，快速分享和记录我们的知识和经验。</p>]]></content><author><name></name></author><category term="commit" /><category term="git" /><category term="blog" /><category term="version" /><category term="file" /><summary type="html"><![CDATA[#Title: Automating Blog Publication and Versioning with Python]]></summary></entry><entry><title type="html">blog any where from live-with-GPT</title><link href="https:///williampolicy.github.io/blog/2023/blog-any-where-from-live-with-GPT/" rel="alternate" type="text/html" title="blog any where from live-with-GPT" /><published>2023-06-26T00:00:00+00:00</published><updated>2023-06-26T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/blog-any-where-from-live-with-GPT</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/blog-any-where-from-live-with-GPT/"><![CDATA[<h1 id="blog-any-where-from-live-with-gpt">blog any where from live-with-GPT</h1>
-
-<p>blog any where from live-with-GPT
-kang 2023.6.26. 
- I don’t know where is the way to go . but its reaaly tough. keep working .and apply for jog.</p>]]></content><author><name></name></author><category term="blog" /><category term="blog live" /><category term="blog live gpt" /><category term="gpt" /><category term="live" /><summary type="html"><![CDATA[blog any where from live-with-GPT]]></summary></entry></feed>
+<p>总的来说，通过这个Python脚本，我们可以用一行命令就完成博客的预处理，Git提交以及版本控制，极大地提高了工作效率。不仅如此，它也为我们提供了一种方便的方式，快速分享和记录我们的知识和经验。</p>]]></content><author><name></name></author><category term="commit" /><category term="git" /><category term="blog" /><category term="version" /><category term="file" /><summary type="html"><![CDATA[#Title: Automating Blog Publication and Versioning with Python]]></summary></entry></feed>
