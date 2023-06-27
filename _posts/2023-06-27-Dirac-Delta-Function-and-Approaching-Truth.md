@@ -6,6 +6,8 @@ categories: ['function', 'approximation', 'delta', 'delta function', 'dirac']
 ---
 # Dirac Delta Function and Approaching Truth
 
+
+
 ## Dirac Delta Function: A Tool for First-Order Approximation
 
 The Dirac delta function is a crucial tool we utilize to approach complex systems. This function is particularly significant in the microscopic world, as it can depict sudden changes and transitions, acting as a connector between continuous and discrete sampling. The Dirac delta function bridges high-dimensional and low-dimensional spaces, revealing the relationships between the two. Thus, we can perceive discrete phenomena, which are frequently observed during the quantization process.
