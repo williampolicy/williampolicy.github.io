@@ -140,20 +140,20 @@
 
   <header class="post-header">
     <h1 class="post-title"></h1>
-    <p class="post-meta">June 27, 2023</p>
+    <p class="post-meta">June 28, 2023</p>
     <p class="post-tags">
       <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
         ·  
-        <a href="/blog/category/function">
+        <a href="/blog/category/x">
+          <i class="fas fa-tag fa-sm"></i> x</a>  
+          <a href="/blog/category/function">
           <i class="fas fa-tag fa-sm"></i> function</a>  
-          <a href="/blog/category/approximation">
-          <i class="fas fa-tag fa-sm"></i> approximation</a>  
-          <a href="/blog/category/delta">
-          <i class="fas fa-tag fa-sm"></i> delta</a>  
-          <a href="/blog/category/delta-function">
-          <i class="fas fa-tag fa-sm"></i> delta function</a>  
-          <a href="/blog/category/dirac">
-          <i class="fas fa-tag fa-sm"></i> dirac</a>  
+          <a href="/blog/category/potential">
+          <i class="fas fa-tag fa-sm"></i> potential</a>  
+          <a href="/blog/category/psi">
+          <i class="fas fa-tag fa-sm"></i> psi</a>  
+          <a href="/blog/category/equation">
+          <i class="fas fa-tag fa-sm"></i> equation</a>  
           
 
     </p>
@@ -162,45 +162,87 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <h1 id="dirac-delta-function-and-approaching-truth">Dirac Delta Function and Approaching Truth</h1>
+      <p>#Quantum Physics: The Schrödinger Equation and the Delta Function Potential</p>
 
-<h2 id="dirac-delta-function-a-tool-for-first-order-approximation">Dirac Delta Function: A Tool for First-Order Approximation</h2>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Quantum</span><span class="nv"> </span><span class="s">Physics:</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">Schrödinger</span><span class="nv"> </span><span class="s">Equation</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">Delta</span><span class="nv"> </span><span class="s">Function</span><span class="nv"> </span><span class="s">Potential"</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2023-06-30</span>
+<span class="nn">---</span>
 
-<p>The Dirac delta function is a crucial tool we utilize to approach complex systems. This function is particularly significant in the microscopic world, as it can depict sudden changes and transitions, acting as a connector between continuous and discrete sampling. The Dirac delta function bridges high-dimensional and low-dimensional spaces, revealing the relationships between the two. Thus, we can perceive discrete phenomena, which are frequently observed during the quantization process.</p>
+Quantum physics provides a fascinating perspective on the behaviors of microscopic particles. At the heart of quantum physics lies the Schrödinger equation, a fundamental equation governing these behaviors. In this blog post, we will delve deeper into a simplified version of the Schrödinger equation in one-dimensional space, specifically focusing on the implications of a delta function potential well or barrier on a particle's state.
 
-<p>Although the Dirac delta function is an idealized tool, its properties of infinity and infinitesimal provide a new perspective for understanding phenomena. However, this first-order approximation may face difficulties in practical applications and numerical simulations.</p>
+The time-independent Schrödinger equation in one dimension is typically written as:
 
-<h2 id="second-order-approximation-adapting-to-reality">Second-Order Approximation: Adapting to Reality</h2>
+<span class="p">```</span><span class="nl">markdown
+</span>-<span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}<span class="se">\f</span>rac{d^2<span class="se">\p</span>si(x)}{dx^2} + V(x)<span class="se">\p</span>si(x) = E<span class="se">\p</span>si(x)
+</code></pre></div></div>
 
-<p>Faced with the challenges of practical applications, we often need to adopt more practical second-order approximation methods, such as using Gaussian functions or Cauchy distribution functions to simulate the Dirac delta function. While this practice may sacrifice some degree of truth purity, it enables more convenient numerical simulation and theoretical analysis.</p>
+<p>where <code class="language-plaintext highlighter-rouge">\hbar</code> is the reduced Planck constant, <code class="language-plaintext highlighter-rouge">m</code> is the particle’s mass, <code class="language-plaintext highlighter-rouge">\psi(x)</code> is the wave function describing the particle’s state at position <code class="language-plaintext highlighter-rouge">x</code>, <code class="language-plaintext highlighter-rouge">V(x)</code> is the potential energy function, and <code class="language-plaintext highlighter-rouge">E</code> is the total energy of the system.</p>
 
-<p>This second-order approximation method allows us to see the underlying structure more clearly and facilitates practical operations. With specific numerical simulations and functions, we can quantify infinity and infinitesimal, and carry out grading and hierarchical treatment of them, which is of vital significance for our understanding and simulation of real-world problems.</p>
+<p>In scenarios where the particle experiences a sudden change in potential, such as an energy barrier or well, the potential energy function <code class="language-plaintext highlighter-rouge">V(x)</code> is often modeled using a delta function. In this context, <code class="language-plaintext highlighter-rouge">V(x)</code> is defined as <code class="language-plaintext highlighter-rouge">V(x) = V_0\delta(x)</code>, where <code class="language-plaintext highlighter-rouge">V_0</code> is the strength of the potential.</p>
 
-<h2 id="grading-issue-of-infinity-and-infinitesimal">Grading Issue of Infinity and Infinitesimal</h2>
+<p>In the presence of a delta function potential, the original Schrödinger equation splits into two independent equations describing the particle’s behavior for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
 
-<p>In this process, we noticed that infinity and infinitesimal are not simple concepts. Infinity and infinitesimal actually exist at different levels, which is determined by comparing their behaviors. This treatment allows us to grade and hierarchically process infinity and infinitesimal.</p>
+<p>For <code class="language-plaintext highlighter-rouge">x&lt;0</code>:</p>
 
-<h2 id="conclusion">Conclusion</h2>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}<span class="se">\f</span>rac{d^2<span class="se">\p</span>si(x)}{dx^2} = E<span class="se">\p</span>si(x)
+</code></pre></div></div>
 
-<p>Whether it’s the first-order approximation of the Dirac delta function or the more practical second-order approximation method, we are approaching the complex, profound real world in our own ways. In the pursuit of scientific truth, we often need to strike a balance between theoretical rigor and practicality. That’s the essence of science.</p>
+<p>For <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
 
-<p>#狄拉克函数与逼近真相</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}<span class="se">\f</span>rac{d^2<span class="se">\p</span>si(x)}{dx^2} = E<span class="se">\p</span>si(x)
+</code></pre></div></div>
 
-<p>##狄拉克函数：一级逼近的工具
-狄拉克函数是我们用来逼近复杂系统的一个重要工具。这个函数在微观世界中尤其重要，因为它可以描述突变和跃变，是连续和离散采样的连通器。狄拉克函数把高维度空间和低维度空间连通起来，揭示了这两个空间之间的关系。因此，我们可以看到离散的现象，这是我们在量子化过程中经常会看到的。</p>
+<p>Even though the Schrödinger equation maintains the same form for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>, the introduction of a delta function potential at <code class="language-plaintext highlighter-rouge">x=0</code> leads to a discontinuity in the first derivative of the wave function. The discontinuity can be described by:</p>
 
-<p>尽管狄拉克函数是一种理想化的工具，其无穷大和无穷小的性质为我们理解现象提供了新的视角，但在实际的应用和数值模拟中，这种一级逼近可能存在困难。</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}(<span class="se">\p</span>si'(0^+)-<span class="se">\p</span>si'(0^-)) = V_0<span class="se">\p</span>si(0)
+</code></pre></div></div>
 
-<p>##二级逼近：适应现实的方法
-面对实际应用的挑战，我们往往需要采用更加实用的二级逼近方法，例如使用高斯函数或Cauchy分布函数等来模拟狄拉克函数。这种做法虽然会牺牲一部分真相纯度，但却能使我们能够更方便地进行数值模拟和理论分析。</p>
+<p>This example illustrates the use of a delta function to simulate a sudden potential in the context of the Schrödinger equation. By solving the aforementioned equations, we can gain insights into the quantum mechanical behavior of particles in the presence of abrupt potential changes.</p>
 
-<p>这种二级逼近方法让我们可以更加清楚地看到背后的结构，也方便我们进行实际操作。通过具体的数值模拟和函数，我们能够量化无穷大和无穷小，对它们进行分级和层次化的处理，这对我们理解和模拟现实问题有重要的意义。</p>
+<p>Through this deep-dive into the Schrödinger equation and the implications of a delta function potential, we hope to shed some light on the intricacies of quantum physics and inspire further exploration into this fascinating field.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 
-<p>##无穷大和无穷小的分级问题
-在这个过程中，我们注意到无穷大和无穷小并非简单的概念。无穷大和无穷小实际上存在不同的级别，这是通过比较它们的行为来确定的。这样的处理方式，使得我们能够对无穷大和无穷小进行分级和分层次的处理。</p>
 
-<p>##总结
-无论是狄拉克函数的一级逼近，还是更实用的二级逼近方法，我们都在用自己的方式去逼近这个复杂、深奥的真实世界。在追求科学真相的过程中，我们经常需要在理论的严谨性和实用性之间做出权衡，这就是科学的本质。</p>
+对不起给你带来的困扰。我理解你需要的是一个完整的`.md`文件格式的博客文章。这里是整个文章的`.md`文件格式：
+
+```markdown
+# Quantum Physics: The Schrödinger Equation and the Delta Function Potential
+
+Quantum physics provides a fascinating perspective on the behaviors of microscopic particles. At the heart of quantum physics lies the Schrödinger equation, a fundamental equation governing these behaviors. In this blog post, we will delve deeper into a simplified version of the Schrödinger equation in one-dimensional space, specifically focusing on the implications of a delta function potential well or barrier on a particle's state.
+
+The time-independent Schrödinger equation in one dimension is typically written as:
+
+```latex
+-\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
+</code></pre></div></div>
+
+<p>where <code class="language-plaintext highlighter-rouge">\hbar</code> is the reduced Planck constant, <code class="language-plaintext highlighter-rouge">m</code> is the particle’s mass, <code class="language-plaintext highlighter-rouge">\psi(x)</code> is the wave function describing the particle’s state at position <code class="language-plaintext highlighter-rouge">x</code>, <code class="language-plaintext highlighter-rouge">V(x)</code> is the potential energy function, and <code class="language-plaintext highlighter-rouge">E</code> is the total energy of the system.</p>
+
+<p>In scenarios where the particle experiences a sudden change in potential, such as an energy barrier or well, the potential energy function <code class="language-plaintext highlighter-rouge">V(x)</code> is often modeled using a delta function. In this context, <code class="language-plaintext highlighter-rouge">V(x)</code> is defined as <code class="language-plaintext highlighter-rouge">V(x) = V_0\delta(x)</code>, where <code class="language-plaintext highlighter-rouge">V_0</code> is the strength of the potential.</p>
+
+<p>In the presence of a delta function potential, the original Schrödinger equation splits into two independent equations describing the particle’s behavior for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
+
+<p>For <code class="language-plaintext highlighter-rouge">x&lt;0</code>:</p>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="k">\frac</span><span class="p">{</span><span class="k">\hbar</span><span class="p">^</span>2<span class="p">}{</span>2m<span class="p">}</span><span class="k">\frac</span><span class="p">{</span>d<span class="p">^</span>2<span class="k">\psi</span>(x)<span class="p">}{</span>dx<span class="p">^</span>2<span class="p">}</span> = E<span class="k">\psi</span>(x)
+</code></pre></div></div>
+
+<p>For <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="k">\frac</span><span class="p">{</span><span class="k">\hbar</span><span class="p">^</span>2<span class="p">}{</span>2m<span class="p">}</span><span class="k">\frac</span><span class="p">{</span>d<span class="p">^</span>2<span class="k">\psi</span>(x)<span class="p">}{</span>dx<span class="p">^</span>2<span class="p">}</span> = E<span class="k">\psi</span>(x)
+</code></pre></div></div>
+
+<p>Even though the Schrödinger equation maintains the same form for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>, the introduction of a delta function potential at <code class="language-plaintext highlighter-rouge">x=0</code> leads to a discontinuity in the first derivative of the wave function. The discontinuity can be described by:</p>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\frac</span><span class="p">{</span><span class="k">\hbar</span><span class="p">^</span>2<span class="p">}{</span>2m<span class="p">}</span>(<span class="k">\psi</span>'(0<span class="p">^</span>+)-<span class="k">\psi</span>'(0<span class="p">^</span>-)) = V<span class="p">_</span>0<span class="k">\psi</span>(0)
+</code></pre></div></div>
+
+<p>This example illustrates the use of a delta function to simulate a sudden potential in the context of the Schrödinger equation. By solving the aforementioned equations, we can gain insights into the quantum mechanical behavior of particles in the presence of abrupt potential changes.</p>
+
+<p>Through this deep-dive into the Schrödinger equation and the implications of a delta function potential, we hope to shed some light on the intricacies of quantum physics and inspire further exploration into this fascinating field.
+```</p>
+
 
     </div>
   </article>
