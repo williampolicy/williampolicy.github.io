@@ -46,9 +46,6 @@ Through this deep-dive into the Schrödinger equation and the implications of a 
 ```
 
 
-
-对不起给你带来的困扰。我理解你需要的是一个完整的`.md`文件格式的博客文章。这里是整个文章的`.md`文件格式：
-
 ```markdown
 # Quantum Physics: The Schrödinger Equation and the Delta Function Potential
 
