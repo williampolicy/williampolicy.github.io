@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-27T21:48:09+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-27T21:48:09+00:00</published><updated>2023-06-27T21:48:09+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-28T01:40:58+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-28T01:40:58+00:00</published><updated>2023-06-28T01:40:58+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
 
 <h2 id="setting-up-api-requests">Setting Up API Requests</h2>
 <p>We first created a function in Swift to set up the API request. This function takes an input prompt and sends it to the OpenAI API to generate GPT-3 output. We used the <code class="language-plaintext highlighter-rouge">URLSession.shared.dataTask(with:completionHandler:)</code> function to send the request and <code class="language-plaintext highlighter-rouge">JSONSerialization</code> to convert the returned data into a JSON format we can handle.</p>
@@ -222,7 +222,79 @@
 在这个过程中，我们注意到无穷大和无穷小并非简单的概念。无穷大和无穷小实际上存在不同的级别，这是通过比较它们的行为来确定的。这样的处理方式，使得我们能够对无穷大和无穷小进行分级和分层次的处理。</p>
 
 <p>##总结
-无论是狄拉克函数的一级逼近，还是更实用的二级逼近方法，我们都在用自己的方式去逼近这个复杂、深奥的真实世界。在追求科学真相的过程中，我们经常需要在理论的严谨性和实用性之间做出权衡，这就是科学的本质。</p>]]></content><author><name></name></author><category term="function" /><category term="approximation" /><category term="delta" /><category term="delta function" /><category term="dirac" /><summary type="html"><![CDATA[Dirac Delta Function and Approaching Truth]]></summary></entry><entry><title type="html">Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum</title><link href="https:///williampolicy.github.io/blog/2023/Mathematical-Principles-of-Philosophy-A-Case-Study-on-Food-Attraction-Spectrum/" rel="alternate" type="text/html" title="Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum" /><published>2023-06-27T00:00:00+00:00</published><updated>2023-06-27T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Mathematical-Principles-of-Philosophy:-A-Case-Study-on-Food-Attraction-Spectrum</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Mathematical-Principles-of-Philosophy-A-Case-Study-on-Food-Attraction-Spectrum/"><![CDATA[<h1 id="mathematical-principles-of-philosophy-a-case-study-on-food-attraction-spectrum">Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum</h1>
+无论是狄拉克函数的一级逼近，还是更实用的二级逼近方法，我们都在用自己的方式去逼近这个复杂、深奥的真实世界。在追求科学真相的过程中，我们经常需要在理论的严谨性和实用性之间做出权衡，这就是科学的本质。</p>]]></content><author><name></name></author><category term="function" /><category term="approximation" /><category term="delta" /><category term="delta function" /><category term="dirac" /><summary type="html"><![CDATA[Dirac Delta Function and Approaching Truth]]></summary></entry><entry><title type="html">Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database</title><link href="https:///williampolicy.github.io/blog/2023/Managing-Supply-and-Demand-in-a-Dairy-Retail-Business-A-Practical-Guide-to-Python-and-SQLite-Database/" rel="alternate" type="text/html" title="Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database" /><published>2023-06-27T00:00:00+00:00</published><updated>2023-06-27T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Managing-Supply-and-Demand-in-a-Dairy-Retail-Business:-A-Practical-Guide-to-Python-and-SQLite-Database</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Managing-Supply-and-Demand-in-a-Dairy-Retail-Business-A-Practical-Guide-to-Python-and-SQLite-Database/"><![CDATA[<h1 id="managing-supply-and-demand-in-a-dairy-retail-business-a-practical-guide-to-python-and-sqlite-database">Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>In the data-driven world we live in today, databases stand out as some of the most vital tools for storing and managing data. However, using a database correctly and efficiently may require certain skills and knowledge. In this article, we explore how to interact with SQLite databases using Python, tackling a specific problem: managing a family’s consumption and stock of dairy products. The Python libraries we will make use of include <code class="language-plaintext highlighter-rouge">sqlite3</code> and <code class="language-plaintext highlighter-rouge">pandas</code>.</p>
+
+<h2 id="database-design-and-table-initialization">Database Design and Table Initialization</h2>
+
+<p>We start by creating an SQLite database and designing a series of tables to suit our needs. These tables include:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">T1_Family_Consumption</code> which logs the dairy products consumed by the family;</li>
+  <li><code class="language-plaintext highlighter-rouge">T2_Dairy_Products</code> that keeps track of inventory;</li>
+  <li><code class="language-plaintext highlighter-rouge">T7_Check_Inventory</code>, a trigger for checking inventory;</li>
+  <li><code class="language-plaintext highlighter-rouge">T8_Check_Current_Price</code> that records current price information.</li>
+</ul>
+
+<p>Having designed these tables, we generate some initial data to kick-start our system. There are two functions, <code class="language-plaintext highlighter-rouge">initialize_consumption()</code> and <code class="language-plaintext highlighter-rouge">initialize_products()</code>, meant for initializing some data at the onset.</p>
+
+<h2 id="database-operations-and-error-handling">Database Operations and Error Handling</h2>
+
+<p>Next, we delve into how to operate these tables, including updating consumption, inventory, price information, creating and invoking triggers, and operating the database using Python.</p>
+
+<p>In the course of operating the database, we encounter some issues, like the <code class="language-plaintext highlighter-rouge">UnboundLocalError</code>, a common error typically caused by not initializing variables correctly before using them. To resolve such problems, an understanding of Python’s namespace and scope, and careful examination of the code to ensure all variables are correctly initialized, is required.</p>
+
+<h2 id="technical-tips">Technical Tips</h2>
+
+<ul>
+  <li>When working with SQLite databases, Python’s <code class="language-plaintext highlighter-rouge">sqlite3</code> library offers a convenient way to handle database queries and operations. However, it’s important to remember to call the <code class="language-plaintext highlighter-rouge">commit()</code> method to save changes after operations are completed.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">read_sql_query()</code> function from the pandas library is another useful tool for handling SQLite databases. It enables you to transform the results of SQL queries into DataFrames, simplifying subsequent data processing and analysis.</li>
+  <li>In database design, different tables should have clear responsibilities, and their relationships should be correctly set. This can be achieved with tools like foreign keys, indexes, and other database design tools.</li>
+  <li>While operating the database using Python, make sure to correctly handle errors and exceptions. For instance, an <code class="language-plaintext highlighter-rouge">UnboundLocalError</code> typically means a variable was used before being correctly initialized. In such cases, carefully checking the code to ensure all variables are correctly initialized is important.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Although this article only scratches the surface of how to interact with SQLite databases using Python, we hope it imparts deeper knowledge about database design, the use of triggers, error handling, etc. We look forward to delivering more complex topics in future articles.</p>
+
+<h2 id="开篇">开篇</h2>
+
+<p>在数据驱动的现代世界，数据库是最重要的存储和管理数据的工具之一。然而，正确并有效地使用数据库可能需要具备一定的技能和知识。本文我们将探讨如何通过Python操作SQLite数据库，以处理某家庭奶制品消费和库存管理的问题。我们将使用的Python库包括<code class="language-plaintext highlighter-rouge">sqlite3</code>和<code class="language-plaintext highlighter-rouge">pandas</code>。</p>
+
+<h2 id="数据库设计和数据表初始化">数据库设计和数据表初始化</h2>
+
+<p>我们首先创建了一个SQLite数据库，设计了一系列数据表以适应我们的需求。这些表包括：</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">T1_Family_Consumption</code>记录家庭消费的奶制品信息；</li>
+  <li><code class="language-plaintext highlighter-rouge">T2_Dairy_Products</code>记录库存信息；</li>
+  <li><code class="language-plaintext highlighter-rouge">T7_Check_Inventory</code>检查库存的触发器；</li>
+  <li><code class="language-plaintext highlighter-rouge">T8_Check_Current_Price</code>记录当前价格信息。</li>
+</ul>
+
+<p>在设计了这些表后，我们创建了一些初始数据以启动我们的系统。其中有两个函数：<code class="language-plaintext highlighter-rouge">initialize_consumption()</code> 和 <code class="language-plaintext highlighter-rouge">initialize_products()</code> 是用于在开始时初始化一些数据。</p>
+
+<h2 id="数据库操作和错误处理">数据库操作和错误处理</h2>
+
+<p>然后我们深入探讨了如何操作这些表，包括更新消费，库存，价格等信息，创建和调用触发器，以及使用Python操作数据库。</p>
+
+<p>在操作数据库的过程中，我们遇到了一些问题，比如<code class="language-plaintext highlighter-rouge">UnboundLocalError</code>，这个错误通常是由于在使用变量前没有正确的初始化它们。解决这类问题需要理解Python的命名空间和作用域，以及仔细检查代码以确保所有的变量都已正确地初始化。</p>
+
+<h2 id="技术提示-tips">技术提示 (Tips)</h2>
+
+<ul>
+  <li>使用SQLite数据库时，Python的<code class="language-plaintext highlighter-rouge">sqlite3</code>库提供了一种方便的方式来处理数据库的查询和操作。然而，需要注意的是，当在Python中执行SQL命令时，一定要记住在操作结束后调用<code class="language-plaintext highlighter-rouge">commit()</code>方法以保存更改。</li>
+  <li>在处理SQLite数据库时，Pandas库的<code class="language-plaintext highlighter-rouge">read_sql_query()</code>函数也是一个很有用的工具，它可以将SQL查询的结果转化为DataFrame，这使得后续的数据处理和分析更为简便。</li>
+  <li>在设计数据库时，不同的表应该有清晰的职责，并且它们之间的关系应该被正确地设置。这可以通过外键，索引等数据库设计的工具来实现。</li>
+  <li>使用Python操作数据库时，要注意正确处理错误和异常。例如，如果遇到<code class="language-plaintext highlighter-rouge">UnboundLocalError</code>，通常是由于在使用变量前没有正确的初始化它们。在这种情况下，应仔细检查代码以确保所有的变量都已正确地初始化。</li>
+</ul>
+
+<h2 id="结束">结束</h2>
+
+<p>尽管本文只是简单地探讨了如何通过Python操作SQLite数据库，但希望通过本文，你可以了解到更为深入的知识，如数据库设计，触发器的使用，错误处理等。</p>]]></content><author><name></name></author><category term="python" /><category term="sqlite" /><category term="database" /><category term="correctly" /><category term="consumption" /><summary type="html"><![CDATA[Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database]]></summary></entry><entry><title type="html">Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum</title><link href="https:///williampolicy.github.io/blog/2023/Mathematical-Principles-of-Philosophy-A-Case-Study-on-Food-Attraction-Spectrum/" rel="alternate" type="text/html" title="Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum" /><published>2023-06-27T00:00:00+00:00</published><updated>2023-06-27T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Mathematical-Principles-of-Philosophy:-A-Case-Study-on-Food-Attraction-Spectrum</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Mathematical-Principles-of-Philosophy-A-Case-Study-on-Food-Attraction-Spectrum/"><![CDATA[<h1 id="mathematical-principles-of-philosophy-a-case-study-on-food-attraction-spectrum">Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum</h1>
 
 <h2 id="1-background">1. Background</h2>
 
@@ -720,33 +792,4 @@ p_tomato(t) = 0.5 * (1 + cos(2πt))
 
 <p>祝你使用愉快！</p>
 
-<p><em>注：该文章仅用于教学目的，实际的版本控制应用场景通常会使用更成熟的工具，如 Git。</em></p>]]></content><author><name></name></author><category term="version" /><category term="python" /><category term="control" /><category term="version control" /><category term="py" /><summary type="html"><![CDATA[Creating Custom Version Control Tool with Python]]></summary></entry><entry><title type="html">Streamlining PyPi Package Release with Automation and Version Control</title><link href="https:///williampolicy.github.io/blog/2023/Streamlining-PyPi-Package-Release-with-Automation-and-Version-Control/" rel="alternate" type="text/html" title="Streamlining PyPi Package Release with Automation and Version Control" /><published>2023-06-26T00:00:00+00:00</published><updated>2023-06-26T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Streamlining-PyPi-Package-Release-with-Automation-and-Version-Control</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Streamlining-PyPi-Package-Release-with-Automation-and-Version-Control/"><![CDATA[<h1 id="streamlining-pypi-package-release-with-automation-and-version-control">Streamlining PyPi Package Release with Automation and Version Control</h1>
-
-<p>As developers, we often build packages that help others in our community solve complex problems. Sharing these packages on platforms like PyPi allows users worldwide to access, download, and benefit from our creations. However, managing the versioning, building, and releasing of a package can sometimes be a cumbersome process.</p>
-
-<p>To enhance the efficiency and accuracy of this process, we have devised a Python-based solution that automates the lifecycle of a PyPi package. This solution focuses on three key stages: versioning, building, and releasing.</p>
-
-<ol>
-  <li>
-    <p><strong>Versioning</strong>: The script automates the versioning process by maintaining a version.txt file. Each new version number is appended to this file, along with the timestamp, aiding in version tracking.</p>
-  </li>
-  <li>
-    <p><strong>Building</strong>: The script leverages Python’s setuptools and wheel to build the package. The ‘setup.py’ file, which contains necessary metadata, is automatically updated with each version release.</p>
-  </li>
-  <li>
-    <p><strong>Releasing</strong>: The script uses twine to upload the package to PyPi. Twine is a utility that enables you to publish Python packages over PyPi securely.</p>
-  </li>
-</ol>
-
-<p>An additional feature of this automation solution is the inclusion of a command-line interface. Users can execute a single command that automates the entire lifecycle of the package.</p>
-
-<p>Here’s an overview of the workflow:</p>
-
-<ol>
-  <li>The argparse module is used to handle command-line arguments, which includes the package name.</li>
-  <li>The version number is automatically incremented and updated in the ‘setup.py’ file and the ‘version.txt’ file.</li>
-  <li>The script then removes old distributions and builds new ones using setuptools and wheel.</li>
-  <li>Finally, the newly built distribution is uploaded to PyPi using twine.</li>
-</ol>
-
-<p>In conclusion, this Python script significantly simplifies the management and release of PyPi packages. By automating version control, package building, and releasing, it not only saves time but also minimizes the chances of manual error. This solution is especially useful for developers who regularly maintain and release Python packages on PyPi.</p>]]></content><author><name></name></author><category term="package" /><category term="pypi" /><category term="version" /><category term="file" /><category term="packages" /><summary type="html"><![CDATA[Streamlining PyPi Package Release with Automation and Version Control]]></summary></entry></feed>
+<p><em>注：该文章仅用于教学目的，实际的版本控制应用场景通常会使用更成熟的工具，如 Git。</em></p>]]></content><author><name></name></author><category term="version" /><category term="python" /><category term="control" /><category term="version control" /><category term="py" /><summary type="html"><![CDATA[Creating Custom Version Control Tool with Python]]></summary></entry></feed>

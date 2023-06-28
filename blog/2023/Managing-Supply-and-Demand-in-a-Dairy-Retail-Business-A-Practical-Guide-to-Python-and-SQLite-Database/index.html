@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra | XIAOWEN  Kang</title>
+    <title>Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database | XIAOWEN  Kang</title>
     <meta name="author" content="XIAOWEN  Kang">
     <meta name="description" content="I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -39,7 +39,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https:///williampolicy.github.io/blog/2023/Understanding-Food-Consumption-Patterns-Weights,-Probabilities,-and-Consumption-Spectra/">
+    <link rel="canonical" href="https:///williampolicy.github.io/blog/2023/Managing-Supply-and-Demand-in-a-Dairy-Retail-Business-A-Practical-Guide-to-Python-and-SQLite-Database/">
 
     <!-- Dark Mode -->
     
@@ -139,21 +139,21 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra</h1>
+    <h1 class="post-title">Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database</h1>
     <p class="post-meta">June 27, 2023</p>
     <p class="post-tags">
       <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
         ·  
-        <a href="/blog/category/c">
-          <i class="fas fa-tag fa-sm"></i> c</a>  
-          <a href="/blog/category/p">
-          <i class="fas fa-tag fa-sm"></i> p</a>  
-          <a href="/blog/category/w">
-          <i class="fas fa-tag fa-sm"></i> w</a>  
-          <a href="/blog/category/food">
-          <i class="fas fa-tag fa-sm"></i> food</a>  
-          <a href="/blog/category/x">
-          <i class="fas fa-tag fa-sm"></i> x</a>  
+        <a href="/blog/category/python">
+          <i class="fas fa-tag fa-sm"></i> python</a>  
+          <a href="/blog/category/sqlite">
+          <i class="fas fa-tag fa-sm"></i> sqlite</a>  
+          <a href="/blog/category/database">
+          <i class="fas fa-tag fa-sm"></i> database</a>  
+          <a href="/blog/category/correctly">
+          <i class="fas fa-tag fa-sm"></i> correctly</a>  
+          <a href="/blog/category/consumption">
+          <i class="fas fa-tag fa-sm"></i> consumption</a>  
           
 
     </p>
@@ -162,87 +162,88 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <h1 id="understanding-food-consumption-patterns-weights-probabilities-and-consumption-spectra">Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra</h1>
+      <h1 id="managing-supply-and-demand-in-a-dairy-retail-business-a-practical-guide-to-python-and-sqlite-database">Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database</h1>
 
-<h2 id="1-background">1. Background</h2>
+<h2 id="introduction">Introduction</h2>
 
-<p>In this study, we analyze food consumption patterns, more specifically, we delve into the weights and probabilities of food items, ultimately arriving at a food consumption spectrum. This problem can be considered both in discrete and continuous forms.</p>
+<p>In the data-driven world we live in today, databases stand out as some of the most vital tools for storing and managing data. However, using a database correctly and efficiently may require certain skills and knowledge. In this article, we explore how to interact with SQLite databases using Python, tackling a specific problem: managing a family’s consumption and stock of dairy products. The Python libraries we will make use of include <code class="language-plaintext highlighter-rouge">sqlite3</code> and <code class="language-plaintext highlighter-rouge">pandas</code>.</p>
 
-<h2 id="2-methodology">2. Methodology</h2>
+<h2 id="database-design-and-table-initialization">Database Design and Table Initialization</h2>
 
-<p>Our method isn’t solely reliant on the perspective of neural networks. We can view the weights and probabilities of food items as independent variables, and then compute their Hadamard product (i.e., element-wise multiplication) to obtain the food consumption spectrum.</p>
+<p>We start by creating an SQLite database and designing a series of tables to suit our needs. These tables include:</p>
 
-<h2 id="3-mathematical-description">3. Mathematical Description</h2>
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">T1_Family_Consumption</code> which logs the dairy products consumed by the family;</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">T2_Dairy_Products</code> that keeps track of inventory;</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">T7_Check_Inventory</code>, a trigger for checking inventory;</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">T8_Check_Current_Price</code> that records current price information.</li>
+</ul>
 
-<p>In discrete form, we have n food items, each food item i has a weight <code class="language-plaintext highlighter-rouge">$w_i$</code> and a probability <code class="language-plaintext highlighter-rouge">$p_i$</code>. Hence, the food consumption spectrum <code class="language-plaintext highlighter-rouge">$c_i$</code> can be expressed as:</p>
+<p>Having designed these tables, we generate some initial data to kick-start our system. There are two functions, <code class="language-plaintext highlighter-rouge">initialize_consumption()</code> and <code class="language-plaintext highlighter-rouge">initialize_products()</code>, meant for initializing some data at the onset.</p>
 
-<pre><code class="language-math">c_i = w_i \cdot p_i, \quad i=1, 2, ..., n.
-</code></pre>
+<h2 id="database-operations-and-error-handling">Database Operations and Error Handling</h2>
 
-<p>In continuous form, we consider the weights and probabilities of food items as functions <code class="language-plaintext highlighter-rouge">$w(x)$</code> and <code class="language-plaintext highlighter-rouge">$p(x)$</code> defined over some interval, and then compute the food consumption spectrum <code class="language-plaintext highlighter-rouge">$c(x)$</code>:</p>
+<p>Next, we delve into how to operate these tables, including updating consumption, inventory, price information, creating and invoking triggers, and operating the database using Python.</p>
 
-<pre><code class="language-math">c(x) = w(x) \cdot p(x), \quad x \in [a, b].
-</code></pre>
+<p>In the course of operating the database, we encounter some issues, like the <code class="language-plaintext highlighter-rouge">UnboundLocalError</code>, a common error typically caused by not initializing variables correctly before using them. To resolve such problems, an understanding of Python’s namespace and scope, and careful examination of the code to ensure all variables are correctly initialized, is required.</p>
 
-<h2 id="4-example">4. Example</h2>
+<h2 id="technical-tips">Technical Tips</h2>
 
-<p>For instance, we have three food items, with weights <code class="language-plaintext highlighter-rouge">$w_1 = 0.5, w_2 = 0.3, w_3 = 0.2$</code> and probabilities <code class="language-plaintext highlighter-rouge">$p_1 = 0.4, p_2 = 0.5, p_3 = 0.1$</code> respectively. Hence, the food consumption spectrum for these food items are <code class="language-plaintext highlighter-rouge">$c_1 = 0.5 \cdot 0.4 = 0.2, c_2 = 0.3 \cdot 0.5 = 0.15, c_3 = 0.2 \cdot 0.1 = 0.02$</code>.</p>
+<ul>
+  <li>When working with SQLite databases, Python’s <code class="language-plaintext highlighter-rouge">sqlite3</code> library offers a convenient way to handle database queries and operations. However, it’s important to remember to call the <code class="language-plaintext highlighter-rouge">commit()</code> method to save changes after operations are completed.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">read_sql_query()</code> function from the pandas library is another useful tool for handling SQLite databases. It enables you to transform the results of SQL queries into DataFrames, simplifying subsequent data processing and analysis.</li>
+  <li>In database design, different tables should have clear responsibilities, and their relationships should be correctly set. This can be achieved with tools like foreign keys, indexes, and other database design tools.</li>
+  <li>While operating the database using Python, make sure to correctly handle errors and exceptions. For instance, an <code class="language-plaintext highlighter-rouge">UnboundLocalError</code> typically means a variable was used before being correctly initialized. In such cases, carefully checking the code to ensure all variables are correctly initialized is important.</li>
+</ul>
 
-<p>We can compute these using the following Python code:</p>
+<h2 id="conclusion">Conclusion</h2>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">w</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">]</span>
-<span class="n">p</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">]</span>
+<p>Although this article only scratches the surface of how to interact with SQLite databases using Python, we hope it imparts deeper knowledge about database design, the use of triggers, error handling, etc. We look forward to delivering more complex topics in future articles.</p>
 
-<span class="n">c</span> <span class="o">=</span> <span class="p">[</span><span class="n">wi</span><span class="o">*</span><span class="n">pi</span> <span class="k">for</span> <span class="n">wi</span><span class="p">,</span> <span class="n">pi</span> <span class="ow">in</span> <span class="nf">zip</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">p</span><span class="p">)]</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>  <span class="c1"># prints: [0.2, 0.15, 0.02]
-</span></code></pre></div></div>
+<h2 id="开篇">开篇</h2>
 
-<h2 id="5-conclusion">5. Conclusion</h2>
+<p>在数据驱动的现代世界，数据库是最重要的存储和管理数据的工具之一。然而，正确并有效地使用数据库可能需要具备一定的技能和知识。本文我们将探讨如何通过Python操作SQLite数据库，以处理某家庭奶制品消费和库存管理的问题。我们将使用的Python库包括<code class="language-plaintext highlighter-rouge">sqlite3</code>和<code class="language-plaintext highlighter-rouge">pandas</code>。</p>
 
-<p>Through the analysis of food weights and probabilities, we have arrived at a food consumption spectrum. Leveraging these independent variables, we’ve gained a fresh perspective on analyzing and understanding food consumption patterns.</p>
+<h2 id="数据库设计和数据表初始化">数据库设计和数据表初始化</h2>
 
-<hr>
+<p>我们首先创建了一个SQLite数据库，设计了一系列数据表以适应我们的需求。这些表包括：</p>
 
-<h1 id="理解食物消费模式权重概率和消费谱">理解食物消费模式：权重，概率和消费谱</h1>
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">T1_Family_Consumption</code>记录家庭消费的奶制品信息；</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">T2_Dairy_Products</code>记录库存信息；</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">T7_Check_Inventory</code>检查库存的触发器；</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">T8_Check_Current_Price</code>记录当前价格信息。</li>
+</ul>
 
-<h2 id="1-背景">1. 背景</h2>
+<p>在设计了这些表后，我们创建了一些初始数据以启动我们的系统。其中有两个函数：<code class="language-plaintext highlighter-rouge">initialize_consumption()</code> 和 <code class="language-plaintext highlighter-rouge">initialize_products()</code> 是用于在开始时初始化一些数据。</p>
 
-<p>在这个项目中，我们研究了食物消费模式，具体来说，我们分析了食物的权重和概率，最后得到了食物消费谱。这个问题可以通过离散和连续两种方式来考虑。</p>
+<h2 id="数据库操作和错误处理">数据库操作和错误处理</h2>
 
-<h2 id="2-方法">2. 方法</h2>
+<p>然后我们深入探讨了如何操作这些表，包括更新消费，库存，价格等信息，创建和调用触发器，以及使用Python操作数据库。</p>
 
-<p>我们的方法不仅限于神经网络的视角，我们可以将食物的权重和概率看作是独立的变量，然后通过计算它们的哈达玛积（Hadamard product，即逐元素相乘）来得到食物消费谱。</p>
+<p>在操作数据库的过程中，我们遇到了一些问题，比如<code class="language-plaintext highlighter-rouge">UnboundLocalError</code>，这个错误通常是由于在使用变量前没有正确的初始化它们。解决这类问题需要理解Python的命名空间和作用域，以及仔细检查代码以确保所有的变量都已正确地初始化。</p>
 
-<h2 id="3-数学描述">3. 数学描述</h2>
+<h2 id="技术提示-tips">技术提示 (Tips)</h2>
 
-<p>在离散形式下，我们有n种食物，每种食物i有一个权重<code class="language-plaintext highlighter-rouge">$w_i$</code>和一个概率<code class="language-plaintext highlighter-rouge">$p_i$</code>，那么食物消费谱<code class="language-plaintext highlighter-rouge">$c_i$</code>可以表示为:</p>
+<ul>
+  <li>使用SQLite数据库时，Python的<code class="language-plaintext highlighter-rouge">sqlite3</code>库提供了一种方便的方式来处理数据库的查询和操作。然而，需要注意的是，当在Python中执行SQL命令时，一定要记住在操作结束后调用<code class="language-plaintext highlighter-rouge">commit()</code>方法以保存更改。</li>
+  <li>在处理SQLite数据库时，Pandas库的<code class="language-plaintext highlighter-rouge">read_sql_query()</code>函数也是一个很有用的工具，它可以将SQL查询的结果转化为DataFrame，这使得后续的数据处理和分析更为简便。</li>
+  <li>在设计数据库时，不同的表应该有清晰的职责，并且它们之间的关系应该被正确地设置。这可以通过外键，索引等数据库设计的工具来实现。</li>
+  <li>使用Python操作数据库时，要注意正确处理错误和异常。例如，如果遇到<code class="language-plaintext highlighter-rouge">UnboundLocalError</code>，通常是由于在使用变量前没有正确的初始化它们。在这种情况下，应仔细检查代码以确保所有的变量都已正确地初始化。</li>
+</ul>
 
-<pre><code class="language-math">c_i = w_i \cdot p_i, \quad i=1, 2, ..., n.
-</code></pre>
+<h2 id="结束">结束</h2>
 
-<p>在连续形式下，我们将食物的权重和概率看作是定义在某个区间上的函数<code class="language-plaintext highlighter-rouge">$w(x)$</code>和<code class="language-plaintext highlighter-rouge">$p(x)$</code>，然后计算得到食物消费谱<code class="language-plaintext highlighter-rouge">$c(x)$</code>：</p>
+<p>尽管本文只是简单地探讨了如何通过Python操作SQLite数据库，但希望通过本文，你可以了解到更为深入的知识，如数据库设计，触发器的使用，错误处理等。</p>
 
-<pre><code class="language-math">c(x) = w(x) \cdot p(x), \quad x \in [a, b].
-</code></pre>
-
-<h2 id="4-案例">4. 案例</h2>
-
-<p>例如，我们有三种食物，它们的权重分别为<code class="language-plaintext highlighter-rouge">$w_1 = 0.5, w_2 = 0.3, w_3 = 0.2$</code>，概率分别为<code class="language-plaintext highlighter-rouge">$p_1 = 0.4, p_2 = 0.5, p_3 = 0.1$</code>，那么这三种食物的消费谱分别为<code class="language-plaintext highlighter-rouge">$c_1 = 0.5 \cdot 0.4 = 0.2, c_2 = 0.3 \cdot 0.5 = 0.15, c_3 = 0.2 \cdot 0.1 = 0.02$</code>。</p>
-
-<p>我们可以通过以下的Python代码来计算这个结果：</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">w</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">]</span>
-<span class="n">p</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">]</span>
-
-<span class="n">c</span> <span class="o">=</span> <span class="p">[</span><span class="n">wi</span><span class="o">*</span><span class="n">pi</span> <span class="k">for</span> <span class="n">wi</span><span class="p">,</span> <span class="n">pi</span> <span class="ow">in</span> <span class="nf">zip</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">p</span><span class="p">)]</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>  <span class="c1"># prints: [0.2, 0.15, 0.02]
-</span></code></pre></div></div>
-
-<h2 id="5-总结">5. 总结</h2>
-
-<p>通过对食物权重和概率的分析，我们得到了食物消费谱。我们利用这些独立的变量，这为我们分析和理解食物消费模式提供了一个新的视角。</p>
-
-<hr>
 
     </div>
   </article>
@@ -273,6 +274,12 @@
   
 
   <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Understanding-Food-Consumption-Patterns-Weights,-Probabilities,-and-Consumption-Spectra/">Understanding Food Consumption Patterns: Weights, Probabilities, and Consumption Spectra</a>
+  </li>
+
+  
+
+  <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Quantum-State-Analysis-A-Conceptual-Understanding-and-Computation/">Quantum State Analysis: A Conceptual Understanding and Computation</a>
   </li>
 
@@ -280,12 +287,6 @@
 
   <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Mathematical-Principles-of-Philosophy-A-Case-Study-on-Food-Attraction-Spectrum/">Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Managing-Supply-and-Demand-in-a-Dairy-Retail-Business-A-Practical-Guide-to-Python-and-SQLite-Database/">Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database</a>
   </li>
 
 </div>
