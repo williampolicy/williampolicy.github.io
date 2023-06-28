@@ -40,3 +40,4 @@ V.0.34 - kangtools_bloguploader 20230628_blog_note_Quantum-Physics-The-Schrödi
 V.0.35 - kangtools_bloguploader 20230628_blog_note_Quantum-Physics-The-Schrodinger-Equation-and-the-Delta-Function-Potential.md   ©KANG - 2023-06-28  
 V.0.36 - kangtools_bloguploader 20230628_blog_note_Quantum-Physics-The-Schrodinger-Equation-and-the-Delta-Function-Potential.md  ©KANG - 2023-06-28  
 V.0.37 - kangtools_bloguploader 20230628_blog_note_Quantum-Physics-The-Schrodinger-Equation-and-the-Delta-Function-Potential.md --delet some senctence  ©KANG - 2023-06-28  
+V.0.38 - kangtools_bloguploader 20230628_blog_note_1order_equation_and_Dirac.md   ©KANG - 2023-06-28  
