@@ -38,3 +38,4 @@ V.0.32 - kangtools_bloguploader 20230627_blog_note_A-Case-Study-on-Food-Attracti
 V.0.33 - kangtools_bloguploader 20230627_blog_note_Managing-Supply-Demand-Retail.md   ©KANG - 2023-06-27  
 V.0.34 - kangtools_bloguploader 20230628_blog_note_Quantum-Physics-The-Schrödinger-Equation-and-the-Delta-Function-Potential.md   ©KANG - 2023-06-28  
 V.0.35 - kangtools_bloguploader 20230628_blog_note_Quantum-Physics-The-Schrodinger-Equation-and-the-Delta-Function-Potential.md   ©KANG - 2023-06-28  
+V.0.36 - kangtools_bloguploader 20230628_blog_note_Quantum-Physics-The-Schrodinger-Equation-and-the-Delta-Function-Potential.md  ©KANG - 2023-06-28  
