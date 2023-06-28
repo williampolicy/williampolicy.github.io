@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mastering Gitignore in Xcode Projects.md | XIAOWEN  Kang</title>
+    <title>e | XIAOWEN  Kang</title>
     <meta name="author" content="XIAOWEN  Kang">
     <meta name="description" content="I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -39,7 +39,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https:///williampolicy.github.io/blog/2023/Mastering_Gitignore_in_Xcode_Projects/">
+    <link rel="canonical" href="https:///williampolicy.github.io/blog/category/e/">
 
     <!-- Dark Mode -->
     
@@ -134,131 +134,27 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- _layouts/post.html -->
-
-<div class="post">
+        <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Mastering Gitignore in Xcode Projects.md</h1>
-    <p class="post-meta">June 20, 2023</p>
-    <p class="post-tags">
-      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
-        ·  
-        <a href="/blog/category/tutorial">
-          <i class="fas fa-tag fa-sm"></i> tutorial</a>  
-          <a href="/blog/category/ios-development">
-          <i class="fas fa-tag fa-sm"></i> iOS development</a>  
-          <a href="/blog/category/swift">
-          <i class="fas fa-tag fa-sm"></i> Swift</a>  
-          <a href="/blog/category/swiftui">
-          <i class="fas fa-tag fa-sm"></i> SwiftUI</a>  
-          
-
-    </p>
+    <h1 class="post-title"> <i class="fas fa-tag fa-sm"></i> e </h1>
+    <p class="post-description"> an archive of posts in this category </p>
   </header>
 
-  <article class="post-content">
-    
-    <div id="markdown-content">
-      <h2 id="mastering-gitignore-for-efficient-version-control">Mastering <code class="language-plaintext highlighter-rouge">.gitignore</code> for Efficient Version Control</h2>
-
-<h3 id="introduction">Introduction</h3>
-
-<p>A key component of any project using Git for version control, the <code class="language-plaintext highlighter-rouge">.gitignore</code> file allows developers to specify which files and directories should be excluded from Git tracking. This aids in keeping repositories clean, efficient, and free from unnecessary files like build outputs, system files, or secrets that should not be publicly accessible.</p>
-
-<h3 id="understanding-the-gitignore-file">Understanding the <code class="language-plaintext highlighter-rouge">.gitignore</code> File</h3>
-
-<p>The <code class="language-plaintext highlighter-rouge">.gitignore</code> file uses specific syntax to determine which files to ignore. Each line of the file specifies a pattern. If a file or directory matches this pattern, it is ignored by Git. Here are some example patterns and their meanings:</p>
-
-<ol>
-  <li>
-<code class="language-plaintext highlighter-rouge">*.log</code> - Ignores all files with the <code class="language-plaintext highlighter-rouge">.log</code> extension.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">/tmp</code> - Ignores the <code class="language-plaintext highlighter-rouge">tmp</code> directory located in the same directory as the <code class="language-plaintext highlighter-rouge">.gitignore</code> file.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">debug/</code> - Ignores the <code class="language-plaintext highlighter-rouge">debug</code> directory.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">debug/*.log</code> - Ignores all <code class="language-plaintext highlighter-rouge">.log</code> files in the <code class="language-plaintext highlighter-rouge">debug</code> directory.</li>
-</ol>
-
-<h3 id="common-challenges-with-gitignore">Common Challenges with <code class="language-plaintext highlighter-rouge">.gitignore</code>
-</h3>
-
-<p>One common misconception about the <code class="language-plaintext highlighter-rouge">.gitignore</code> file is that adding a file to <code class="language-plaintext highlighter-rouge">.gitignore</code> will cause it to be untracked if it’s already being tracked by Git. This is not true. To untrack a file that’s currently tracked by Git, you need to manually untrack it using the <code class="language-plaintext highlighter-rouge">git rm --cached &lt;file&gt;</code> command.</p>
-
-<p>Another challenge arises when specifying the file paths. Git doesn’t recognize relative file paths in <code class="language-plaintext highlighter-rouge">.gitignore</code>. Always specify the path from the repository root.</p>
-
-<h3 id="case-study-ignoring-secretsplist-in-an-xcode-project">Case Study: Ignoring <code class="language-plaintext highlighter-rouge">Secrets.plist</code> in an XCode Project</h3>
-
-<p>Let’s look at a real-world example from our chat. We were trying to ignore a <code class="language-plaintext highlighter-rouge">Secrets.plist</code> file located in the <code class="language-plaintext highlighter-rouge">./GPT3_APP/GPT3_APP/</code> directory.</p>
-
-<p>Firstly, the entry was added in <code class="language-plaintext highlighter-rouge">.gitignore</code> as follows:</p>
-
-<pre><code class="language-gitignore"># .gitignore file
-./GPT3_APP/GPT3_APP/Secrets.plist
-</code></pre>
-
-<p>But upon running <code class="language-plaintext highlighter-rouge">git add .</code> and <code class="language-plaintext highlighter-rouge">git commit</code>, we found that <code class="language-plaintext highlighter-rouge">Secrets.plist</code> was still being tracked.</p>
-
-<p>The issue was with the use of relative file path. Git didn’t recognize <code class="language-plaintext highlighter-rouge">./</code> in the path. Upon changing the <code class="language-plaintext highlighter-rouge">.gitignore</code> file to:</p>
-
-<pre><code class="language-gitignore"># .gitignore file
-GPT3_APP/GPT3_APP/Secrets.plist
-</code></pre>
-
-<p>Git correctly ignored the <code class="language-plaintext highlighter-rouge">Secrets.plist</code> file.</p>
-
-<h3 id="conclusion">Conclusion</h3>
-
-<p>Understanding and effectively using the <code class="language-plaintext highlighter-rouge">.gitignore</code> file is a critical skill for any developer using Git for version control. It helps keep your repositories clean and prevents unnecessary files from being tracked and shared. Remember, <code class="language-plaintext highlighter-rouge">.gitignore</code> does not retroactively untrack files, and always use file paths relative to the project root.</p>
-
-<p>This case study offered a glimpse into a real-world application of <code class="language-plaintext highlighter-rouge">.gitignore</code>, highlighting how important understanding this simple, yet powerful tool is for effective version control.</p>
-
-<p>The file name of the blog as per your request would be: <code class="language-plaintext highlighter-rouge">2023-06-20-Understanding_Xcode_ProjecStructure_A_Comparative_Analysis.md</code></p>
-
+  <article>
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        
+        <tr>
+          <th scope="row">Jun 28, 2023</th>
+          <td>
+              <a class="post-link" href="/blog/2023/One-dimensional-Schrodinger-equation-and-delta-function-potential-wells-barriers/">One-dimensional Schrodinger equation and delta-function potential wells-barriers</a>
+          </td>
+        </tr>
+      
+      </table>
     </div>
   </article>
-
-
-  
-    
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
-
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"></a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/Quantum-Physics-The-Schrodinger-Equation-and-the-Delta-Function-Potential/">Quantum Physics: The Schrodinger Equation and the Delta Function Potential</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/One-dimensional-Schrodinger-equation-and-delta-function-potential-wells-barriers/">One-dimensional Schrodinger equation and delta-function potential wells-barriers</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/"></a>
-  </li>
 
 </div>
 
