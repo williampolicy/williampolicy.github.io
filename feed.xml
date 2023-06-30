@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-30T20:34:33+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-30T20:34:33+00:00</published><updated>2023-06-30T20:34:33+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-30T20:36:49+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-30T20:36:49+00:00</published><updated>2023-06-30T20:36:49+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
 
 <h2 id="setting-up-api-requests">Setting Up API Requests</h2>
 <p>We first created a function in Swift to set up the API request. This function takes an input prompt and sends it to the OpenAI API to generate GPT-3 output. We used the <code class="language-plaintext highlighter-rouge">URLSession.shared.dataTask(with:completionHandler:)</code> function to send the request and <code class="language-plaintext highlighter-rouge">JSONSerialization</code> to convert the returned data into a JSON format we can handle.</p>
@@ -98,7 +98,27 @@
 
 <p>例如，在考虑种子生长的问题时，我们可以采用一个含有非线性开关算子的微分方程模型。在这个模型中，非线性开关算子能够描述种子由休眠状态向发芽状态的转变，这个转变由环境温度触发。选择适当的非线性开关函数，我们可以精确地模拟这个生物过程。</p>
 
-<p>总的来说，无论我们是在研究自然科学的问题，还是在处理社会科学的问题，都可以采用算子结构来建立有效的数学模型。通过对这些模型的深入研究，我们可以获得对复杂系统行为的深刻理解，从而在科学研究和工程设计中做出更好的决策。</p>]]></content><author><name></name></author><category term="dot" /><category term="ddot" /><category term="b" /><category term="ddot dot" /><category term="dot dot" /><summary type="html"><![CDATA[Operator Structures: A Mathematical Tool for Understanding Dynamic Systems]]></summary></entry><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/" rel="alternate" type="text/html" title="" /><published>2023-06-28T00:00:00+00:00</published><updated>2023-06-28T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/"><![CDATA[<h1 id="quantum-physics-the-schrodinger-equation-and-the-delta-function-potential">Quantum Physics: The Schrodinger Equation and the Delta Function Potential</h1>
+<p>总的来说，无论我们是在研究自然科学的问题，还是在处理社会科学的问题，都可以采用算子结构来建立有效的数学模型。通过对这些模型的深入研究，我们可以获得对复杂系统行为的深刻理解，从而在科学研究和工程设计中做出更好的决策。</p>]]></content><author><name></name></author><category term="dot" /><category term="ddot" /><category term="b" /><category term="ddot dot" /><category term="dot dot" /><summary type="html"><![CDATA[Operator Structures: A Mathematical Tool for Understanding Dynamic Systems]]></summary></entry><entry><title type="html">Unfolding the Dynamics of Differential Equations: A Journey Through Root Locus, Phase Portrait, and Matrix Equation</title><link href="https:///williampolicy.github.io/blog/2023/Unfolding-the-Dynamics-of-Differential-Equations-A-Journey-Through-Root-Locus,-Phase-Portrait,-and-Matrix-Equation/" rel="alternate" type="text/html" title="Unfolding the Dynamics of Differential Equations: A Journey Through Root Locus, Phase Portrait, and Matrix Equation" /><published>2023-06-30T00:00:00+00:00</published><updated>2023-06-30T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Unfolding-the-Dynamics-of-Differential-Equations:-A-Journey-Through-Root-Locus,-Phase-Portrait,-and-Matrix-Equation</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Unfolding-the-Dynamics-of-Differential-Equations-A-Journey-Through-Root-Locus,-Phase-Portrait,-and-Matrix-Equation/"><![CDATA[<h1 id="unfolding-the-dynamics-of-differential-equations-a-journey-through-root-locus-phase-portrait-and-matrix-equation">Unfolding the Dynamics of Differential Equations: A Journey Through Root Locus, Phase Portrait, and Matrix Equation</h1>
+
+<h1 id="标题解析微分方程的动态行为穿越根轨迹相轨迹和矩阵方程的旅程">标题：解析微分方程的动态行为：穿越根轨迹、相轨迹和矩阵方程的旅程</h1>
+
+<hr />
+
+<p>在探索微分方程，特别是非线性微分方程的世界时，我们有多种工具可以帮助我们理解这些方程的行为。在这篇文章中，我们将深入讨论根轨迹、相轨迹、图解法、特征方程和矩阵方程等工具的应用，并展示如何利用它们解决实际问题。</p>
+
+<p>首先，我们讨论根轨迹。这是一种分析线性微分方程稳定性的工具。它通过描绘系统特征根随参数变化的轨迹，让我们可以直观地看到系统稳定性如何随参数变化。对于非线性微分方程，虽然我们不能直接画出根轨迹，但我们可以在某些特殊情况下，通过线性化方法获得近似的根轨迹。</p>
+
+<p>然后，我们介绍相轨迹。相轨迹是描述动力系统状态随时间演化的工具。通过画出相轨迹，我们可以清晰地看到系统的各种可能行为，比如稳定点、周期轨道、混沌等。特别是在研究非线性微分方程时，相轨迹是一个非常强大的工具。</p>
+
+<p>此外，我们还会讨论图解法。这是一种解决微分方程的直观方法，尤其是对于一些不能直接求解的复杂微分方程，图解法提供了一种直观而有效的解决方案。</p>
+
+<p>接下来，我们要介绍特征方程。特征方程是一种描述动力系统特性的工具。通过求解特征方程，我们可以得到系统的稳定性、振荡性等重要信息。</p>
+
+<p>最后，我们来看看矩阵方程。在处理多变量的微分方程时，矩阵方程是一个非常强大的工具。通过将微分方程转化为矩阵方程，我们可以利用线性代数的方法，更方便地分析和解决这些方程。</p>
+
+<p>通过以上的讨论，我们可以看到，这些工具不仅可以帮助我们理解微分方程的行为，还可以指导我们在实际问题中如何使用微分方程。希望这篇文章能对你的学习和研究有所帮助，也期待你在微分方程</p>
+
+<p>的世界中有更多的发现和创新。</p>]]></content><author><name></name></author><category term="differential" /><category term="differential equations" /><category term="differential equations journey" /><category term="dynamics" /><category term="dynamics differential" /><summary type="html"><![CDATA[Unfolding the Dynamics of Differential Equations: A Journey Through Root Locus, Phase Portrait, and Matrix Equation]]></summary></entry><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/" rel="alternate" type="text/html" title="" /><published>2023-06-28T00:00:00+00:00</published><updated>2023-06-28T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/"><![CDATA[<h1 id="quantum-physics-the-schrodinger-equation-and-the-delta-function-potential">Quantum Physics: The Schrodinger Equation and the Delta Function Potential</h1>
 
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
 <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Quantum</span><span class="nv"> </span><span class="s">Physics:</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">Schrödinger</span><span class="nv"> </span><span class="s">Equation</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">Delta</span><span class="nv"> </span><span class="s">Function</span><span class="nv"> </span><span class="s">Potential"</span>
@@ -654,76 +674,4 @@ The time-independent Schrödinger equation in one dimension is typically written
 在这个过程中，我们注意到无穷大和无穷小并非简单的概念。无穷大和无穷小实际上存在不同的级别，这是通过比较它们的行为来确定的。这样的处理方式，使得我们能够对无穷大和无穷小进行分级和分层次的处理。</p>
 
 <p>##总结
-无论是狄拉克函数的一级逼近，还是更实用的二级逼近方法，我们都在用自己的方式去逼近这个复杂、深奥的真实世界。在追求科学真相的过程中，我们经常需要在理论的严谨性和实用性之间做出权衡，这就是科学的本质。</p>]]></content><author><name></name></author><category term="function" /><category term="approximation" /><category term="delta" /><category term="delta function" /><category term="dirac" /><summary type="html"><![CDATA[Dirac Delta Function and Approaching Truth]]></summary></entry><entry><title type="html">Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database</title><link href="https:///williampolicy.github.io/blog/2023/Managing-Supply-and-Demand-in-a-Dairy-Retail-Business-A-Practical-Guide-to-Python-and-SQLite-Database/" rel="alternate" type="text/html" title="Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database" /><published>2023-06-27T00:00:00+00:00</published><updated>2023-06-27T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Managing-Supply-and-Demand-in-a-Dairy-Retail-Business:-A-Practical-Guide-to-Python-and-SQLite-Database</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Managing-Supply-and-Demand-in-a-Dairy-Retail-Business-A-Practical-Guide-to-Python-and-SQLite-Database/"><![CDATA[<h1 id="managing-supply-and-demand-in-a-dairy-retail-business-a-practical-guide-to-python-and-sqlite-database">Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database</h1>
-
-<h2 id="introduction">Introduction</h2>
-
-<p>In the data-driven world we live in today, databases stand out as some of the most vital tools for storing and managing data. However, using a database correctly and efficiently may require certain skills and knowledge. In this article, we explore how to interact with SQLite databases using Python, tackling a specific problem: managing a family’s consumption and stock of dairy products. The Python libraries we will make use of include <code class="language-plaintext highlighter-rouge">sqlite3</code> and <code class="language-plaintext highlighter-rouge">pandas</code>.</p>
-
-<h2 id="database-design-and-table-initialization">Database Design and Table Initialization</h2>
-
-<p>We start by creating an SQLite database and designing a series of tables to suit our needs. These tables include:</p>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">T1_Family_Consumption</code> which logs the dairy products consumed by the family;</li>
-  <li><code class="language-plaintext highlighter-rouge">T2_Dairy_Products</code> that keeps track of inventory;</li>
-  <li><code class="language-plaintext highlighter-rouge">T7_Check_Inventory</code>, a trigger for checking inventory;</li>
-  <li><code class="language-plaintext highlighter-rouge">T8_Check_Current_Price</code> that records current price information.</li>
-</ul>
-
-<p>Having designed these tables, we generate some initial data to kick-start our system. There are two functions, <code class="language-plaintext highlighter-rouge">initialize_consumption()</code> and <code class="language-plaintext highlighter-rouge">initialize_products()</code>, meant for initializing some data at the onset.</p>
-
-<h2 id="database-operations-and-error-handling">Database Operations and Error Handling</h2>
-
-<p>Next, we delve into how to operate these tables, including updating consumption, inventory, price information, creating and invoking triggers, and operating the database using Python.</p>
-
-<p>In the course of operating the database, we encounter some issues, like the <code class="language-plaintext highlighter-rouge">UnboundLocalError</code>, a common error typically caused by not initializing variables correctly before using them. To resolve such problems, an understanding of Python’s namespace and scope, and careful examination of the code to ensure all variables are correctly initialized, is required.</p>
-
-<h2 id="technical-tips">Technical Tips</h2>
-
-<ul>
-  <li>When working with SQLite databases, Python’s <code class="language-plaintext highlighter-rouge">sqlite3</code> library offers a convenient way to handle database queries and operations. However, it’s important to remember to call the <code class="language-plaintext highlighter-rouge">commit()</code> method to save changes after operations are completed.</li>
-  <li>The <code class="language-plaintext highlighter-rouge">read_sql_query()</code> function from the pandas library is another useful tool for handling SQLite databases. It enables you to transform the results of SQL queries into DataFrames, simplifying subsequent data processing and analysis.</li>
-  <li>In database design, different tables should have clear responsibilities, and their relationships should be correctly set. This can be achieved with tools like foreign keys, indexes, and other database design tools.</li>
-  <li>While operating the database using Python, make sure to correctly handle errors and exceptions. For instance, an <code class="language-plaintext highlighter-rouge">UnboundLocalError</code> typically means a variable was used before being correctly initialized. In such cases, carefully checking the code to ensure all variables are correctly initialized is important.</li>
-</ul>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>Although this article only scratches the surface of how to interact with SQLite databases using Python, we hope it imparts deeper knowledge about database design, the use of triggers, error handling, etc. We look forward to delivering more complex topics in future articles.</p>
-
-<h2 id="开篇">开篇</h2>
-
-<p>在数据驱动的现代世界，数据库是最重要的存储和管理数据的工具之一。然而，正确并有效地使用数据库可能需要具备一定的技能和知识。本文我们将探讨如何通过Python操作SQLite数据库，以处理某家庭奶制品消费和库存管理的问题。我们将使用的Python库包括<code class="language-plaintext highlighter-rouge">sqlite3</code>和<code class="language-plaintext highlighter-rouge">pandas</code>。</p>
-
-<h2 id="数据库设计和数据表初始化">数据库设计和数据表初始化</h2>
-
-<p>我们首先创建了一个SQLite数据库，设计了一系列数据表以适应我们的需求。这些表包括：</p>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">T1_Family_Consumption</code>记录家庭消费的奶制品信息；</li>
-  <li><code class="language-plaintext highlighter-rouge">T2_Dairy_Products</code>记录库存信息；</li>
-  <li><code class="language-plaintext highlighter-rouge">T7_Check_Inventory</code>检查库存的触发器；</li>
-  <li><code class="language-plaintext highlighter-rouge">T8_Check_Current_Price</code>记录当前价格信息。</li>
-</ul>
-
-<p>在设计了这些表后，我们创建了一些初始数据以启动我们的系统。其中有两个函数：<code class="language-plaintext highlighter-rouge">initialize_consumption()</code> 和 <code class="language-plaintext highlighter-rouge">initialize_products()</code> 是用于在开始时初始化一些数据。</p>
-
-<h2 id="数据库操作和错误处理">数据库操作和错误处理</h2>
-
-<p>然后我们深入探讨了如何操作这些表，包括更新消费，库存，价格等信息，创建和调用触发器，以及使用Python操作数据库。</p>
-
-<p>在操作数据库的过程中，我们遇到了一些问题，比如<code class="language-plaintext highlighter-rouge">UnboundLocalError</code>，这个错误通常是由于在使用变量前没有正确的初始化它们。解决这类问题需要理解Python的命名空间和作用域，以及仔细检查代码以确保所有的变量都已正确地初始化。</p>
-
-<h2 id="技术提示-tips">技术提示 (Tips)</h2>
-
-<ul>
-  <li>使用SQLite数据库时，Python的<code class="language-plaintext highlighter-rouge">sqlite3</code>库提供了一种方便的方式来处理数据库的查询和操作。然而，需要注意的是，当在Python中执行SQL命令时，一定要记住在操作结束后调用<code class="language-plaintext highlighter-rouge">commit()</code>方法以保存更改。</li>
-  <li>在处理SQLite数据库时，Pandas库的<code class="language-plaintext highlighter-rouge">read_sql_query()</code>函数也是一个很有用的工具，它可以将SQL查询的结果转化为DataFrame，这使得后续的数据处理和分析更为简便。</li>
-  <li>在设计数据库时，不同的表应该有清晰的职责，并且它们之间的关系应该被正确地设置。这可以通过外键，索引等数据库设计的工具来实现。</li>
-  <li>使用Python操作数据库时，要注意正确处理错误和异常。例如，如果遇到<code class="language-plaintext highlighter-rouge">UnboundLocalError</code>，通常是由于在使用变量前没有正确的初始化它们。在这种情况下，应仔细检查代码以确保所有的变量都已正确地初始化。</li>
-</ul>
-
-<h2 id="结束">结束</h2>
-
-<p>尽管本文只是简单地探讨了如何通过Python操作SQLite数据库，但希望通过本文，你可以了解到更为深入的知识，如数据库设计，触发器的使用，错误处理等。</p>]]></content><author><name></name></author><category term="python" /><category term="sqlite" /><category term="database" /><category term="correctly" /><category term="consumption" /><summary type="html"><![CDATA[Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database]]></summary></entry></feed>
+无论是狄拉克函数的一级逼近，还是更实用的二级逼近方法，我们都在用自己的方式去逼近这个复杂、深奥的真实世界。在追求科学真相的过程中，我们经常需要在理论的严谨性和实用性之间做出权衡，这就是科学的本质。</p>]]></content><author><name></name></author><category term="function" /><category term="approximation" /><category term="delta" /><category term="delta function" /><category term="dirac" /><summary type="html"><![CDATA[Dirac Delta Function and Approaching Truth]]></summary></entry></feed>
