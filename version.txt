@@ -42,3 +42,4 @@ V.0.36 - kangtools_bloguploader 20230628_blog_note_Quantum-Physics-The-Schroding
 V.0.37 - kangtools_bloguploader 20230628_blog_note_Quantum-Physics-The-Schrodinger-Equation-and-the-Delta-Function-Potential.md --delet some senctence  ©KANG - 2023-06-28  
 V.0.38 - kangtools_bloguploader 20230628_blog_note_1order_equation_and_Dirac.md   ©KANG - 2023-06-28  
 V.0.39 - kangtools_bloguploader 20230628_reminder_note_Interview-Tatte-learn-from-glassdoor.md  ©KANG - 2023-06-28  
+V.0.40 - 1  ©KANG - 2023-06-30  
