@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-28T19:24:08+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-28T19:24:08+00:00</published><updated>2023-06-28T19:24:08+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-30T20:34:18+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-06-30T20:34:18+00:00</published><updated>2023-06-30T20:34:18+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
 
 <h2 id="setting-up-api-requests">Setting Up API Requests</h2>
 <p>We first created a function in Swift to set up the API request. This function takes an input prompt and sends it to the OpenAI API to generate GPT-3 output. We used the <code class="language-plaintext highlighter-rouge">URLSession.shared.dataTask(with:completionHandler:)</code> function to send the request and <code class="language-plaintext highlighter-rouge">JSONSerialization</code> to convert the returned data into a JSON format we can handle.</p>
@@ -48,7 +48,57 @@
 
 <p>当我们的应用正常运行并能够产生期望的输出时，我们使用Git来保存这个版本。我们首先使用git add .将所有改动添加到暂存区，然后使用git commit -m提交这些改动，并添加一个描述性的消息。最后，我们使用git tag添加一个标签来标记这个版本，然后使用git push将这个标签推送到远程仓库。</p>
 
-<p>今天的工作中，我们学到了很多关于如何集成OpenAI的GPT-3到iOS应用中，如何在模拟器中进行测试，以及如何使用Git进行版本控制和错误跟踪的知识。我们还通过实际的操作，熟悉了这些工具和技术的应用。希望这个经验对你的工作也有所帮</p>]]></content><author><name></name></author></entry><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/" rel="alternate" type="text/html" title="" /><published>2023-06-28T00:00:00+00:00</published><updated>2023-06-28T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/"><![CDATA[<h1 id="quantum-physics-the-schrodinger-equation-and-the-delta-function-potential">Quantum Physics: The Schrodinger Equation and the Delta Function Potential</h1>
+<p>今天的工作中，我们学到了很多关于如何集成OpenAI的GPT-3到iOS应用中，如何在模拟器中进行测试，以及如何使用Git进行版本控制和错误跟踪的知识。我们还通过实际的操作，熟悉了这些工具和技术的应用。希望这个经验对你的工作也有所帮</p>]]></content><author><name></name></author></entry><entry><title type="html">Operator Structures: A Mathematical Tool for Understanding Dynamic Systems</title><link href="https:///williampolicy.github.io/blog/2023/Operator-Structures-A-Mathematical-Tool-for-Understanding-Dynamic-Systems/" rel="alternate" type="text/html" title="Operator Structures: A Mathematical Tool for Understanding Dynamic Systems" /><published>2023-06-30T00:00:00+00:00</published><updated>2023-06-30T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Operator-Structures:-A-Mathematical-Tool-for-Understanding-Dynamic-Systems</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Operator-Structures-A-Mathematical-Tool-for-Understanding-Dynamic-Systems/"><![CDATA[<h1 id="operator-structures-a-mathematical-tool-for-understanding-dynamic-systems">Operator Structures: A Mathematical Tool for Understanding Dynamic Systems</h1>
+
+<h1 id="算子结构理解动态系统的工具">算子结构：理解动态系统的工具</h1>
+
+<p>在我们探讨动态系统的过程中，一个重要的概念是<strong>算子结构</strong>。算子结构是一种数学工具，它可以帮助我们描述和理解一个系统随时间的动态行为。在这篇博客中，我们将回顾一些基本的算子结构，并展示如何将它们用于解决实际问题。</p>
+
+<h2 id="一阶线性算子结构">一阶线性算子结构</h2>
+
+<p>最简单的算子结构是一阶线性算子结构。这是一个一阶微分方程，描述了一个系统状态随时间的线性变化。其形式如下：</p>
+
+<pre><code class="language-math">F(\dot{y}, y) = \dot{y} - A y = 0
+</code></pre>
+
+<p>其中，$y$表示系统的状态，$\dot{y}$表示状态的变化率，$A$是一个常数。</p>
+
+<h2 id="一阶非线性算子结构">一阶非线性算子结构</h2>
+
+<p>我们也可以引入非线性元素来描述更复杂的动态。一阶非线性算子结构如下：</p>
+
+<pre><code class="language-math">G(\dot{y}, y) = \dot{y} - A y - B(y) = 0
+</code></pre>
+
+<p>其中，$B(y)$是一个关于状态$y$的非线性函数。这个非线性函数的形式可以根据实际的系统动态进行选择。</p>
+
+<h2 id="二阶线性算子结构">二阶线性算子结构</h2>
+
+<p>对于描述具有加速度或者惯性等特性的系统，我们通常需要用到二阶微分方程，即二阶线性算子结构。它的形式如下：</p>
+
+<pre><code class="language-math">H(\ddot{y}, \dot{y}, y) = \ddot{y} - A \dot{y} - B y = 0
+</code></pre>
+
+<p>其中，$\ddot{y}$表示状态的二阶导数。</p>
+
+<h2 id="二阶非线性算子结构">二阶非线性算子结构</h2>
+
+<p>最后，我们还可以引入二阶非线性算子结构来描述更复杂的动态。其形式如下：</p>
+
+<pre><code class="language-math">I(\ddot{y}, \dot{y}, y) = \ddot{y} - A \dot{y} - B y - C(y, \dot{y}) = 0
+</code></pre>
+
+<p>其中，$C(y, \dot{y})$是一个关于状态$y$和一阶导数$\dot{y}$的非线性函数。</p>
+
+<p>以上各式都是将表达式设置为等于0的形式，这就是隐函数形式。隐函数形式的优势在于，我们可以将系统动态的所有关系都包括在一个等式中，方便我们对系统动态的理解和分析。</p>
+
+<p>在处理复杂的非线性系统时，选择合适的非线性算子结构和具体的非线性函数，往往需要我们对系统的行为有深入的理解和分析。但是，一旦我们找到了正确的算子结构，它就能</p>
+
+<p>一旦我们找到了正确的算子结构，它就能够揭示出系统的关键动态特性，并帮助我们理解和预测系统的行为。</p>
+
+<p>例如，在考虑种子生长的问题时，我们可以采用一个含有非线性开关算子的微分方程模型。在这个模型中，非线性开关算子能够描述种子由休眠状态向发芽状态的转变，这个转变由环境温度触发。选择适当的非线性开关函数，我们可以精确地模拟这个生物过程。</p>
+
+<p>总的来说，无论我们是在研究自然科学的问题，还是在处理社会科学的问题，都可以采用算子结构来建立有效的数学模型。通过对这些模型的深入研究，我们可以获得对复杂系统行为的深刻理解，从而在科学研究和工程设计中做出更好的决策。</p>]]></content><author><name></name></author><category term="dot" /><category term="ddot" /><category term="b" /><category term="ddot dot" /><category term="dot dot" /><summary type="html"><![CDATA[Operator Structures: A Mathematical Tool for Understanding Dynamic Systems]]></summary></entry><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/" rel="alternate" type="text/html" title="" /><published>2023-06-28T00:00:00+00:00</published><updated>2023-06-28T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/"><![CDATA[<h1 id="quantum-physics-the-schrodinger-equation-and-the-delta-function-potential">Quantum Physics: The Schrodinger Equation and the Delta Function Potential</h1>
 
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
 <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Quantum</span><span class="nv"> </span><span class="s">Physics:</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">Schrödinger</span><span class="nv"> </span><span class="s">Equation</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">Delta</span><span class="nv"> </span><span class="s">Function</span><span class="nv"> </span><span class="s">Potential"</span>
@@ -676,178 +726,4 @@ The time-independent Schrödinger equation in one dimension is typically written
 
 <h2 id="结束">结束</h2>
 
-<p>尽管本文只是简单地探讨了如何通过Python操作SQLite数据库，但希望通过本文，你可以了解到更为深入的知识，如数据库设计，触发器的使用，错误处理等。</p>]]></content><author><name></name></author><category term="python" /><category term="sqlite" /><category term="database" /><category term="correctly" /><category term="consumption" /><summary type="html"><![CDATA[Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database]]></summary></entry><entry><title type="html">Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum</title><link href="https:///williampolicy.github.io/blog/2023/Mathematical-Principles-of-Philosophy-A-Case-Study-on-Food-Attraction-Spectrum/" rel="alternate" type="text/html" title="Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum" /><published>2023-06-27T00:00:00+00:00</published><updated>2023-06-27T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Mathematical-Principles-of-Philosophy:-A-Case-Study-on-Food-Attraction-Spectrum</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Mathematical-Principles-of-Philosophy-A-Case-Study-on-Food-Attraction-Spectrum/"><![CDATA[<h1 id="mathematical-principles-of-philosophy-a-case-study-on-food-attraction-spectrum">Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum</h1>
-
-<h2 id="1-background">1. Background</h2>
-
-<p>In this case study, we delve into a model aimed at understanding and predicting people’s food selection behaviors. Different foods might carry different weights depending on their various attributes such as nutritional value, taste, and so on. The probability of a food item being selected could vary with factors such as environment, availability, and individual preferences. Specifically, we consider drugs as a special case where the probability of selection is expected to be very low under normal circumstances.</p>
-
-<h2 id="2-purpose">2. Purpose</h2>
-
-<p>Our goal is to devise a quantitative method that captures the aforementioned process and aids in predicting the type of food individuals might select under a given set of conditions. To achieve this, we multiply the weight of a food item by the probability of its selection, followed by normalization to derive the relative attraction of different food items. In this model, we pay special attention to the case of drugs to comprehend how their attraction might change under certain conditions (for instance, when exposure to drugs occurs).</p>
-
-<h2 id="3-method">3. Method</h2>
-
-<p>We first define the weight and probability density for each food item. We then employ the Hadamard product (the product of the weight and probability density) to compute the attraction contribution of each food item. All the attraction contributions are normalized to obtain the relative attractions of various food items. In the case of drugs, we use the Dirac function to describe its probability density, allowing us to capture the potential enormous attraction that drugs may invoke once exposed to individuals.</p>
-
-<h2 id="4-mathematical-expressionrepresentation">4. Mathematical Expression/Representation</h2>
-
-<p>The allure of each food item i, A_i, is calculated by the following equation:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A_i = (w_i * p_i) / Σ (w_j * p_j)
-</code></pre></div></div>
-
-<p>Here, w_i represents the weight of food i, and p_i denotes the probability density of food i.</p>
-
-<p>For addictive food or drugs, we use the Dirac function as an approximation of its probability density. Mathematically, the Dirac function can be seen as a spike function, which takes an infinite value at a certain point, but its integral (i.e., the area under the curve) is 1. This can be interpreted as at some specific moments, the probability of choosing addictive food or drugs would surge.</p>
-
-<p>Specifically, we can use the following “spike” function as an approximation to the Dirac function:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>δ(t-a) ≈ 1/(sqrt(π)*σ) * exp(-((t-a)/σ)^2)
-</code></pre></div></div>
-
-<p>Here, a is the time where the spike locates, and σ is a parameter controlling the width of the spike. This function takes its maximum value at t=a, and decreases rapidly as the distance from a increases. When σ-&gt;0, this function tends towards the Dirac function.</p>
-
-<p>For apples and tomatoes, we use periodic functions to describe their probability densities. Specifically, we can use sine and cosine functions to simulate the seasonal influences:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>p_apple(t) = 0.5 * (1 + sin(2πt))
-p_tomato(t) = 0.5 * (1 + cos(2πt))
-</code></pre></div></div>
-
-<p>Here, t stands for time, ranging in [0,1], representing the time within a year. The above functions vary at different times, simulating the availability of different food in different seasons.</p>
-
-<h2 id="5-code">5. Code</h2>
-
-<p>Here is a snippet of the core Python code that was used to simulate the model:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
-<span class="kn">import</span> <span class="n">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
-
-<span class="c1"># Define the weights
-</span><span class="n">weights</span> <span class="o">=</span> <span class="p">{</span><span class="sh">"</span><span class="s">Apple</span><span class="sh">"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="sh">"</span><span class="s">Tomato</span><span class="sh">"</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="sh">"</span><span class="s">Drug</span><span class="sh">"</span><span class="p">:</span> <span class="mf">0.01</span><span class="p">}</span>
-
-<span class="c1"># Define the probability density functions
-</span><span class="k">def</span> <span class="nf">apple_density</span><span class="p">(</span><span class="n">t</span><span class="p">):</span>
-    <span class="k">return</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">np</span><span class="p">.</span><span class="nf">sin</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="n">pi</span><span class="o">*</span><span class="n">t</span><span class="p">))</span>
-
-<span class="k">def</span> <span class="nf">tomato_density</span><span class="p">(</span><span class="n">t</span><span class="p">):</span>
-    <span class="k">return</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">np</span><span class="p">.</span><span class="nf">cos</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="n">pi</span><span class="o">*</span><span class="n">t</span><span class="p">))</span>
-
-<span class="k">def</span> <span class="nf">drug_density</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">a</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">np</span><span class="p">.</span><span class="nf">exp</span><span class="p">(</span><span class="o">-</span><span class="p">(</span><span class="n">t</span> <span class="o">-</span> <span class="n">a</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">/</span> <span class="mf">0.01</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
-
-<span class="c1"># Calculate the attraction
-</span><span class="n">t</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
-<span class="n">attractions</span> <span class="o">=</span> <span class="p">{</span><span class="n">name</span><span class="p">:</span> <span class="n">weight</span> <span class="o">*</span> <span class="nf">density</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="p">(</span><span class="n">weight</span><span class="p">,</span> <span class="n">density</span><span class="p">)</span> <span class="ow">in</span> <span class="nf">zip</span><span class="p">(</span><span class="n">weights</span><span class="p">.</span><span class="nf">keys</span><span class="p">(),</span> <span class="p">[</span><span class="n">apple_density</span><span class="p">,</span> <span class="n">tomato_density</span><span class="p">,</span> <span class="n">drug_density</span><span class="p">])}</span>
-
-<span class="c1"># Plot the attraction spectrum
-</span><span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">attraction</span> <span class="ow">in</span> <span class="n">attractions</span><span class="p">.</span><span class="nf">items</span><span class="p">():</span>
-    <span class="n">plt</span><span class="p">.</span><span class="nf">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">attraction</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">name</span><span class="p">)</span>
-
-<span class="n">plt</span><span class="p">.</span><span class="nf">legend</span><span class="p">()</span>
-<span class="n">plt</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
-</code></pre></div></div>
-
-<h2 id="6-conclusion">6. Conclusion</h2>
-
-<p>Our model successfully demonstrates how to calculate attractions by considering the weight and probability density of food under different environmental conditions, predicting the potential food selections of individuals. It also illustrates the possible change in attraction in the event of exposure to drugs, helping us understand the impact of drugs on people’s choices.</p>
-
-<h2 id="7-tips">7. Tips</h2>
-
-<ul>
-  <li>Our discussion revolved around the use and understanding of the Dirac function. We learned that although the probability density of drugs is zero in general, under certain conditions (like exposure to drugs), its probability density could suddenly increase, invoking a significant attraction.</li>
-  <li>We discussed the choice</li>
-</ul>
-
-<p>of probability density functions. In this model, we chose periodic functions to describe the probability density for apples and tomatoes, simulating the impact of seasonal variations in food supply on food choices.</p>
-<ul>
-  <li>We also pondered on the limitations of our model. This model is simplified, and the real situation could be more complicated. For instance, people’s food choices might be influenced by a multitude of factors such as personal preferences, cultural backgrounds, economic conditions, and these factors were not considered in our model.</li>
-  <li>Our conversation also touched upon various concepts related to probability, probability density, the Dirac function, and quantum mechanics. For instance, we talked about how the Dirac delta function, often used in quantum mechanics, can be used here to represent a sudden change in probability density when certain conditions are met.
-    <h1 id="食物吸引力谱的数学建模一项案例研究">食物吸引力谱的数学建模：一项案例研究</h1>
-  </li>
-</ul>
-
-<h2 id="1-背景">1. 背景</h2>
-
-<p>在这个案例研究中，我们深入探讨一个旨在理解和预测人们食物选择行为的模型。不同的食物可能因其各种属性（如营养价值，口感等）具有不同的权重。食物被选择的概率可能因环境，可得性以及个人偏好等因素而变化。特别地，我们将成瘾类食物或药物（例如毒品）视为一种特殊情况，期望在正常情况下选择的概率非常低。</p>
-
-<h2 id="2-目的">2. 目的</h2>
-
-<p>我们的目标是设计一种定量方法，捕捉上述过程并有助于预测在给定一组条件下个体可能选择哪种食物。为此，我们将食物的权重与其选择的概率相乘，然后进行归一化以得出不同食物的相对吸引力。在这个模型中，我们特别关注成瘾类食物或药物的情况，以理解其吸引力在某些条件下（例如，当暴露于这类物质时）可能如何改变。</p>
-
-<h2 id="3-方法">3. 方法</h2>
-
-<p>我们首先为每种食物定义权重和概率密度。然后，我们使用哈达玛积（权重和概率密度的积）计算每种食物的吸引力贡献。所有的吸引力贡献都进行归一化，以获得各种食物的相对吸引力。对于成瘾类食物或药物，我们使用狄拉克函数来描述其概率密度，从而捕捉到这类物质一旦暴露给个体可能引起的巨大吸引力。</p>
-
-<h2 id="4-数学表达">4. 数学表达</h2>
-
-<p>对于每种食物i，其吸引力A_i可以通过以下方程计算：</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A_i = (w_i * p_i) / Σ (w_j * p_j)
-</code></pre></div></div>
-
-<p>这里，w_i代表食物i的权重，p_i表示食物i的概率密度。</p>
-
-<p>对于成瘾类食物或药物，我们使用狄拉克函数作为其概率密度的近似。在数学上，狄拉克函数可以视作一个尖峰函数，其在某一点的值为无穷大，但其积分（即面积）为1。这可以被解释为在某些特定时刻，成瘾类食物或药物的选择概率会剧增。</p>
-
-<p>具体来说，我们可以用如下的“突刺”函数作为狄拉克函数的近似：</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>δ(t-a) ≈ 1/(sqrt(π)*σ) * exp(-((t-a)/σ)^2)
-</code></pre></div></div>
-
-<p>这里，a是尖峰所在的时间，σ是控制尖峰宽度的参数。这样的函数在t=a时有最大值，并且随着离a的距离增大而快速下降。当σ-&gt;0时，这个函数趋向于狄拉克函数。</p>
-
-<p>对于苹果和番茄，我们使用周期函数来描述它们的概率密度。具体来说，我们可以用正弦函数和余弦函数来模拟季节性的影响：</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>p_apple(t) = 0.5 * (1 + sin(2πt))
-p_tomato(t) = 0.5 * (1 + cos(2πt))
-</code></pre></div></div>
-
-<p>这里，t代表时间，取值范围为[0,1]，表示一年中的时间。上述函数在不同的时间取值会有所不同，模拟了不同食物在不同季节的可得性。</p>
-
-<p>对于每种食物i，其吸引力A_i可以通过以下方程计算：</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A_i = (w_i * p_i) / Σ (w_j * p_j)
-</code></pre></div></div>
-
-<p>这里，w_i代表食物i的权重，p_i表示食物i的概率密度。对于成瘾类食物或药物，我们使用狄拉克函数来描述其概率密度。</p>
-
-<p>对于苹果和番茄，我们使用周期函数来描述它们的概率密度。</p>
-
-<h2 id="5-代码">5. 代码</h2>
-
-<p>这是用来模拟模型的核心Python代码的一部分：</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
-<span class="kn">import</span> <span class="n">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
-
-<span class="c1"># 定义权重
-</span><span class="n">weights</span> <span class="o">=</span> <span class="p">{</span><span class="sh">"</span><span class="s">Apple</span><span class="sh">"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="sh">"</span><span class="s">Tomato</span><span class="sh">"</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="sh">"</span><span class="s">Addictive Substance</span><span class="sh">"</span><span class="p">:</span> <span class="mf">0.01</span><span class="p">}</span>
-
-<span class="c1"># 定义概率密度函数
-</span><span class="k">def</span> <span class="nf">apple_density</span><span class="p">(</span><span class="n">t</span>
-
-<span class="p">):</span>
-    <span class="k">return</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">np</span><span class="p">.</span><span class="nf">sin</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="n">pi</span><span class="o">*</span><span class="n">t</span><span class="p">))</span>
-
-<span class="k">def</span> <span class="nf">tomato_density</span><span class="p">(</span><span class="n">t</span><span class="p">):</span>
-    <span class="k">return</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">np</span><span class="p">.</span><span class="nf">cos</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="p">.</span><span class="n">pi</span><span class="o">*</span><span class="n">t</span><span class="p">))</span>
-
-<span class="k">def</span> <span class="nf">addictive_substance_density</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">a</span><span class="p">):</span>
-    <span class="c1"># 这里省略了成瘾物质的概率密度函数的具体实现。
-</span>    <span class="k">pass</span>
-</code></pre></div></div>
-
-<h2 id="6-结论">6. 结论</h2>
-
-<p>通过这种方式，我们可以通过调整权重和概率密度来模拟各种环境和个体条件下食物的吸引力。我们的模型特别强调成瘾类食物或药物在某些条件下（如当个体被暴露在这类物质中时）的巨大吸引力。</p>
-
-<h2 id="7-提示和注意事项">7. 提示和注意事项</h2>
-
-<ul>
-  <li>本模型的一个重要前提是，所有食物的权重和概率密度都是已知的，这在实际应用中可能并不总是成立。</li>
-  <li>狄拉克函数用于描述成瘾类食物或药物的概率密度，这是一个理想化的表示。实际上，这类物质的吸引力可能因人而异，取决于个体的生理和心理状态。</li>
-  <li>我们的讨论中提到了一些与量子力学相关的概念，比如狄拉克函数和概率密度。然而，这些只是为了提供一个对概念的直观理解，而并非指这个模型具有与量子力学类似的性质。</li>
-  <li>尽管我们使用了周期函数来描述苹果和番茄的概率密度，但实际上食物的可得性可能会受到更复杂的因素的影响，比如气候变化，季节变化，农业实践等。</li>
-  <li>最后，本模型只是对食物选择行为的一种简化表示，而在实际中，食物选择可能受到许多其他因素的影响，比如文化，社会经济状态，健康状况等。</li>
-</ul>]]></content><author><name></name></author><category term="density" /><category term="food" /><category term="probability" /><category term="p" /><category term="probability density" /><summary type="html"><![CDATA[Mathematical Principles of Philosophy: A Case Study on Food Attraction Spectrum]]></summary></entry></feed>
+<p>尽管本文只是简单地探讨了如何通过Python操作SQLite数据库，但希望通过本文，你可以了解到更为深入的知识，如数据库设计，触发器的使用，错误处理等。</p>]]></content><author><name></name></author><category term="python" /><category term="sqlite" /><category term="database" /><category term="correctly" /><category term="consumption" /><summary type="html"><![CDATA[Managing Supply and Demand in a Dairy Retail Business: A Practical Guide to Python and SQLite Database]]></summary></entry></feed>
