@@ -43,3 +43,4 @@ V.0.37 - kangtools_bloguploader 20230628_blog_note_Quantum-Physics-The-Schroding
 V.0.38 - kangtools_bloguploader 20230628_blog_note_1order_equation_and_Dirac.md   ©KANG - 2023-06-28  
 V.0.39 - kangtools_bloguploader 20230628_reminder_note_Interview-Tatte-learn-from-glassdoor.md  ©KANG - 2023-06-28  
 V.0.40 - 1  ©KANG - 2023-06-30  
+V.0.41 - kangtools_bloguploader 20230629_blog_note_Operator-Structures-A-Mathematical-Tool-for-UnerstandingDynamicSystem.md  ©KANG - 2023-06-30  
