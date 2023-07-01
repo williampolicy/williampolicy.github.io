@@ -45,3 +45,4 @@ V.0.39 - kangtools_bloguploader 20230628_reminder_note_Interview-Tatte-learn-fro
 V.0.40 - 1  ©KANG - 2023-06-30  
 V.0.41 - kangtools_bloguploader 20230629_blog_note_Operator-Structures-A-Mathematical-Tool-for-UnerstandingDynamicSystem.md  ©KANG - 2023-06-30  
 V.0.42 - kangtools_bloguploader 20230629_blog_note_Unfolding-the-Dynamics-of-Differential-Equations.md  ©KANG - 2023-06-30  
+V.0.43 - kangtools_bloguploader 20230629_blog_note_Exploring-the-Relationship-Between-First-Order.md   ©KANG - 2023-07-01  
