@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-07-05T15:01:28+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-07-05T15:01:28+00:00</published><updated>2023-07-05T15:01:28+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-07-13T17:39:41+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-07-13T17:39:41+00:00</published><updated>2023-07-13T17:39:41+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
 
 <h2 id="setting-up-api-requests">Setting Up API Requests</h2>
 <p>We first created a function in Swift to set up the API request. This function takes an input prompt and sends it to the OpenAI API to generate GPT-3 output. We used the <code class="language-plaintext highlighter-rouge">URLSession.shared.dataTask(with:completionHandler:)</code> function to send the request and <code class="language-plaintext highlighter-rouge">JSONSerialization</code> to convert the returned data into a JSON format we can handle.</p>
@@ -48,7 +48,46 @@
 
 <p>当我们的应用正常运行并能够产生期望的输出时，我们使用Git来保存这个版本。我们首先使用git add .将所有改动添加到暂存区，然后使用git commit -m提交这些改动，并添加一个描述性的消息。最后，我们使用git tag添加一个标签来标记这个版本，然后使用git push将这个标签推送到远程仓库。</p>
 
-<p>今天的工作中，我们学到了很多关于如何集成OpenAI的GPT-3到iOS应用中，如何在模拟器中进行测试，以及如何使用Git进行版本控制和错误跟踪的知识。我们还通过实际的操作，熟悉了这些工具和技术的应用。希望这个经验对你的工作也有所帮</p>]]></content><author><name></name></author></entry><entry><title type="html">Explorations and Understandings in High-Dimensional Tensor Space</title><link href="https:///williampolicy.github.io/blog/2023/Explorations-and-Understandings-in-High-Dimensional-Tensor-Space/" rel="alternate" type="text/html" title="Explorations and Understandings in High-Dimensional Tensor Space" /><published>2023-07-05T00:00:00+00:00</published><updated>2023-07-05T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Explorations-and-Understandings-in-High-Dimensional-Tensor-Space</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Explorations-and-Understandings-in-High-Dimensional-Tensor-Space/"><![CDATA[<h1 id="explorations-and-understandings-in-high-dimensional-tensor-space">Explorations and Understandings in High-Dimensional Tensor Space</h1>
+<p>今天的工作中，我们学到了很多关于如何集成OpenAI的GPT-3到iOS应用中，如何在模拟器中进行测试，以及如何使用Git进行版本控制和错误跟踪的知识。我们还通过实际的操作，熟悉了这些工具和技术的应用。希望这个经验对你的工作也有所帮</p>]]></content><author><name></name></author></entry><entry><title type="html">Title: Hidden Value in Outliers: New Realities Across Industries</title><link href="https:///williampolicy.github.io/blog/2023/Title-Hidden-Value-in-Outliers-New-Realities-Across-Industries/" rel="alternate" type="text/html" title="Title: Hidden Value in Outliers: New Realities Across Industries" /><published>2023-07-13T00:00:00+00:00</published><updated>2023-07-13T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Title:-Hidden-Value-in-Outliers:-New-Realities-Across-Industries</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Title-Hidden-Value-in-Outliers-New-Realities-Across-Industries/"><![CDATA[<h1 id="title-hidden-value-in-outliers-new-realities-across-industries">Title: Hidden Value in Outliers: New Realities Across Industries</h1>
+
+<p>Data is not ‘science,’ but keys to unseen ‘new realities’ or ‘unveiled truths,’ as Dirac would say, that often hide behind dataset anomalies or outliers.</p>
+
+<p>Outliers, especially in retail industries focusing on high-frequency food products, represent untapped profit. These ‘Outliers,’ due to misinterpretations, miscalculations, or hidden biases, lead to wastage. –These realities, perhaps akin to what Dirac referred to as ‘unveiled truths’ —a concept I prefer to call the “Dirac Eye”. Addressing these issues is often not financially viable due to the industry’s low-profit margins.</p>
+
+<p>Innovators like Rick Rijkse, however, have proposed practical solutions to tackle this wastage. Their work emphasizes the business potential, an insight further illuminated when applied to high-profit industries where the value of rectifying even a single outlier can be substantial.</p>
+
+<p>Consider Werfen’s presentation at the <a href="https://www.werfen.com/na/en/2023-aacc-annual-scientific-meeting-clinical-lab-expo">2023 AACC Meeting &amp; Expo</a> on reducing sample quality errors. eg. Werfen’s GEM Premier 5000, a blood sample exposed to air may cause carbon dioxide to escape, leading to an underestimated pCO2 value and potential misdiagnosis. This demonstrates the crucial importance of identifying and correcting outliers.</p>
+
+<p>It’s clear that high-profit industries are often more driven to explore these anomalies. After all, the value of a human life surpasses that of a single watermelon. But does AI perceive this discrepancy? Perhaps, even a watermelon might hold hundreds of potential new lives…</p>
+
+<p>#data #ai #business #retail #science #testing</p>
+
+<p>2023.7.13. 1200. xiaowen kang</p>
+
+<p>References:</p>
+
+<ol>
+  <li>
+    <p><a href="https://www.youtube.com/watch?v=rw3rzpoYciY">Rijkse, R. Practical Retail Wastage Solutions</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.werfen.com/na/en/2023-aacc-annual-scientific-meeting-clinical-lab-expo">Werfen. Reducing Blood Gas Testing Errors</a></p>
+  </li>
+</ol>
+
+<p>Figures:</p>
+
+<ol>
+  <li>
+    <p>Fig1: Retail industry outlier issues. sometimes, stem from simple issues like store clerks failing to front-face merchandise, or customer unwillingness to bow to reach.</p>
+  </li>
+  <li>
+    <p>Fig2: The Henderson-Hasselbalch equation.</p>
+  </li>
+  <li>
+    <p>Fig3: Air-exposed sample impacts on results. Code: https://github.com/williampolicy/code_vitro_diagnostics.git</p>
+  </li>
+</ol>]]></content><author><name></name></author><category term="outliers" /><category term="werfen" /><category term="com" /><category term="https" /><category term="industries" /><summary type="html"><![CDATA[Title: Hidden Value in Outliers: New Realities Across Industries]]></summary></entry><entry><title type="html">Explorations and Understandings in High-Dimensional Tensor Space</title><link href="https:///williampolicy.github.io/blog/2023/Explorations-and-Understandings-in-High-Dimensional-Tensor-Space/" rel="alternate" type="text/html" title="Explorations and Understandings in High-Dimensional Tensor Space" /><published>2023-07-05T00:00:00+00:00</published><updated>2023-07-05T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Explorations-and-Understandings-in-High-Dimensional-Tensor-Space</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Explorations-and-Understandings-in-High-Dimensional-Tensor-Space/"><![CDATA[<h1 id="explorations-and-understandings-in-high-dimensional-tensor-space">Explorations and Understandings in High-Dimensional Tensor Space</h1>
 
 <p>In our attempt to understand and explore high-dimensional tensor spaces, we have proposed several views and approaches, building a framework for understanding high-dimensional tensor spaces. Here are our key findings and thoughts:</p>
 
@@ -606,74 +645,4 @@ When can you start?</p>
 
 <p>的来说，δ-函数势阱或势垒在量子力学中是一个非常重要的模型，它可以帮助我们理解粒子在特定条件下的行为。例如，一个δ-函数势垒可以模拟一个突然的能量改变，例如一个电子遇到一个原子核；而一个δ-函数势阱可以模拟一个电子被一个原子核束缚的情况。</p>
 
-<p>希望这个回答对你有所帮助！</p>]]></content><author><name></name></author><category term="x" /><category term="psi" /><category term="psi x" /><category term="e" /><category term="frac" /><summary type="html"><![CDATA[One-dimensional Schrodinger equation and delta-function potential wells-barriers]]></summary></entry><entry><title type="html">Quantum Physics: The Schrodinger Equation and the Delta Function Potential</title><link href="https:///williampolicy.github.io/blog/2023/Quantum-Physics-The-Schrodinger-Equation-and-the-Delta-Function-Potential/" rel="alternate" type="text/html" title="Quantum Physics: The Schrodinger Equation and the Delta Function Potential" /><published>2023-06-28T00:00:00+00:00</published><updated>2023-06-28T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/Quantum-Physics:-The-Schrodinger-Equation-and-the-Delta-Function-Potential</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/Quantum-Physics-The-Schrodinger-Equation-and-the-Delta-Function-Potential/"><![CDATA[<h1 id="quantum-physics-the-schrodinger-equation-and-the-delta-function-potential">Quantum Physics: The Schrodinger Equation and the Delta Function Potential</h1>
-
-<p>Quantum physics provides a fascinating perspective on the behaviors of microscopic particles. At the heart of quantum physics lies the Schrödinger equation, a fundamental equation governing these behaviors. In this blog post, we will delve deeper into a simplified version of the Schrödinger equation in one-dimensional space, specifically focusing on the implications of a delta function potential well or barrier on a particle’s state.</p>
-
-<p>The time-independent Schrödinger equation in one dimension is typically written as:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}<span class="se">\f</span>rac{d^2<span class="se">\p</span>si(x)}{dx^2} + V(x)<span class="se">\p</span>si(x) = E<span class="se">\p</span>si(x)
-</code></pre></div></div>
-
-<p>where <code class="language-plaintext highlighter-rouge">\hbar</code> is the reduced Planck constant, <code class="language-plaintext highlighter-rouge">m</code> is the particle’s mass, <code class="language-plaintext highlighter-rouge">\psi(x)</code> is the wave function describing the particle’s state at position <code class="language-plaintext highlighter-rouge">x</code>, <code class="language-plaintext highlighter-rouge">V(x)</code> is the potential energy function, and <code class="language-plaintext highlighter-rouge">E</code> is the total energy of the system.</p>
-
-<p>In scenarios where the particle experiences a sudden change in potential, such as an energy barrier or well, the potential energy function <code class="language-plaintext highlighter-rouge">V(x)</code> is often modeled using a delta function. In this context, <code class="language-plaintext highlighter-rouge">V(x)</code> is defined as <code class="language-plaintext highlighter-rouge">V(x) = V_0\delta(x)</code>, where <code class="language-plaintext highlighter-rouge">V_0</code> is the strength of the potential.</p>
-
-<p>In the presence of a delta function potential, the original Schrödinger equation splits into two independent equations describing the particle’s behavior for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
-
-<p>For <code class="language-plaintext highlighter-rouge">x&lt;0</code>:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}<span class="se">\f</span>rac{d^2<span class="se">\p</span>si(x)}{dx^2} = E<span class="se">\p</span>si(x)
-</code></pre></div></div>
-
-<p>For <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}<span class="se">\f</span>rac{d^2<span class="se">\p</span>si(x)}{dx^2} = E<span class="se">\p</span>si(x)
-</code></pre></div></div>
-
-<p>Even though the Schrödinger equation maintains the same form for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>, the introduction of a delta function potential at <code class="language-plaintext highlighter-rouge">x=0</code> leads to a discontinuity in the first derivative of the wave function. The discontinuity can be described by:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}(<span class="se">\p</span>si'(0^+)-<span class="se">\p</span>si'(0^-)) = V_0<span class="se">\p</span>si(0)
-</code></pre></div></div>
-
-<p>This example illustrates the use of a delta function to simulate a sudden potential in the context of the Schrödinger equation. By solving the aforementioned equations, we can gain insights into the quantum mechanical behavior of particles in the presence of abrupt potential changes.</p>
-
-<p>Through this deep-dive into the Schrödinger equation and the implications of a delta function potential, we hope to shed some light on the intricacies of quantum physics and inspire further exploration into this fascinating field.</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-
-```markdown
-# Quantum Physics: The Schrödinger Equation and the Delta Function Potential
-
-Quantum physics provides a fascinating perspective on the behaviors of microscopic particles. At the heart of quantum physics lies the Schrödinger equation, a fundamental equation governing these behaviors. In this blog post, we will delve deeper into a simplified version of the Schrödinger equation in one-dimensional space, specifically focusing on the implications of a delta function potential well or barrier on a particle's state.
-
-The time-independent Schrödinger equation in one dimension is typically written as:
-
-```latex
--\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
-</code></pre></div></div>
-
-<p>where <code class="language-plaintext highlighter-rouge">\hbar</code> is the reduced Planck constant, <code class="language-plaintext highlighter-rouge">m</code> is the particle’s mass, <code class="language-plaintext highlighter-rouge">\psi(x)</code> is the wave function describing the particle’s state at position <code class="language-plaintext highlighter-rouge">x</code>, <code class="language-plaintext highlighter-rouge">V(x)</code> is the potential energy function, and <code class="language-plaintext highlighter-rouge">E</code> is the total energy of the system.</p>
-
-<p>In scenarios where the particle experiences a sudden change in potential, such as an energy barrier or well, the potential energy function <code class="language-plaintext highlighter-rouge">V(x)</code> is often modeled using a delta function. In this context, <code class="language-plaintext highlighter-rouge">V(x)</code> is defined as <code class="language-plaintext highlighter-rouge">V(x) = V_0\delta(x)</code>, where <code class="language-plaintext highlighter-rouge">V_0</code> is the strength of the potential.</p>
-
-<p>In the presence of a delta function potential, the original Schrödinger equation splits into two independent equations describing the particle’s behavior for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
-
-<p>For <code class="language-plaintext highlighter-rouge">x&lt;0</code>:</p>
-
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="k">\frac</span><span class="p">{</span><span class="k">\hbar</span><span class="p">^</span>2<span class="p">}{</span>2m<span class="p">}</span><span class="k">\frac</span><span class="p">{</span>d<span class="p">^</span>2<span class="k">\psi</span>(x)<span class="p">}{</span>dx<span class="p">^</span>2<span class="p">}</span> = E<span class="k">\psi</span>(x)
-</code></pre></div></div>
-
-<p>For <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
-
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="k">\frac</span><span class="p">{</span><span class="k">\hbar</span><span class="p">^</span>2<span class="p">}{</span>2m<span class="p">}</span><span class="k">\frac</span><span class="p">{</span>d<span class="p">^</span>2<span class="k">\psi</span>(x)<span class="p">}{</span>dx<span class="p">^</span>2<span class="p">}</span> = E<span class="k">\psi</span>(x)
-</code></pre></div></div>
-
-<p>Even though the Schrödinger equation maintains the same form for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>, the introduction of a delta function potential at <code class="language-plaintext highlighter-rouge">x=0</code> leads to a discontinuity in the first derivative of the wave function. The discontinuity can be described by:</p>
-
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\frac</span><span class="p">{</span><span class="k">\hbar</span><span class="p">^</span>2<span class="p">}{</span>2m<span class="p">}</span>(<span class="k">\psi</span>'(0<span class="p">^</span>+)-<span class="k">\psi</span>'(0<span class="p">^</span>-)) = V<span class="p">_</span>0<span class="k">\psi</span>(0)
-</code></pre></div></div>
-
-<p>This example illustrates the use of a delta function to simulate a sudden potential in the context of the Schrödinger equation. By solving the aforementioned equations, we can gain insights into the quantum mechanical behavior of particles in the presence of abrupt potential changes.</p>
-
-<p>Through this deep-dive into the Schrödinger equation and the implications of a delta function potential, we hope to shed some light on the intricacies of quantum physics and inspire further exploration into this fascinating field.
-```</p>]]></content><author><name></name></author><category term="x" /><category term="function" /><category term="potential" /><category term="psi" /><category term="equation" /><summary type="html"><![CDATA[Quantum Physics: The Schrodinger Equation and the Delta Function Potential]]></summary></entry></feed>
+<p>希望这个回答对你有所帮助！</p>]]></content><author><name></name></author><category term="x" /><category term="psi" /><category term="psi x" /><category term="e" /><category term="frac" /><summary type="html"><![CDATA[One-dimensional Schrodinger equation and delta-function potential wells-barriers]]></summary></entry></feed>
