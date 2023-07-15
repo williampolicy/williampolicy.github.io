@@ -49,3 +49,4 @@ V.0.43 - kangtools_bloguploader 20230629_blog_note_Exploring-the-Relationship-Be
 V.0.44 - kangtools_bloguploader 20230631_blog_note_Harmonic_Resonance_Dynamical_Systems.md  ©KANG - 2023-07-01  
 V.0.45 - kangtools_bloguploader 2023_07_03_blog_note_high_dimensional_tensor_space.md  ©KANG - 2023-07-05  
 V.0.46 - kangtools_bloguploader 20230713_blog_note_Hidden_Value_in_Outliers_New_Realities.md  ©KANG - 2023-07-13  
+V.0.47 - ./20230715_blog_note_Odyssey_XAI_Startup_Submit_mypaper.md  ©KANG - 2023-07-15  
