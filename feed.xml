@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-07-15T17:55:03+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-07-15T17:55:03+00:00</published><updated>2023-07-15T17:55:03+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https:///williampolicy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https:///williampolicy.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-07-16T02:52:17+00:00</updated><id>https:///williampolicy.github.io/feed.xml</id><title type="html">blank</title><subtitle>I would want to make a set [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/" rel="alternate" type="text/html" title="" /><published>2023-07-16T02:52:17+00:00</published><updated>2023-07-16T02:52:17+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-06-19-Integrating-GPT3-into-iOS-Apps/"><![CDATA[<p>Today we explored how to integrate OpenAI’s GPT-3 into an iOS application using Swift. This process mainly involves setting up API requests, handling response data, and testing in a simulator. In this process, we also used Git for version control and error tracking.</p>
 
 <h2 id="setting-up-api-requests">Setting Up API Requests</h2>
 <p>We first created a function in Swift to set up the API request. This function takes an input prompt and sends it to the OpenAI API to generate GPT-3 output. We used the <code class="language-plaintext highlighter-rouge">URLSession.shared.dataTask(with:completionHandler:)</code> function to send the request and <code class="language-plaintext highlighter-rouge">JSONSerialization</code> to convert the returned data into a JSON format we can handle.</p>
@@ -48,7 +48,41 @@
 
 <p>当我们的应用正常运行并能够产生期望的输出时，我们使用Git来保存这个版本。我们首先使用git add .将所有改动添加到暂存区，然后使用git commit -m提交这些改动，并添加一个描述性的消息。最后，我们使用git tag添加一个标签来标记这个版本，然后使用git push将这个标签推送到远程仓库。</p>
 
-<p>今天的工作中，我们学到了很多关于如何集成OpenAI的GPT-3到iOS应用中，如何在模拟器中进行测试，以及如何使用Git进行版本控制和错误跟踪的知识。我们还通过实际的操作，熟悉了这些工具和技术的应用。希望这个经验对你的工作也有所帮</p>]]></content><author><name></name></author></entry><entry><title type="html">20230715 Shifting the Lens: Perhaps We Need to See AI and Neural Networks Beyond the Constraints of Coordinates and Formulas</title><link href="https:///williampolicy.github.io/blog/2023/20230715-Shifting-the-Lens-Perhaps-We-Need-to-See-AI-and-Neural-Networks-Beyond-the-Constraints-of-Coordinates-and-Formulas/" rel="alternate" type="text/html" title="20230715 Shifting the Lens: Perhaps We Need to See AI and Neural Networks Beyond the Constraints of Coordinates and Formulas" /><published>2023-07-15T00:00:00+00:00</published><updated>2023-07-15T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/20230715-Shifting-the-Lens:-Perhaps-We-Need-to-See-AI-and-Neural-Networks-Beyond-the-Constraints-of-Coordinates-and-Formulas</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/20230715-Shifting-the-Lens-Perhaps-We-Need-to-See-AI-and-Neural-Networks-Beyond-the-Constraints-of-Coordinates-and-Formulas/"><![CDATA[<h1 id="20230715-shifting-the-lens-perhaps-we-need-to-see-ai-and-neural-networks-beyond-the-constraints-of-coordinates-and-formulas">20230715 Shifting the Lens: Perhaps We Need to See AI and Neural Networks Beyond the Constraints of Coordinates and Formulas</h1>
+<p>今天的工作中，我们学到了很多关于如何集成OpenAI的GPT-3到iOS应用中，如何在模拟器中进行测试，以及如何使用Git进行版本控制和错误跟踪的知识。我们还通过实际的操作，熟悉了这些工具和技术的应用。希望这个经验对你的工作也有所帮</p>]]></content><author><name></name></author></entry><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/2023-07-15-In-a-Moment's-Thought-Consumer-Behavior,-AI-Megamodels,-and-Their-Mathematical-Physical-Roots-in-Complex-Systems-such-as-Quantum-Many-Body-Systems/" rel="alternate" type="text/html" title="" /><published>2023-07-16T02:52:17+00:00</published><updated>2023-07-16T02:52:17+00:00</updated><id>https:///williampolicy.github.io/blog/2023/2023-07-15-%22In-a-Moment&apos;s-Thought%22:-Consumer-Behavior,-AI-Megamodels,-and-Their-Mathematical-Physical-Roots-in-Complex-Systems-such-as-Quantum-Many-Body-Systems</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/2023-07-15-In-a-Moment&apos;s-Thought-Consumer-Behavior,-AI-Megamodels,-and-Their-Mathematical-Physical-Roots-in-Complex-Systems-such-as-Quantum-Many-Body-Systems/"><![CDATA[<h1 id="in-a-moments-thought-consumer-behavior-ai-megamodels-and-their-mathematical-physical-roots-in-complex-systems-such-as-quantum-many-body-systems">“In a Moment’s Thought”: Consumer Behavior, AI Megamodels, and Their Mathematical-Physical Roots in Complex Systems such as Quantum Many-Body Systems</h1>
+
+<p>“一念之差”：消费行为、AI大模型和其在复杂系统——如量子多体系统中的数学物理根源</p>
+
+<p>在我们的生活中，行为的转变常在瞬息之间，这种’一念之差’对行为产生了深远影响。工业界对消费者行为背后的原理越来越感兴趣。实际上，这些行为只是决策空间中特征谱的’局部中心化’，在稳态下呈现出的结果。</p>
+
+<p>令我遗憾的是，消费者的每一次消费行为正逐渐成为资本驱动的结果——这是决策空间中特征谱稳态点的迁移。随着AI技术的高效推动，这一趋势日益明显。</p>
+
+<p>我们的购物清单准确描绘了我们对价格、品类、饮食、出行的选择。数据科学家可以通过我们对低脂、低糖酸奶等商品的需求，以及对其他各类产品的购买记录，轻易描绘出我们的生活需求和习惯。但是，我们是否真的在做出决策，还是我们的’一念之差’已被别人掌握？</p>
+
+<p>抖音的短视频推送频繁且多元，看似我们在自主选择，实际上我们往往在消费行为中产生‘依赖性’——这是特征谱’局部中心化’及其表现为’稳态解’的一种通俗的描述。</p>
+
+<p>我并不是在贬低数据分析的价值，只是想直言，许多广告与香烟、可乐等产品同属于”依赖产业”的一部分，只是他们诱发消费者依赖的程度不同。进一步来说，像酒类、香烟和赌博等行业，甚至可以被视为 “Sin-Industry”。</p>
+
+<p>当我们了解到背后的这些问题，我们不得不面对一个选择：关键不在于你是否追求高效，而在于你愿意将这些高效的技术用于何处？</p>
+
+<p>我们可以高效地创建一个依赖产业，也可以高效地构建一个反依赖产业。我感谢XAI选择了后者，这让我有勇气揭示这些行为背后的数学物理原理。</p>
+
+<p>许多人在训练大模型时，发现我们在理解大型神经网络背后的数学模型上还有所欠缺。面对庞大的随机矩阵，我们对哈密顿矩阵的演化、特征谱的变迁理解不够，只能依赖于基于高斯分布的维格纳半圆定理等理想化的工具，来有限地窥见其背后的某些特性。然而这些都只是有限的、局部的半现实。</p>
+
+<p>谁说原点的零点里面什么都没有？谁说决策空间不能扭曲？</p>
+
+<p>请不要被那些高深莫测的物理和数学专业词汇吓到！看到畸变的气球、飞腾的肥皂泡，那些就是生动的物理。你的决策空间本就可能是这些肥皂泡。这不仅仅是一种比喻，而是映射后的实际结果。</p>
+
+<p>一个空间中的原点可以孕育出新的空间。这意味着，哈密顿矩阵中可以生长出新的哈密顿矩阵，这直接影响到特征谱中的参考点生成另一组特征值谱系。特征值谱的变迁就意味着稳态解的变化，从而引发人们行为特征的变化。</p>
+
+<p>或许，有些科学家担心这样通俗的描述可能会引发误解，他们期待看到带有实验证明的论证。那么，请允许我们将这个应用场景更换为他们认为“相对科学”的场景，即“量子到经典”的过渡。在某些情况下，尽管系统的行为看起来很像经典的，但是其中仍可能隐藏着一些微妙的量子效应。例如，即使在宏观尺度上，也可能出现高温超导、量子霍尔效应等量子现象。其背后的基础逻辑就是我们所说的传统宏观空间中孕育出了一个量子空间，导致这个表征量子效应的特征谱系成为了主导的特征谱系。</p>
+
+<p>其实，这是“量子多体系统””Quantum Many-Body Systems”背后的数学过程，真实的世界中，我们在随处可见这种嵌构空间的身影。 例如。药物设计通常需要通过量子化学方法（这是一个多体问题）来预测药物分子和生物靶点的相互作用。 油价预测中的突变，也可以用这种嵌构空间的来构建-其背后的关键差异，在于你把什么样的信息纳入了动力学系统的边界。</p>
+
+<p>在此过程中，我们必须认识到我们的责任。作为数据科学家和AI工作者，我们不能仅仅满足于控制和利用消费者行为，我们必须努力理解并尊重消费者的需求和权利。我们必须承认，消费者不只是数据点，他们是具有思想、感情和自由意愿的个体。</p>
+
+<p>我们可以用AI构建一系列的成瘾产业。我们也可以用AI来构建一个充满善念的体系。</p>
+
+<p>好在XAI选择的后者。这是我们所有的人的幸运。</p>]]></content><author><name></name></author></entry><entry><title type="html">20230715 Shifting the Lens: Perhaps We Need to See AI and Neural Networks Beyond the Constraints of Coordinates and Formulas</title><link href="https:///williampolicy.github.io/blog/2023/20230715-Shifting-the-Lens-Perhaps-We-Need-to-See-AI-and-Neural-Networks-Beyond-the-Constraints-of-Coordinates-and-Formulas/" rel="alternate" type="text/html" title="20230715 Shifting the Lens: Perhaps We Need to See AI and Neural Networks Beyond the Constraints of Coordinates and Formulas" /><published>2023-07-15T00:00:00+00:00</published><updated>2023-07-15T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/2023/20230715-Shifting-the-Lens:-Perhaps-We-Need-to-See-AI-and-Neural-Networks-Beyond-the-Constraints-of-Coordinates-and-Formulas</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/20230715-Shifting-the-Lens-Perhaps-We-Need-to-See-AI-and-Neural-Networks-Beyond-the-Constraints-of-Coordinates-and-Formulas/"><![CDATA[<h1 id="20230715-shifting-the-lens-perhaps-we-need-to-see-ai-and-neural-networks-beyond-the-constraints-of-coordinates-and-formulas">20230715 Shifting the Lens: Perhaps We Need to See AI and Neural Networks Beyond the Constraints of Coordinates and Formulas</h1>
 
 <p>Why do we persist in expressing AI and neural networks through coordinates and seemingly complex formulas? The whole truth is that we don’t need to map every detail into coordinates. AI and deep learning are inching closer to replicating the real world. However, traditional coordinate systems and symbolized formulas represent abstractions within set boundaries - they only offer a piece of the truth.</p>
 
@@ -515,83 +549,4 @@
 
 <p>通过以上的讨论，我们可以看到，这些工具不仅可以帮助我们理解微分方程的行为，还可以指导我们在实际问题中如何使用微分方程。希望这篇文章能对你的学习和研究有所帮助，也期待你在微分方程</p>
 
-<p>的世界中有更多的发现和创新。</p>]]></content><author><name></name></author><category term="differential" /><category term="differential equations" /><category term="differential equations journey" /><category term="dynamics" /><category term="dynamics differential" /><summary type="html"><![CDATA[Unfolding the Dynamics of Differential Equations: A Journey Through Root Locus, Phase Portrait, and Matrix Equation]]></summary></entry><entry><title type="html"></title><link href="https:///williampolicy.github.io/blog/2023/" rel="alternate" type="text/html" title="" /><published>2023-06-28T00:00:00+00:00</published><updated>2023-06-28T00:00:00+00:00</updated><id>https:///williampolicy.github.io/blog/</id><content type="html" xml:base="https:///williampolicy.github.io/blog/2023/"><![CDATA[<h1 id="quantum-physics-the-schrodinger-equation-and-the-delta-function-potential">Quantum Physics: The Schrodinger Equation and the Delta Function Potential</h1>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
-<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Quantum</span><span class="nv"> </span><span class="s">Physics:</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">Schrödinger</span><span class="nv"> </span><span class="s">Equation</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">Delta</span><span class="nv"> </span><span class="s">Function</span><span class="nv"> </span><span class="s">Potential"</span>
-<span class="na">date</span><span class="pi">:</span> <span class="s">2023-06-30</span>
-<span class="nn">---</span>
-
-Quantum physics provides a fascinating perspective on the behaviors of microscopic particles. At the heart of quantum physics lies the Schrödinger equation, a fundamental equation governing these behaviors. In this blog post, we will delve deeper into a simplified version of the Schrödinger equation in one-dimensional space, specifically focusing on the implications of a delta function potential well or barrier on a particle's state.
-
-The time-independent Schrödinger equation in one dimension is typically written as:
-
-<span class="p">```</span><span class="nl">markdown
-</span>-<span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}<span class="se">\f</span>rac{d^2<span class="se">\p</span>si(x)}{dx^2} + V(x)<span class="se">\p</span>si(x) = E<span class="se">\p</span>si(x)
-</code></pre></div></div>
-
-<p>where <code class="language-plaintext highlighter-rouge">\hbar</code> is the reduced Planck constant, <code class="language-plaintext highlighter-rouge">m</code> is the particle’s mass, <code class="language-plaintext highlighter-rouge">\psi(x)</code> is the wave function describing the particle’s state at position <code class="language-plaintext highlighter-rouge">x</code>, <code class="language-plaintext highlighter-rouge">V(x)</code> is the potential energy function, and <code class="language-plaintext highlighter-rouge">E</code> is the total energy of the system.</p>
-
-<p>In scenarios where the particle experiences a sudden change in potential, such as an energy barrier or well, the potential energy function <code class="language-plaintext highlighter-rouge">V(x)</code> is often modeled using a delta function. In this context, <code class="language-plaintext highlighter-rouge">V(x)</code> is defined as <code class="language-plaintext highlighter-rouge">V(x) = V_0\delta(x)</code>, where <code class="language-plaintext highlighter-rouge">V_0</code> is the strength of the potential.</p>
-
-<p>In the presence of a delta function potential, the original Schrödinger equation splits into two independent equations describing the particle’s behavior for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
-
-<p>For <code class="language-plaintext highlighter-rouge">x&lt;0</code>:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}<span class="se">\f</span>rac{d^2<span class="se">\p</span>si(x)}{dx^2} = E<span class="se">\p</span>si(x)
-</code></pre></div></div>
-
-<p>For <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}<span class="se">\f</span>rac{d^2<span class="se">\p</span>si(x)}{dx^2} = E<span class="se">\p</span>si(x)
-</code></pre></div></div>
-
-<p>Even though the Schrödinger equation maintains the same form for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>, the introduction of a delta function potential at <code class="language-plaintext highlighter-rouge">x=0</code> leads to a discontinuity in the first derivative of the wave function. The discontinuity can be described by:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="se">\f</span>rac{<span class="se">\h</span>bar^2}{2m}(<span class="se">\p</span>si'(0^+)-<span class="se">\p</span>si'(0^-)) = V_0<span class="se">\p</span>si(0)
-</code></pre></div></div>
-
-<p>This example illustrates the use of a delta function to simulate a sudden potential in the context of the Schrödinger equation. By solving the aforementioned equations, we can gain insights into the quantum mechanical behavior of particles in the presence of abrupt potential changes.</p>
-
-<p>Through this deep-dive into the Schrödinger equation and the implications of a delta function potential, we hope to shed some light on the intricacies of quantum physics and inspire further exploration into this fascinating field.</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-
-
-对不起给你带来的困扰。我理解你需要的是一个完整的`.md`文件格式的博客文章。这里是整个文章的`.md`文件格式：
-
-```markdown
-# Quantum Physics: The Schrödinger Equation and the Delta Function Potential
-
-Quantum physics provides a fascinating perspective on the behaviors of microscopic particles. At the heart of quantum physics lies the Schrödinger equation, a fundamental equation governing these behaviors. In this blog post, we will delve deeper into a simplified version of the Schrödinger equation in one-dimensional space, specifically focusing on the implications of a delta function potential well or barrier on a particle's state.
-
-The time-independent Schrödinger equation in one dimension is typically written as:
-
-```latex
--\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
-</code></pre></div></div>
-
-<p>where <code class="language-plaintext highlighter-rouge">\hbar</code> is the reduced Planck constant, <code class="language-plaintext highlighter-rouge">m</code> is the particle’s mass, <code class="language-plaintext highlighter-rouge">\psi(x)</code> is the wave function describing the particle’s state at position <code class="language-plaintext highlighter-rouge">x</code>, <code class="language-plaintext highlighter-rouge">V(x)</code> is the potential energy function, and <code class="language-plaintext highlighter-rouge">E</code> is the total energy of the system.</p>
-
-<p>In scenarios where the particle experiences a sudden change in potential, such as an energy barrier or well, the potential energy function <code class="language-plaintext highlighter-rouge">V(x)</code> is often modeled using a delta function. In this context, <code class="language-plaintext highlighter-rouge">V(x)</code> is defined as <code class="language-plaintext highlighter-rouge">V(x) = V_0\delta(x)</code>, where <code class="language-plaintext highlighter-rouge">V_0</code> is the strength of the potential.</p>
-
-<p>In the presence of a delta function potential, the original Schrödinger equation splits into two independent equations describing the particle’s behavior for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
-
-<p>For <code class="language-plaintext highlighter-rouge">x&lt;0</code>:</p>
-
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="k">\frac</span><span class="p">{</span><span class="k">\hbar</span><span class="p">^</span>2<span class="p">}{</span>2m<span class="p">}</span><span class="k">\frac</span><span class="p">{</span>d<span class="p">^</span>2<span class="k">\psi</span>(x)<span class="p">}{</span>dx<span class="p">^</span>2<span class="p">}</span> = E<span class="k">\psi</span>(x)
-</code></pre></div></div>
-
-<p>For <code class="language-plaintext highlighter-rouge">x&gt;0</code>:</p>
-
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-<span class="k">\frac</span><span class="p">{</span><span class="k">\hbar</span><span class="p">^</span>2<span class="p">}{</span>2m<span class="p">}</span><span class="k">\frac</span><span class="p">{</span>d<span class="p">^</span>2<span class="k">\psi</span>(x)<span class="p">}{</span>dx<span class="p">^</span>2<span class="p">}</span> = E<span class="k">\psi</span>(x)
-</code></pre></div></div>
-
-<p>Even though the Schrödinger equation maintains the same form for <code class="language-plaintext highlighter-rouge">x&lt;0</code> and <code class="language-plaintext highlighter-rouge">x&gt;0</code>, the introduction of a delta function potential at <code class="language-plaintext highlighter-rouge">x=0</code> leads to a discontinuity in the first derivative of the wave function. The discontinuity can be described by:</p>
-
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\frac</span><span class="p">{</span><span class="k">\hbar</span><span class="p">^</span>2<span class="p">}{</span>2m<span class="p">}</span>(<span class="k">\psi</span>'(0<span class="p">^</span>+)-<span class="k">\psi</span>'(0<span class="p">^</span>-)) = V<span class="p">_</span>0<span class="k">\psi</span>(0)
-</code></pre></div></div>
-
-<p>This example illustrates the use of a delta function to simulate a sudden potential in the context of the Schrödinger equation. By solving the aforementioned equations, we can gain insights into the quantum mechanical behavior of particles in the presence of abrupt potential changes.</p>
-
-<p>Through this deep-dive into the Schrödinger equation and the implications of a delta function potential, we hope to shed some light on the intricacies of quantum physics and inspire further exploration into this fascinating field.
-```</p>]]></content><author><name></name></author><category term="x" /><category term="function" /><category term="potential" /><category term="psi" /><category term="equation" /><summary type="html"><![CDATA[Quantum Physics: The Schrodinger Equation and the Delta Function Potential]]></summary></entry></feed>
+<p>的世界中有更多的发现和创新。</p>]]></content><author><name></name></author><category term="differential" /><category term="differential equations" /><category term="differential equations journey" /><category term="dynamics" /><category term="dynamics differential" /><summary type="html"><![CDATA[Unfolding the Dynamics of Differential Equations: A Journey Through Root Locus, Phase Portrait, and Matrix Equation]]></summary></entry></feed>
